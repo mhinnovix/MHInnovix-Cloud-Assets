@@ -4,7 +4,7 @@
     "date": "16/08/2026",
     "day": "SUNDAY",
     "title": "Independence Day Celebration",
-    "description": "School will remain closed on 15th August.",
+    "description": "School will remain closed on 15th August in observance of Independence Day.",
     "category": "Holiday",
     "mediaType": "image",
     "mediaName": "holiday.jpg"
@@ -18,5 +18,285 @@
     "category": "Academic",
     "mediaType": "pdf",
     "mediaName": "routine.pdf"
+  },
+  {
+    "id": "3",
+    "date": "20/08/2026",
+    "day": "THURSDAY",
+    "title": "Urgent: Heavy Rainfall Alert",
+    "description": "Due to continuous heavy rainfall and waterlogging in several areas, the morning assembly is cancelled today. All classes will commence directly from the respective classrooms.",
+    "category": "Urgent",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "4",
+    "date": "25/08/2026",
+    "day": "TUESDAY",
+    "title": "Library Book Return",
+    "description": "Return all pending books.",
+    "category": "General",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "5",
+    "date": "01/09/2026",
+    "day": "TUESDAY",
+    "title": "Monthly Staff Meeting",
+    "description": "A mandatory staff meeting will be held in the Teachers' Room at 3:30 PM. All teaching and non-teaching staff must attend. Agenda includes upcoming mid-term evaluations and annual sports day planning.",
+    "category": "Meeting",
+    "mediaType": "pdf",
+    "mediaName": "meeting_agenda.pdf"
+  },
+  {
+    "id": "6",
+    "date": "05/09/2026",
+    "day": "SATURDAY",
+    "title": "Teachers' Day Celebration",
+    "description": "Cultural program starting at 11 AM.",
+    "category": "Event",
+    "mediaType": "image",
+    "mediaName": "teachers_day.jpg"
+  },
+  {
+    "id": "7",
+    "date": "05/09/2026",
+    "day": "SATURDAY",
+    "title": "Early Dispersal",
+    "description": "Classes will be suspended after the Teachers' Day cultural program. School will disperse at 1:30 PM.",
+    "category": "Urgent",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "8",
+    "date": "10/09/2026",
+    "day": "THURSDAY",
+    "title": "Mid-Term Syllabus Update",
+    "description": "Class 4 Mathematics syllabus revised.",
+    "category": "Academic",
+    "mediaType": "pdf",
+    "mediaName": "syllabus_class4.pdf"
+  },
+  {
+    "id": "9",
+    "date": "15/09/2026",
+    "day": "TUESDAY",
+    "title": "Water Supply Maintenance",
+    "description": "Please be informed that due to urgent maintenance work by the municipality, there will be no running water in the school premises tomorrow from 10 AM to 12 PM. Drinking water jars are placed in the corridors.",
+    "category": "General",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "10",
+    "date": "02/10/2026",
+    "day": "FRIDAY",
+    "title": "Gandhi Jayanti",
+    "description": "National Holiday.",
+    "category": "Holiday",
+    "mediaType": "image",
+    "mediaName": "gandhi_jayanti.jpg"
+  },
+  {
+    "id": "11",
+    "date": "15/10/2026",
+    "day": "THURSDAY",
+    "title": "Durga Puja Vacation Notice",
+    "description": "The school will remain closed from 16th October to 26th October for Durga Puja and Lakshmi Puja vacations. Wishing everyone a joyous and safe festive season!",
+    "category": "Holiday",
+    "mediaType": "pdf",
+    "mediaName": "puja_vacation.pdf"
+  },
+  {
+    "id": "12",
+    "date": "15/10/2026",
+    "day": "THURSDAY",
+    "title": "Holiday Homework Distribution",
+    "description": "Homework distributed to class monitors.",
+    "category": "Academic",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "13",
+    "date": "15/10/2026",
+    "day": "THURSDAY",
+    "title": "Bonus Disbursement",
+    "description": "Festival advance and bonus have been credited to the salary accounts.",
+    "category": "Administrative",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "14",
+    "date": "27/10/2026",
+    "day": "TUESDAY",
+    "title": "School Reopens",
+    "description": "Classes resume today after Puja holidays.",
+    "category": "General",
+    "mediaType": "image",
+    "mediaName": "welcome_back.png"
+  },
+  {
+    "id": "15",
+    "date": "05/11/2026",
+    "day": "THURSDAY",
+    "title": "Parent-Teacher Meeting (PTM)",
+    "description": "PTM for classes 1 to 5 will be held this Saturday. All class teachers are requested to keep the evaluation sheets ready. Parents can visit between 9 AM to 12 PM.",
+    "category": "Meeting",
+    "mediaType": "pdf",
+    "mediaName": "ptm_schedule.pdf"
+  },
+  {
+    "id": "16",
+    "date": "14/11/2026",
+    "day": "SATURDAY",
+    "title": "Children's Day Celebrations",
+    "description": "Magic show at 10 AM.",
+    "category": "Event",
+    "mediaType": "image",
+    "mediaName": "childrens_day.jpg"
+  },
+  {
+    "id": "17",
+    "date": "20/11/2026",
+    "day": "FRIDAY",
+    "title": "HPRC App Update",
+    "description": "Please update your HPRC Scanner app to the latest version to scan the new progress cards efficiently. The old version will stop working from next week.",
+    "category": "Urgent",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "18",
+    "date": "01/12/2026",
+    "day": "TUESDAY",
+    "title": "Final Exam Schedule Published",
+    "description": "Check the attached PDF for dates.",
+    "category": "Academic",
+    "mediaType": "pdf",
+    "mediaName": "final_exam.pdf"
+  },
+  {
+    "id": "19",
+    "date": "01/12/2026",
+    "day": "TUESDAY",
+    "title": "Winter Timings",
+    "description": "School timings shifted by 30 minutes.",
+    "category": "Administrative",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "20",
+    "date": "10/12/2026",
+    "day": "THURSDAY",
+    "title": "Marks Entry Deadline",
+    "description": "All teachers are requested to complete the marks entry in the Banglar Shiksha SMS portal by 15th December 2026. Use the HPRC Scanner Chrome Extension for faster PC entry.",
+    "category": "Urgent",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "21",
+    "date": "22/12/2026",
+    "day": "TUESDAY",
+    "title": "Annual Sports Day",
+    "description": "Sports day at the main ground.",
+    "category": "Event",
+    "mediaType": "image",
+    "mediaName": "sports_day.jpg"
+  },
+  {
+    "id": "22",
+    "date": "24/12/2026",
+    "day": "THURSDAY",
+    "title": "Winter Vacation",
+    "description": "Winter break starts tomorrow.",
+    "category": "Holiday",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "23",
+    "date": "25/12/2026",
+    "day": "FRIDAY",
+    "title": "Merry Christmas",
+    "description": "Wishing you all a Merry Christmas and a Happy New Year!",
+    "category": "Holiday",
+    "mediaType": "image",
+    "mediaName": "christmas.png"
+  },
+  {
+    "id": "24",
+    "date": "02/01/2027",
+    "day": "SATURDAY",
+    "title": "New Academic Year Begins",
+    "description": "Welcome to 2027.",
+    "category": "General",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "25",
+    "date": "05/01/2027",
+    "day": "TUESDAY",
+    "title": "Book Distribution Camp",
+    "description": "New textbooks for the academic year 2027 have arrived. Class teachers must collect the bundles from the headmaster's office and distribute them to the students.",
+    "category": "Academic",
+    "mediaType": "pdf",
+    "mediaName": "book_list.pdf"
+  },
+  {
+    "id": "26",
+    "date": "12/01/2027",
+    "day": "TUESDAY",
+    "title": "Swami Vivekananda Jayanti",
+    "description": "National Youth Day.",
+    "category": "Holiday",
+    "mediaType": "image",
+    "mediaName": "vivekananda.jpg"
+  },
+  {
+    "id": "27",
+    "date": "12/01/2027",
+    "day": "TUESDAY",
+    "title": "Essay Competition Results",
+    "description": "Results are published on the notice board.",
+    "category": "Event",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "28",
+    "date": "23/01/2027",
+    "day": "SATURDAY",
+    "title": "Netaji Subhas Chandra Bose Jayanti",
+    "description": "Flag hoisting at 9 AM.",
+    "category": "Holiday",
+    "mediaType": "none",
+    "mediaName": ""
+  },
+  {
+    "id": "29",
+    "date": "26/01/2027",
+    "day": "TUESDAY",
+    "title": "Republic Day",
+    "description": "All teachers are requested to be present at 8:30 AM for the Republic Day flag hoisting ceremony and cultural march-past by the students.",
+    "category": "Event",
+    "mediaType": "image",
+    "mediaName": "republic_day.jpg"
+  },
+  {
+    "id": "30",
+    "date": "10/02/2027",
+    "day": "WEDNESDAY",
+    "title": "School Picnic Announcement",
+    "description": "Annual school picnic is scheduled for next week. Interested staff please submit the contribution amount to the cashier by Friday.",
+    "category": "General",
+    "mediaType": "pdf",
+    "mediaName": "picnic_details.pdf"
   }
 ]
