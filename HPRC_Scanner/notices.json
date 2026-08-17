@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "date": "16/08/2026",
+    "day": "SUNDAY",
+    "title": "Independence Day Celebration",
+    "description": "School will remain closed on 15th August.",
+    "category": "Holiday",
+    "mediaType": "image",
+    "mediaName": "holiday.jpg"
+  },
+  {
+    "id": "2",
+    "date": "20/08/2026",
+    "day": "THURSDAY",
+    "title": "New Exam Routine",
+    "description": "Please check the updated exam routine for 2026.",
+    "category": "Academic",
+    "mediaType": "pdf",
+    "mediaName": "routine.pdf"
+  }
+]
