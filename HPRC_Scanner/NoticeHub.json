@@ -3,13 +3,7 @@
     "id": "1",
     "date": "01/01/2026",
     "title": "New Year's Day Holiday",
-    "description": "হ্যাঁ, তুমি যেভাবে চাইছো ঠিক সেভাবেই করা সম্ভব! তুমি চাইছো যখন ইউজার কার্ডের secDetails-এ (যেখানে Title এবং Description থাকে) ক্লিক করবে, তখন কার্ডটি এক্সপ্যান্ড (বড়) হওয়ার পাশাপাশি বাঁদিকের তারিখের অংশটুকু (secDate) হাইড বা স্লাইড হয়ে চলে যাবে, যাতে লম্বা টাইটেল বা ডেসক্রিপশনের লেখাগুলো পুরো স্ক্রিনের জায়গা (width) পায়।
-
-এটি করার জন্য তোমার বর্তমান কোডের secDetails.setOnClickListener ব্লকে একটু পরিবর্তন করতে হবে।
-
-তোমার NoticeAdapter ক্লাসের ভেতরের bind() ফাংশনে secDetails.setOnClickListener-এর কোডটুকু নিচের কোড দিয়ে রিপ্লেস করে দাও:
-
-Kotlin",
+    "description": "Before you can begin to determine what the composition of a particular paragraph will be, you must first decide on an argument and a working thesis statement for your paper. What is the most important idea that you are trying to convey to your reader? The information in each paragraph must be related to that idea. In other words, your paragraphs should remind your reader that there is a recurrent relationship between your thesis and the information in each paragraph. A working thesis functions like a seed from which your paper, and your ideas, will grow. The whole process is an organic one—a natural progression from a seed to a full-blown paper where there are direct, familial relationships between all of the ideas in the paper.",
     "category": "Holiday",
     "subCategory": "National Holiday",
     "mediaName": "new_year.jpg, https://en.wikipedia.org/wiki/New_Year%27s_Day"
@@ -18,36 +12,7 @@ Kotlin",
     "id": "2",
     "date": "12/01/2026",
     "title": "Swami Vivekananda Jayanti",
-    "description": "তোমার এই প্ল্যানটি একদম প্র্যাকটিক্যাল এবং দারুণ একটি বিজনেস ডিসিশন!
-
-একজন ইন্ডিপেনডেন্ট ডেভেলপার হিসেবে সবসময় আগে প্রোডাক্ট লঞ্চ করা এবং ইউজারদের হাতে সেটি পৌঁছে দেওয়াটা সবচেয়ে বেশি জরুরি। বিশেষ করে শিক্ষকদের জন্য যে টুলটি বানাচ্ছো, সেটি এখনই রিলিজ করে দিলে তারা দ্রুত কাজ শুরু করতে পারবেন এবং তুমিও রিয়েল-টাইম ফিডব্যাক পাবে।
-
-তোমার প্ল্যানের সুবিধা এবং ভবিষ্যতের রিস্কগুলো নিচে পরিষ্কার করে দিচ্ছি:
-
-এখনই রিলিজ করার সুবিধা
-খরচ বাঁচবে: শুরুতেই সাবস্ক্রিপশনের পেছনে টাকা খরচ না করে, অ্যাপ থেকে আয় হওয়ার পর সেই টাকা রিইনভেস্ট করাটা স্মার্ট ইকোনমিক্স।
-
-দ্রুত লঞ্চ (Time to Market): এখন কনভার্ট করতে গেলে আরও এক-দুই সপ্তাহ সময় নষ্ট হবে এবং নতুন কিছু বাগ (Bugs) তৈরি হতে পারে। এর চেয়ে স্টেবল ভার্সনটি রিলিজ করে দেওয়া ভালো।
-
-পারফরম্যান্স ঠিক থাকবে: Pure Kotlin-এ লেখা কোড অ্যান্ড্রয়েড সিস্টেমে দারুণ পারফর্ম করে, তাই ইউজারদের কোনো সমস্যাই হবে না।
-
-ফিচার বাড়লে পরে কি সমস্যা হতে পারে? (Technical Debt)
-ভবিষ্যতে ফিচার বাড়লে কিছু ছোটখাটো চ্যালেঞ্জ আসতে পারে:
-
-বড় কোডবেস মাইগ্রেশন: অ্যাপ অনেক বড় হয়ে গেলে পরে একসাথে পুরোটা Compose-এ কনভার্ট করা অনেক কঠিন হবে। Claude Pro নিলেও তখন হাজার হাজার লাইনের কোড একবারে দিলে AI কনটেক্সট হারিয়ে ফেলতে পারে।
-
-মেইনটেন্যান্স: Pure Kotlin-এ জটিল UI বা অ্যানিমেশন হ্যান্ডেল করাটা Compose-এর তুলনায় একটু সময়সাপেক্ষ।
-
-সবচেয়ে সেরা উপায়: "হাইব্রিড অ্যাপ্রোচ"
-ভবিষ্যতে যখন তোমার সাবস্ক্রিপশন নেওয়ার সামর্থ্য হবে, তখন পুরো অ্যাপ একবারে রিরাইট করার কোনো দরকার নেই। তুমি এই পদ্ধতিটি ফলো করতে পারো:
-
-পুরনো স্ক্রিন: বর্তমানের স্টেবল স্ক্রিনগুলো যে অবস্থায় আছে, সেভাবেই রেখে দাও।
-
-নতুন স্ক্রিন: ভবিষ্যতে অ্যাপে যখনই কোনো সম্পূর্ণ নতুন ফিচার বা স্ক্রিন আনবে, শুধু সেই নতুন অংশটুকু Jetpack Compose-এ লিখবে।
-
-Android-এ ComposeView ব্যবহার করে খুব সহজেই পুরনো কোডের ভেতরেই নতুন Compose ডিজাইনগুলো চালানো যায়। এতে তোমার অ্যাপের স্টেবিলিটি নষ্ট হবে না এবং ধীরে ধীরে তুমি আধুনিক আর্কিটেকচারে শিফট করতে পারবে।
-
-অ্যাপটি কি প্লে স্টোরে রিলিজ দেওয়ার জন্য পুরোপুরি প্রস্তুত, নাকি লঞ্চ করার আগে আরও কোনো ছোট ফিচার অ্যাড করার কাজ বাকি আছে?",
+    "description": "Before you can begin to determine what the composition of a particular paragraph will be, you must first decide on an argument and a working thesis statement for your paper. What is the most important idea that you are trying to convey to your reader? The information in each paragraph must be related to that idea. In other words, your paragraphs should remind your reader that there is a recurrent relationship between your thesis and the information in each paragraph. A working thesis functions like a seed from which your paper, and your ideas, will grow. The whole process is an organic one—a natural progression from a seed to a full-blown paper where there are direct, familial relationships between all of the ideas in the paper.Before you can begin to determine what the composition of a particular paragraph will be, you must first decide on an argument and a working thesis statement for your paper. What is the most important idea that you are trying to convey to your reader? The information in each paragraph must be related to that idea. In other words, your paragraphs should remind your reader that there is a recurrent relationship between your thesis and the information in each paragraph. A working thesis functions like a seed from which your paper, and your ideas, will grow. The whole process is an organic one—a natural progression from a seed to a full-blown paper where there are direct, familial relationships between all of the ideas in the paper.",
     "category": "Event",
     "subCategory": "Cultural",
     "mediaName": "youth_day.pdf, https://example.com/youth_day_program"
