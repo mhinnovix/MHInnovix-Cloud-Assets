@@ -1,5 +1,15 @@
 [
   {
+  "id": "4",
+  "date": "13/12/2019",
+  "title": "WB ROPA (Revision of Pay and Allowance) Rules, 2019",
+  "descriptionENG": "This is a memorandum by the *School Education Department, Government of West Bengal*, regarding the implementation of the *6th Pay Commission* recommendations.\n\n[color=#1976D2]*Key Guidelines Included:*[/color]\n- Application of the revised pay structure for teaching and non-teaching staff\n- Introduction of the new *Pay Matrix* and *Levels*\n- Fixation of initial pay using a multiplication factor of *2.57*\n\n[color=#E53935]*Effective Date:*[/color] Notionally effective from _January 1, 2016_, with actual financial effect from _January 1, 2020_.",
+  "descriptionBNG": "এটি *পশ্চিমবঙ্গ সরকারের বিদ্যালয় শিক্ষা দপ্তর* দ্বারা প্রকাশিত একটি মেমোরেন্ডাম, যা *ষষ্ঠ পে কমিশনের* সুপারিশ বাস্তবায়নের বিষয়ে জারি করা হয়েছে।\n\n[color=#1976D2]*মূল নির্দেশিকাগুলি:*[/color]\n- শিক্ষক ও শিক্ষাকর্মীদের জন্য সংশোধিত পে-স্কেল প্রয়োগ\n- নতুন *Pay Matrix* ও *Level*-এর প্রবর্তন\n- *2.57* গুণনীয়ক (multiplication factor) ব্যবহার করে প্রাথমিক বেতন নির্ধারণ\n\n[color=#E53935]*কার্যকর হওয়ার তারিখ:*[/color] এটি তাত্ত্বিকভাবে (notionally) _১লা জানুয়ারি, ২০১৬_ থেকে কার্যকর, তবে প্রকৃত আর্থিক সুবিধা দেওয়া হবে _১লা জানুয়ারি, ২০২০_ থেকে।",
+  "category": "Finance",
+  "subCategory": "Pay Revision",
+  "mediaName": "20191213ROPA.pdf"
+},
+  {
     "id": "3",
     "date": "21/08/2026",
     "title": "Approval for Mid-Day Meal via Mega Kitchen under PM POSHAN",
@@ -25,8 +35,8 @@
     "title": "WB ROPA (Revision of Pay and Allowance) Rules, 1998",
     "descriptionENG": "This is a notification by the *Finance Department, Government of West Bengal*, introducing the *West Bengal Services (Revision of Pay and Allowance) Rules, 1998*.\n\n[color=#1976D2]*Key Guidelines Included:*[/color]\n- Application of the new pay scales\n- Fixation of initial pay\n- Conditions for the payment of arrears\n- Classification of government employees into *Groups A, B, C, and D*\n\n[color=#E53935]*Effective Date:*[/color] These rules are deemed to have come into force on the _first day of January, 1996_.\n\nIt also includes schedules detailing the correspondence between existing and revised pay scales, along with the required _option forms_ for employees.",
     "descriptionBNG": "এটি *পশ্চিমবঙ্গ সরকারের অর্থ দপ্তর* দ্বারা প্রকাশিত একটি বিজ্ঞপ্তি, যার মাধ্যমে *West Bengal Services (Revision of Pay and Allowance) Rules, 1998* চালু করা হয়েছে।\n\n[color=#1976D2]*মূল নির্দেশিকাগুলি:*[/color]\n- নতুন পে-স্কেল প্রয়োগের নিয়ম\n- প্রাথমিক বেতন (Initial pay) নির্ধারণ\n- বকেয়া (Arrears) প্রদানের শর্তাবলী\n- সরকারি কর্মচারীদের *গ্রুপ এ, বি, সি এবং ডি*-তে শ্রেণিবিন্যাস\n\n[color=#E53935]*কার্যকর হওয়ার তারিখ:*[/color] এই নিয়মগুলি _১লা জানুয়ারি, ১৯৯৬_ থেকে কার্যকর হয়েছে বলে গণ্য করা হবে।\n\nএছাড়াও এতে বিদ্যমান এবং সংশোধিত পে-স্কেলের মধ্যে সামঞ্জস্যের বিশদ তালিকা এবং কর্মচারীদের জন্য প্রয়োজনীয় _অপশন ফর্ম (option forms)_ অন্তর্ভুক্ত রয়েছে।",
-    "category": "Government Notification",
-    "subCategory": "Finance / Pay Revision",
+    "category": "Finance",
+    "subCategory": "Pay Revision",
     "mediaName": "19981016ROPA.pdf"
   }
 ]
