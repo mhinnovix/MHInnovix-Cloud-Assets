@@ -1,15 +1,5 @@
 [
   {
-    "id": "5",
-    "date": "25/08/2026",
-    "title": "Test Notice",
-    "descriptionENG": "This is a test notification.",
-    "descriptionBNG": "এটি একটি পরীক্ষামূলক নোটিশ।",
-    "category": "General",
-    "subCategory": "General",
-    "mediaName": ""
-  },
-  {
     "id": "4",
     "date": "25/08/2026",
     "title": "Test Notice",
