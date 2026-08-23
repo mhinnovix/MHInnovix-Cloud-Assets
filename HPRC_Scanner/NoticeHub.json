@@ -1,24 +1,34 @@
 [
   {
-  "id": "3",
-  "date": "21/08/2026",
-  "title": "Approval for Mid-Day Meal via Mega Kitchen under PM POSHAN",
-  "descriptionENG": "This is a notification by the *School Education Department, Government of West Bengal* regarding the *PM POSHAN* scheme.\n\n[color=#1976D2]*Key Guidelines Included:*[/color]\n- Approval is granted to _The Akshaya Patra Foundation_ for providing mid-day meals.\n- Meals are to be provided on a *single window Mega kitchen* basis.\n- Approved for specific districts and blocks including Bidhannagar, Dumdum, Rajarhat (New Town), Howrah, Purulia, and Nandigram-I & II.\n\n[color=#E53935]*Action Required:*[/color] The competent authorities are requested to finalize the _Letter of Award (LOA)_ followed by the execution of an _MoU_.",
-  "descriptionBNG": "এটি *পিএম পোষণ (PM POSHAN)* প্রকল্পের অধীনে *পশ্চিমবঙ্গ সরকারের স্কুল শিক্ষা দপ্তর* দ্বারা প্রকাশিত একটি বিজ্ঞপ্তি।\n\n[color=#1976D2]*মূল নির্দেশিকাগুলি:*[/color]\n- মিড-ডে মিল সরবরাহের জন্য _The Akshaya Patra Foundation_-কে অনুমোদন দেওয়া হয়েছে।\n- একটি *সিঙ্গেল উইন্ডো মেগা কিচেন (single window Mega kitchen)*-এর ভিত্তিতে এই খাবার সরবরাহ করা হবে।\n- বিধাননগর, দমদম, রাজারহাট (নিউ টাউন), হাওড়া, পুরুলিয়া এবং নন্দীগ্রাম-১ ও ২ ব্লক সহ নির্দিষ্ট কিছু জেলা ও এলাকার জন্য এটি অনুমোদিত।\n\n[color=#E53935]*প্রয়োজনীয় পদক্ষেপ:*[/color] সংশ্লিষ্ট কর্তৃপক্ষকে দ্রুত _লেটার অফ অ্যাওয়ার্ড (LOA)_ প্রদান এবং _MoU_ স্বাক্ষর করার নির্দেশ দেওয়া হয়েছে।",
-  "category": "Mid-Day Meal / PM POSHAN",
-  "subCategory": "School Education Department",
-  "mediaName": "20260821PMPOSHAN.jpg"
-},
- {
-  "id": "2",
-  "date": "20/08/2026",
-  "title": "Urgent Action Points on PRASHAST 2.0 Training",
-  "descriptionENG": "This is an urgent notification by the *Paschim Banga Samagra Shiksha Mission, School Education Department* regarding capacity building and sensitization on *PRASHAST 2.0*.\n\n[color=#1976D2]*Key Action Points:*[/color]\n- All General Teachers must complete the prescribed sensitization modules on the _PRASHAST App_ by *31st August 2026*.\n- All schools must undertake sensitization training for non-teaching staff on *31st August 2026* via AI Video-based training on the PRASHAST Portal.\n- Schools must ensure completion of all mandatory onboarding/sensitization videos.\n\n[color=#E53935]*Deadline:*[/color] A Status Report must be shared with the office by the _5th of September, 2026_.",
-  "descriptionBNG": "এটি *পশ্চিমবঙ্গ সমগ্র শিক্ষা মিশন, স্কুল শিক্ষা দপ্তর* দ্বারা প্রকাশিত *PRASHAST 2.0* সম্পর্কিত সক্ষমতা বৃদ্ধি এবং সংবেদনশীলতা বিষয়ক একটি জরুরি বিজ্ঞপ্তি।\n\n[color=#1976D2]*মূল নির্দেশিকাগুলি:*[/color]\n- সমস্ত সাধারণ শিক্ষকদের *৩১শে আগস্ট ২০২৬*-এর মধ্যে _PRASHAST App_-এ নির্ধারিত মডিউলগুলি সম্পন্ন করতে হবে।\n- সমস্ত স্কুলকে *৩১শে আগস্ট ২০২৬* তারিখে অশিক্ষক কর্মীদের জন্য PRASHAST পোর্টালে AI ভিডিও-ভিত্তিক সংবেদনশীলতা প্রশিক্ষণের আয়োজন করতে হবে।\n- স্কুলগুলিকে সমস্ত বাধ্যতামূলক অনবোর্ডিং/সংবেদনশীলতা ভিডিও সম্পন্ন করা নিশ্চিত করতে হবে।\n\n[color=#E53935]*সময়সীমা:*[/color] একটি স্ট্যাটাস রিপোর্ট (Status Report) আগামী _৫ই সেপ্টেম্বর, ২০২৬_-এর মধ্যে সংশ্লিষ্ট দপ্তরে জমা দিতে হবে।",
-  "category": "Training / PRASHAST 2.0",
-  "subCategory": "Samagra Shiksha Mission",
-  "mediaName": "20260820PRASHAST.jpg"
-},
+    "id": "notice_1787501608540",
+    "date": "23/08/2026",
+    "title": "Test Notice",
+    "descriptionENG": "This is a test notification.",
+    "descriptionBNG": "এটি একটি পরীক্ষামূলক নোটিশ।",
+    "category": "General",
+    "subCategory": "General",
+    "mediaName": ""
+  },
+  {
+    "id": "3",
+    "date": "21/08/2026",
+    "title": "Approval for Mid-Day Meal via Mega Kitchen under PM POSHAN",
+    "descriptionENG": "This is a notification by the *School Education Department, Government of West Bengal* regarding the *PM POSHAN* scheme.\n\n[color=#1976D2]*Key Guidelines Included:*[/color]\n- Approval is granted to _The Akshaya Patra Foundation_ for providing mid-day meals.\n- Meals are to be provided on a *single window Mega kitchen* basis.\n- Approved for specific districts and blocks including Bidhannagar, Dumdum, Rajarhat (New Town), Howrah, Purulia, and Nandigram-I & II.\n\n[color=#E53935]*Action Required:*[/color] The competent authorities are requested to finalize the _Letter of Award (LOA)_ followed by the execution of an _MoU_.",
+    "descriptionBNG": "এটি *পিএম পোষণ (PM POSHAN)* প্রকল্পের অধীনে *পশ্চিমবঙ্গ সরকারের স্কুল শিক্ষা দপ্তর* দ্বারা প্রকাশিত একটি বিজ্ঞপ্তি।\n\n[color=#1976D2]*মূল নির্দেশিকাগুলি:*[/color]\n- মিড-ডে মিল সরবরাহের জন্য _The Akshaya Patra Foundation_-কে অনুমোদন দেওয়া হয়েছে।\n- একটি *সিঙ্গেল উইন্ডো মেগা কিচেন (single window Mega kitchen)*-এর ভিত্তিতে এই খাবার সরবরাহ করা হবে।\n- বিধাননগর, দমদম, রাজারহাট (নিউ টাউন), হাওড়া, পুরুলিয়া এবং নন্দীগ্রাম-১ ও ২ ব্লক সহ নির্দিষ্ট কিছু জেলা ও এলাকার জন্য এটি অনুমোদিত।\n\n[color=#E53935]*প্রয়োজনীয় পদক্ষেপ:*[/color] সংশ্লিষ্ট কর্তৃপক্ষকে দ্রুত _লেটার অফ অ্যাওয়ার্ড (LOA)_ প্রদান এবং _MoU_ স্বাক্ষর করার নির্দেশ দেওয়া হয়েছে।",
+    "category": "Mid-Day Meal / PM POSHAN",
+    "subCategory": "School Education Department",
+    "mediaName": "20260821PMPOSHAN.jpg"
+  },
+  {
+    "id": "2",
+    "date": "20/08/2026",
+    "title": "Urgent Action Points on PRASHAST 2.0 Training",
+    "descriptionENG": "This is an urgent notification by the *Paschim Banga Samagra Shiksha Mission, School Education Department* regarding capacity building and sensitization on *PRASHAST 2.0*.\n\n[color=#1976D2]*Key Action Points:*[/color]\n- All General Teachers must complete the prescribed sensitization modules on the _PRASHAST App_ by *31st August 2026*.\n- All schools must undertake sensitization training for non-teaching staff on *31st August 2026* via AI Video-based training on the PRASHAST Portal.\n- Schools must ensure completion of all mandatory onboarding/sensitization videos.\n\n[color=#E53935]*Deadline:*[/color] A Status Report must be shared with the office by the _5th of September, 2026_.",
+    "descriptionBNG": "এটি *পশ্চিমবঙ্গ সমগ্র শিক্ষা মিশন, স্কুল শিক্ষা দপ্তর* দ্বারা প্রকাশিত *PRASHAST 2.0* সম্পর্কিত সক্ষমতা বৃদ্ধি এবং সংবেদনশীলতা বিষয়ক একটি জরুরি বিজ্ঞপ্তি।\n\n[color=#1976D2]*মূল নির্দেশিকাগুলি:*[/color]\n- সমস্ত সাধারণ শিক্ষকদের *৩১শে আগস্ট ২০২৬*-এর মধ্যে _PRASHAST App_-এ নির্ধারিত মডিউলগুলি সম্পন্ন করতে হবে।\n- সমস্ত স্কুলকে *৩১শে আগস্ট ২০২৬* তারিখে অশিক্ষক কর্মীদের জন্য PRASHAST পোর্টালে AI ভিডিও-ভিত্তিক সংবেদনশীলতা প্রশিক্ষণের আয়োজন করতে হবে।\n- স্কুলগুলিকে সমস্ত বাধ্যতামূলক অনবোর্ডিং/সংবেদনশীলতা ভিডিও সম্পন্ন করা নিশ্চিত করতে হবে।\n\n[color=#E53935]*সময়সীমা:*[/color] একটি স্ট্যাটাস রিপোর্ট (Status Report) আগামী _৫ই সেপ্টেম্বর, ২০২৬_-এর মধ্যে সংশ্লিষ্ট দপ্তরে জমা দিতে হবে।",
+    "category": "Training / PRASHAST 2.0",
+    "subCategory": "Samagra Shiksha Mission",
+    "mediaName": "20260820PRASHAST.jpg"
+  },
   {
     "id": "1",
     "date": "16/10/1998",
