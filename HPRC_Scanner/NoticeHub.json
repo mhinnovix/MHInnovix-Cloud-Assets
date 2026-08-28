@@ -63,7 +63,7 @@
     "id": "17",
     "date": "25/08/2026",
     "title": "SHVR 2026-27: Step-by-Step Guideline for Schools",
-    "descriptionENG": "As per the instructions of the State Project Director, all schools must complete their Registration and Self-Assessment on the Swachh Evam Harit Vidyalaya Rating (SHVR) 2026–27 Portal by **30th September 2026**.\n\n**4 Easy Steps for Completion:**\n1. **Initial Preparation:** Print the 27 School Level Information inputs and 60 Survey questions from the portal.\n2. **Offline Self-Assessment:** Fill out the printed form based on the actual physical infrastructure of the school. Do not provide hypothetical data.\n3. **Photo Evidence Collection:** Keep at least 18 distinct Photos/Documents ready in a separate folder on your PC/Laptop before starting the online entry.\n4. **Online Entry & Submission:** Login to the portal, enter the 27 Information data + 60 Survey answers, upload the photos, verify everything, and click Submit.\n\n**Key Photo Evidences Required:**\n- Front View of School & Premises\n- Main Water Point & Rain Water Harvesting System\n- Overall Cleanliness & Functional Toilets (Boys, Girls, CWSN)\n- Waste Management System & School Garden\n- Sanitary Waste Disposal & Handwashing Facility (with soap)\n- Water Quality Testing Report & Teacher Training Certificate\n- Eco Club Constitution Evidence & Mission LiFE Activities\n\n_Courtesy: Smart Study_",
+    "descriptionENG": "As per the instructions of the State Project Director, all schools must complete their Registration and Self-Assessment on the Swachh Evam Harit Vidyalaya Rating (SHVR) 2026–27 Portal by **30th September 2026**.\n\n**4 Easy Steps for Completion:**\n1. **Initial Preparation:** Print the 27 School Level Information inputs and 60 Survey questions from the portal.\n2. **Offline Self-Assessment:** Fill out the printed form based on the actual physical infrastructure of the school. Do not provide hypothetical data.\n3. **Photo Evidence Collection:** Keep at least 18 distinct Photos/Documents ready in a separate folder on your PC/Laptop before starting the online entry.\n4. **Online Entry & Submission:** Login to the portal, enter the 27 Information data + 60 Survey answers, upload the photos, verify everything, and click Submit.\n\n**Key Photo Evidences Required:**\n- Front View of School & Premises\n- Main Water Point & Rain Water Harvesting System\n- Overall Cleanliness & Functional Toilets (Boys, Girls, CWSN)\n- Waste Management System & School Garden\n- Sanitary Waste Disposal & Handwashing Facility (with soap)\n- Water Quality Testing Report & Teacher Training Certificate\n- Eco Club Constitution Evidence & Mission LiFE Activities",
     "descriptionBNG": "রাজ্য প্রকল্প অধিকর্তার নির্দেশ অনুযায়ী, **আগামী ৩০ সেপ্টেম্বর ২০২৬**-এর মধ্যে সমস্ত বিদ্যালয়কে Swachh Evam Harit Vidyalaya Rating (SHVR) 2026–27 Portal-এ Registration করে Self-Assessment/Survey সম্পন্ন করতে হবে।\n\n**কাজের ৪টি সহজ ধাপ:**\n1. **প্রাথমিক প্রস্তুতি:** Portal থেকে School Level Information ও Survey Form প্রিন্ট করে নিন এবং নির্দেশিকাগুলো পড়ে নিন।\n2. **Offline Self-Assessment:** বাস্তব পরিকাঠামো অনুযায়ী Form-এ উত্তর দিন। কোনো অনুমানভিত্তিক তথ্য দেবেন না।\n3. **Photo Evidence সংগ্রহ:** Online Entry করার আগে প্রয়োজনীয় কমপক্ষে ১৮টি Photo/Document কম্পিউটারে একটি আলাদা ফোল্ডারে প্রস্তুত রাখুন।\n4. **Final Online Entry & Submission:** Portal-এ সমস্ত তথ্য ও ছবি Upload করে ভালোভাবে যাচাই করুন এবং Submit করুন।\n\n**প্রয়োজনীয় Photo Evidence (উল্লেখযোগ্য):**\n- বিদ্যালয়ের প্রবেশপথ ও প্রাঙ্গণ (Front View)\n- পানীয় জলের ব্যবস্থা ও Rain Water Harvesting\n- বিদ্যালয়ের পরিচ্ছন্নতা এবং শৌচাগার (Boys, Girls, CWSN)\n- বর্জ্য ব্যবস্থাপনা (Waste Management) ও বাগান\n- স্যানিটারি বর্জ্য নিষ্কাশন ও সাবান সহ Handwashing Facility\n- জলের গুণমান পরীক্ষার রিপোর্ট ও শিক্ষক প্রশিক্ষণ শংসাপত্র\n- ইকো ক্লাব (Eco Club) গঠন ও মিশন লাইফ (Mission LiFE) এর কার্যক্রম\n\n_সৌজন্যে: Smart Study_",
     "category": "Guidelines / Help",
     "subCategory": "SHVR 2026-27",
@@ -89,14 +89,6 @@
     "subCategory": "CoochBehar",
     "mediaName": "20260821CensusCoochBehar.jpg"
   },
- আপনার দেওয়া JSON-এর এই নতুন অংশটিও আগের নিয়ম অনুযায়ী আপডেট করে দেওয়া হলো।
-
-এখানে সিঙ্গেল স্টার (*) গুলোকে ডাবল স্টারে (**) পরিবর্তন করা হয়েছে এবং কালার কোডগুলো ([color=#...]) সরিয়ে দিয়ে হেডিংগুলোকে শুধু বোল্ড (**...**) হিসেবে রাখা হয়েছে।
-
-নিচে সংশোধিত JSON ডেটা দেওয়া হলো:
-
-JSON
-[
   {
     "id": "14",
     "date": "21/08/2026",
