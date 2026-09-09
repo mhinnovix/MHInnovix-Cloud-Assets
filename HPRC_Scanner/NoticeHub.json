@@ -1,5 +1,15 @@
 [
   {
+    "id": "34",
+    "date": "08/09/2026",
+    "title": "Restriction on Transfer/Release of Staff Engaged in Census Duty",
+    "descriptionENG": "The School Education Department, Government of West Bengal, has issued a memorandum restricting the transfer of staff currently engaged in Census operations.\n\nKey Directive:\n• All concerned authorities under the department are requested to avoid the transfer or release of officers and staff presently engaged in Census duty.\n• This restriction will remain in effect until the completion of the First Phase of Census operations, which is scheduled up to _30.09.2026_.",
+    "descriptionBNG": "সেন্সাস বা জনগণনার কাজে নিযুক্ত কর্মীদের বদলি এবং রিলিজ প্রসঙ্গে স্কুল শিক্ষা দপ্তর, পশ্চিমবঙ্গ সরকার একটি মেমোরেন্ডাম জারি করেছে।\n\nমূল নির্দেশিকা:\n• বর্তমানে সেন্সাস ডিউটিতে (Census duty) নিযুক্ত কোনো আধিকারিক বা কর্মীকে বদলি (transfer) বা রিলিজ না করার জন্য দপ্তরের অধীনস্থ সমস্ত কর্তৃপক্ষকে নির্দেশ দেওয়া হয়েছে।\n• সেন্সাস অপারেশনের প্রথম পর্যায়ের কাজ শেষ না হওয়া পর্যন্ত, অর্থাৎ আগামী _৩০.০৯.২০২৬_ তারিখ পর্যন্ত এই স্থগিতাদেশ বা নিষেধাজ্ঞা বহাল থাকবে।",
+    "category": "School Education Department, Census 2027, Transfer",
+    "subCategory": "Staff Release, First Phase Census",
+    "mediaName": "20260908CensusDutyTransferRestriction.jpg"
+  },
+  {
     "id": "33",
     "date": "07/09/2026",
     "title": "Extension of Edit Option for OBC Sub-Category (1st SLST NTS 2025)",
