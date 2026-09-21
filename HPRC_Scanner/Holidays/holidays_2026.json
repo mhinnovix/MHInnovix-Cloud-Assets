@@ -250,6 +250,14 @@
       "remarks": "Holiday"
     },
     {
+      "occasion": "Karam Puja (for Primary and Junior Based Schools",
+      "occasion_display": "Conditional Holiday",
+      "start_date": "2026-09-22",
+      "end_date": "2026-09-22",
+      "no_of_holiday": "1",
+      "remarks": "Holiday"
+    },
+    {
       "occasion": "Iswar Chandra Vidyasagar Janmajayanti",
       "occasion_display": "",
       "start_date": "2026-09-26",
