@@ -1,5 +1,15 @@
 [
   {
+    "id": "41",
+    "date": "21/09/2026",
+    "title": "Edit Option for PwBD Category Details (1st SLST NTS 2025)",
+    "descriptionENG": "The West Bengal Central School Service Commission (WBCSSC) has issued a public notice regarding the edit option for PwBD (Persons with Benchmark Disability) candidates of the 1st SLST (NTS), 2025 (Clerk & Group D).\n\nKey Details:\n- The online portal ([www.westbengalssc.com](http://www.westbengalssc.com)) will remain open from _22/09/2026 to 26/09/2026_ for updating category details.\n- Candidates must login, choose the 'Edit' option, select their category from the drop-down menu, and provide the applicable certificate number and issuing authority.\n- No further representations or extension requests will be entertained under any circumstances.",
+    "descriptionBNG": "১ম SLST (NTS), 2025 (Clerk & Group D)-এর PwBD (Persons with Benchmark Disability) প্রার্থীদের ক্যাটাগরি আপডেট করার জন্য 'Edit' অপশন চালু করার বিষয়ে একটি বিজ্ঞপ্তি প্রকাশ করেছে পশ্চিমবঙ্গ কেন্দ্রীয় স্কুল সার্ভিস কমিশন (WBCSSC)।\n\nগুরুত্বপূর্ণ তথ্য:\n- ক্যাটাগরির তথ্য আপডেট করার জন্য কমিশনের অনলাইন পোর্টাল ([www.westbengalssc.com](http://www.westbengalssc.com)) আগামী _২২/০৯/২০২৬ থেকে ২৬/০৯/২০২৬_ তারিখ পর্যন্ত খোলা থাকবে।\n- প্রার্থীদের প্রথমে লগইন (Login) করে 'Edit' অপশন বেছে নিতে হবে। এরপর ড্রপ-ডাউন মেনু থেকে ক্যাটাগরি নির্বাচন করে নির্দিষ্ট টেক্সট বক্সে সার্টিফিকেটের নম্বর এবং ইস্যুকারী কর্তৃপক্ষের নাম উল্লেখ করতে হবে।\n- এই বিষয়ে পরবর্তীতে আর কোনো সময়সীমা বৃদ্ধি বা আবেদন গ্রহণ করা হবে না।",
+    "category": "School Service Commission, Recruitment, Category Update",
+    "subCategory": "Group C&D, 1st SLST NTS, PwBD, WBCSSC",
+    "mediaName": "20260921WbcsscPwbdEditOption.jpg"
+  },
+  {
     "id": "40",
     "date": "16/09/2026",
     "title": "Physical Verification & Utilization of Zero-Enrolment Schools",
