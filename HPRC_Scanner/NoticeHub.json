@@ -1,5 +1,15 @@
 [
   {
+    "id": "50",
+    "date": "29/09/2026",
+    "title": "Important Guidelines for UDISE+ Student Profile Creation & S02 Form",
+    "descriptionENG": "A set of important guidelines has been shared regarding the creation of new student profiles and the usage of the S02 Form in the UDISE+ portal.\n\nKey Guidelines:\n• Profiles for Pre-Primary and Class 1 students can be created directly by the respective schools.\n• For Class 2 to Class 12, schools must submit the S02 Form to the concerned authority to create a new profile.\n• Mandatory Check: Before creating a new profile, schools must use the Global Search feature in UDISE+ (using Name, Parents' Name, DOB, or Aadhaar) to ensure no prior record exists and to prevent duplicate entries.\n• If a record is found in the Dropbox, it must be Imported. If it is Active in another school, that school must release it.\n• The S02 Form must be filled out by the Head of the Institution with the school seal/signature, accompanied by necessary documents (School Register copy, Birth Certificate, TC if applicable, and an undertaking stating no record was found in Global Search).",
+    "descriptionBNG": "UDISE+ পোর্টালে শিক্ষার্থীদের নতুন প্রোফাইল তৈরি এবং S02 Form ব্যবহার সংক্রান্ত গুরুত্বপূর্ণ নির্দেশিকা শেয়ার করা হয়েছে।\n\nগুরুত্বপূর্ণ নির্দেশিকা:\n• Pre-Primary এবং Class 1-এর ক্ষেত্রে সংশ্লিষ্ট বিদ্যালয় থেকেই নতুন Student Profile তৈরি করা যাবে।\n• Class 2 থেকে Class 12 পর্যন্ত নতুন Profile তৈরির ক্ষেত্রে সংশ্লিষ্ট দপ্তরে S02 Form জমা করতে হবে।\n• বাধ্যতামূলক পরীক্ষা: Duplicate Entry রুখতে, নতুন Profile তৈরি করার আগে অবশ্যই UDISE+ পোর্টালে Global Search (নাম, বাবা-মায়ের নাম, জন্মতারিখ বা আধার নম্বর দিয়ে) করে দেখতে হবে যে ছাত্র/ছাত্রীর আগে থেকে কোনো Record রয়েছে কি না।\n• যদি Record Dropbox-এ পাওয়া যায়, তবে সেটি Import করতে হবে। অন্য স্কুলে Active থাকলে আগের স্কুলকে সেটি রিলিজ করতে হবে।\n• S02 ফর্মটি অবশ্যই School Head/Principal-কে পূরণ করে স্ট্যাম্প ও সই সহ জমা দিতে হবে। এর সাথে School Register-এর কপি, বার্থ সার্টিফিকেট, TC (যদি প্রযোজ্য হয়) এবং একটি Undertaking দিতে হবে যে গ্লোবাল সার্চে ওই ছাত্রছাত্রীর কোনো রেকর্ড পাওয়া যায়নি।",
+    "category": "UDISE+, Downloadable",
+    "subCategory": "Student Profile Creation, S02 Form",
+    "mediaName": "S02UDISEform.jpg"
+  },
+  {
     "id": "49",
     "date": "28/09/2026",
     "title": "Publication of Revised Preliminary Interview List for 2nd SLST (AT) 2025",
