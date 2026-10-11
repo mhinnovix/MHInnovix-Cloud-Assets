@@ -1,32 +1,18 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-11T19:39:51Z",
-  "ref": "a1a61deddc614a7a1b7f539e3bc89102053659f3",
+  "generatedAt": "2026-10-11T19:40:43Z",
+  "ref": "14a0c9bf16a94638a88aff5fcf9ee6d2921908ae",
   "minAppVersion": 0,
-  "totalNotices": 61,
+  "totalNotices": 62,
   "categories": [
     {
-      "name": "Finance",
-      "count": 9,
+      "name": "School Education Department",
+      "count": 10,
       "sub": [
         {
-          "name": "Pay Revision",
-          "count": 6
-        },
-        {
-          "name": "Bonus / Ex-gratia",
+          "name": "Unit Test",
           "count": 2
         },
-        {
-          "name": "Increments",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "School Education Department",
-      "count": 9,
-      "sub": [
         {
           "name": "A Category Pay",
           "count": 1
@@ -80,10 +66,6 @@
           "count": 1
         },
         {
-          "name": "Unit Test",
-          "count": 1
-        },
-        {
           "name": "Verification",
           "count": 1
         },
@@ -97,6 +79,24 @@
         },
         {
           "name": "Zero-Enrolment Schools",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "count": 9,
+      "sub": [
+        {
+          "name": "Pay Revision",
+          "count": 6
+        },
+        {
+          "name": "Bonus / Ex-gratia",
+          "count": 2
+        },
+        {
+          "name": "Increments",
           "count": 1
         }
       ]
@@ -372,6 +372,28 @@
       ]
     },
     {
+      "name": "Examination",
+      "count": 3,
+      "sub": [
+        {
+          "name": "Unit Test",
+          "count": 2
+        },
+        {
+          "name": "CTET",
+          "count": 1
+        },
+        {
+          "name": "Online Application",
+          "count": 1
+        },
+        {
+          "name": "Public Notice",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Primary Education",
       "count": 3,
       "sub": [
@@ -501,28 +523,6 @@
         },
         {
           "name": "Student Profile Creation",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Examination",
-      "count": 2,
-      "sub": [
-        {
-          "name": "CTET",
-          "count": 1
-        },
-        {
-          "name": "Online Application",
-          "count": 1
-        },
-        {
-          "name": "Public Notice",
-          "count": 1
-        },
-        {
-          "name": "Unit Test",
           "count": 1
         }
       ]
@@ -1310,8 +1310,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "d2c160cbb49daff4",
-      "count": 8,
+      "version": "28448a535084882f",
+      "count": 9,
       "categories": {
         "Examination": [
           "Unit Test"
@@ -1803,6 +1803,11 @@
   ],
   "recent": [
     {
+      "id": "20261012-04",
+      "month": "2026-10",
+      "addedAt": 1791747642000
+    },
+    {
       "id": "20261012-03",
       "month": "2026-10",
       "addedAt": 1791747255000
@@ -1994,11 +1999,6 @@
     },
     {
       "id": "19",
-      "month": "2026-08",
-      "addedAt": 1787616000000
-    },
-    {
-      "id": "18",
       "month": "2026-08",
       "addedAt": 1787616000000
     }
