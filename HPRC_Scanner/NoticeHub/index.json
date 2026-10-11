@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-11T17:15:15Z",
-  "ref": "9a947b62589ff62e2e5297d6c6ad83c3fd1e3e02",
+  "generatedAt": "2026-10-11T18:25:20Z",
+  "ref": "dacbedd88608d776f27475b9620c26a35e3b2250",
   "minAppVersion": 0,
   "totalNotices": 60,
   "categories": [
@@ -1301,7 +1301,7 @@
   "months": [
     {
       "month": "2026-10",
-      "path": "months/2026-10.json",
+      "path": "NoticeTexts/2026-10.json",
       "version": "3fa152e8078badf8",
       "count": 7,
       "categories": {
@@ -1364,7 +1364,7 @@
     },
     {
       "month": "2026-09",
-      "path": "months/2026-09.json",
+      "path": "NoticeTexts/2026-09.json",
       "version": "59ab60106f742e6f",
       "count": 23,
       "categories": {
@@ -1554,7 +1554,7 @@
     },
     {
       "month": "2026-08",
-      "path": "months/2026-08.json",
+      "path": "NoticeTexts/2026-08.json",
       "version": "b1b402b450d685a1",
       "count": 20,
       "categories": {
@@ -1694,7 +1694,7 @@
     },
     {
       "month": "2022-05",
-      "path": "months/2022-05.json",
+      "path": "NoticeTexts/2022-05.json",
       "version": "7e90a0ae7d1abba5",
       "count": 1,
       "categories": {
@@ -1705,7 +1705,7 @@
     },
     {
       "month": "2022-04",
-      "path": "months/2022-04.json",
+      "path": "NoticeTexts/2022-04.json",
       "version": "f03c939f339e39d3",
       "count": 2,
       "categories": {
@@ -1717,7 +1717,7 @@
     },
     {
       "month": "2021-05",
-      "path": "months/2021-05.json",
+      "path": "NoticeTexts/2021-05.json",
       "version": "0bdb7994cbb20362",
       "count": 1,
       "categories": {
@@ -1728,7 +1728,7 @@
     },
     {
       "month": "2021-01",
-      "path": "months/2021-01.json",
+      "path": "NoticeTexts/2021-01.json",
       "version": "e006f31574570218",
       "count": 1,
       "categories": {
@@ -1739,7 +1739,7 @@
     },
     {
       "month": "2019-12",
-      "path": "months/2019-12.json",
+      "path": "NoticeTexts/2019-12.json",
       "version": "9734fdfdfedcf1a9",
       "count": 1,
       "categories": {
@@ -1750,7 +1750,7 @@
     },
     {
       "month": "2009-02",
-      "path": "months/2009-02.json",
+      "path": "NoticeTexts/2009-02.json",
       "version": "4a11c6f75a4e8373",
       "count": 2,
       "categories": {
@@ -1761,7 +1761,7 @@
     },
     {
       "month": "2005-06",
-      "path": "months/2005-06.json",
+      "path": "NoticeTexts/2005-06.json",
       "version": "2fe307789aef4b9b",
       "count": 1,
       "categories": {
@@ -1777,7 +1777,7 @@
     },
     {
       "month": "1998-10",
-      "path": "months/1998-10.json",
+      "path": "NoticeTexts/1998-10.json",
       "version": "18a2725bc51ef094",
       "count": 1,
       "categories": {
