@@ -2,12 +2,19 @@
 """
 NoticeHub publisher — HPRC Scanner
 
-Admin shudhu  HPRC_Scanner/NoticeHub/months/YYYY-MM.json  edit korbe. Baki shob ei script (GitHub Action theke):
+Layout (HPRC_Scanner/NoticeHub/):
+  NoticeTexts/YYYY-MM.json         ← notice gulo (admin / bot edit kore)
+  NoticeDocuments/YYYY-MM/<file>   ← attachment — notice-er date-er month folder-e
+  NoticeDocumentsBin/YYYY-MM/      ← bot-e delete kora document
+  index.json, registry.json        ← ei script banay
+
+Commands (GitHub Action theke chole):
 
   normalize   validate + date ISO kora + addedAt/updatedAt stamp + registry update
   index       index.json (manifest) toiri, + purono app-er jonno NoticeHub.json (legacy export)
   check       normalize-er dry run (kichu lekhe na) — local-e push-er age chalate paro
   split       ekbar-i: purono NoticeHub.json ke month file-e bhag kora
+  migrate-media  ekbar-i: purono Media/ folder theke notice-er document NoticeDocuments/YYYY-MM/-e COPY
 
 Rules (validation fail hole index publish HOY NA, tai app-e bhanga data jay na):
   • file naam YYYY-MM.json, bhetore JSON array (ba {"notices": [...]})
@@ -28,10 +35,10 @@ import sys
 from pathlib import Path
 
 HUB_DIR = Path(os.environ.get("NOTICE_HUB_DIR", "HPRC_Scanner/NoticeHub"))
-MONTHS_DIR = HUB_DIR / "months"
+MONTHS_DIR = HUB_DIR / "NoticeTexts"
 REGISTRY = HUB_DIR / "registry.json"
 INDEX = HUB_DIR / "index.json"
-MEDIA_DIR = Path(os.environ.get("NOTICE_MEDIA_DIR", "HPRC_Scanner/Media"))
+DOCS_DIR = HUB_DIR / "NoticeDocuments"
 LEGACY_FILE = Path(os.environ.get("NOTICE_LEGACY_FILE", "HPRC_Scanner/NoticeHub.json"))
 
 SCHEMA = 1
@@ -243,8 +250,12 @@ def cmd_normalize(args) -> int:
             if not n["descriptionENG"] and not n["descriptionBNG"]:
                 warn(f"{where}: has no description", path)
             for media in split_csv(n["mediaName"]):
-                if not is_link(media) and MEDIA_DIR.exists() and not (MEDIA_DIR / media).exists():
-                    warn(f"{where}: media '{media}' not found in {MEDIA_DIR}", path)
+                if is_link(media):
+                    continue
+                if "/" in media or "\\" in media:
+                    error(f"{where}: mediaName '{media}' must be a plain file name (folder is the notice month)", path)
+                elif iso and not (DOCS_DIR / iso[:7] / media).exists():
+                    warn(f"{where}: document '{media}' not found in NoticeDocuments/{iso[:7]}/", path)
             out.append(n)
         parsed[path] = out
 
@@ -355,7 +366,7 @@ def cmd_index(args) -> int:
             everything.append((path.stem, n))
         months.append({
             "month": path.stem,
-            "path": f"months/{path.name}",
+            "path": f"NoticeTexts/{path.name}",
             "version": hashlib.sha256(raw).hexdigest()[:16],
             "count": len(data),
             "categories": {c: sorted(s) for c, s in sorted(month_cats.items())},
@@ -492,6 +503,46 @@ def cmd_split(args) -> int:
     return finish()
 
 
+# ───────────────────────── migrate-media (one-time) ─────────────────────────
+def cmd_migrate_media(args) -> int:
+    """Protiti notice-er document purono flat folder theke NoticeDocuments/<notice month>/-e COPY kore।
+    Purono folder chhoy na (purono app version ekhono oita theke download kore)।"""
+    import shutil
+    src_dir = Path(args.source)
+    if not src_dir.is_dir():
+        error(f"Source folder not found: {src_dir}")
+        return finish()
+    copied = skipped = 0
+    missing: list[str] = []
+    for path in month_files():
+        data = read_month(path)
+        if not data:
+            continue
+        for n in data:
+            iso = normalize_date(n.get("date"))
+            if not iso:
+                continue
+            for media in split_csv(n.get("mediaName")):
+                if is_link(media):
+                    continue
+                dst = DOCS_DIR / iso[:7] / Path(media).name
+                if dst.exists():
+                    skipped += 1
+                    continue
+                src = src_dir / media
+                if not src.is_file():
+                    missing.append(f"{n.get('id')}: {media}")
+                    continue
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(src, dst)
+                copied += 1
+                print(f"copied {src} → {dst}")
+    for m in missing:
+        warn(f"document not found in {src_dir}: {m}")
+    print(f"migrate-media: {copied} copied, {skipped} already there, {len(missing)} missing")
+    return finish()
+
+
 # ───────────────────────── main ─────────────────────────
 def finish() -> int:
     if _warnings:
@@ -517,6 +568,9 @@ def main() -> int:
     i.add_argument("--min-app-version", default="")
     i.add_argument("--no-legacy", action="store_true")
 
+    mm = sub.add_parser("migrate-media")
+    mm.add_argument("--source", default="HPRC_Scanner/Media", help="old flat media folder")
+
     s = sub.add_parser("split")
     s.add_argument("source", help="path to old NoticeHub.json")
     s.add_argument("--force", action="store_true")
@@ -525,7 +579,8 @@ def main() -> int:
     if args.cmd == "check":
         args.dry_run, args.bootstrap = True, False
         return cmd_normalize(args)
-    return {"normalize": cmd_normalize, "index": cmd_index, "split": cmd_split}[args.cmd](args)
+    return {"normalize": cmd_normalize, "index": cmd_index, "split": cmd_split,
+            "migrate-media": cmd_migrate_media}[args.cmd](args)
 
 
 if __name__ == "__main__":
