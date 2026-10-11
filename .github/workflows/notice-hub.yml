@@ -1,6 +1,6 @@
 # 📁 PATH (repo: mhinnovix/MHInnovix-Cloud-Assets): .github/workflows/notice-hub.yml
 #
-# Month file push korlei:
+#  Month file push korlei:
 #   1. validate (bhul thakle FAIL → index publish hoy na → app purono thik data-i dekhay)
 #   2. addedAt / updatedAt stamp + date ISO
 #   3. index.json + legacy NoticeHub.json build (index-e commit SHA "ref" thake → month file URL immutable)
