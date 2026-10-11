@@ -67,7 +67,20 @@ jobs:
           fi
           git push origin HEAD:main
 
-      - name: Purge jsDelivr cache
+      # jsDelivr purono index jate na dey: purge → jsDelivr notun index dicche kina MILIYE dekha → na hole abar।
+      # (Push-er shathe shathe purge korle GitHub raw tokhono purono thakte pare, jsDelivr shetai tule nito।)
+      - name: Refresh jsDelivr cache (verified)
         run: |
-          curl -fsS "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/HPRC_Scanner/NoticeHub/index.json" \
-            || echo "purge failed (app falls back to raw.githubusercontent)"
+          IDX=HPRC_Scanner/NoticeHub/index.json
+          want=$(python -c "import json;print(json.load(open('$IDX'))['generatedAt'])")
+          cdn="https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/$IDX"
+          purge="https://purge.jsdelivr.net/gh/${{ github.repository }}@main/$IDX"
+          for i in $(seq 1 20); do
+            curl -fsS "$purge" > /dev/null || true
+            sleep 15
+            got=$(curl -fsS "$cdn" | python -c "import sys,json;print(json.load(sys.stdin).get('generatedAt',''))" 2>/dev/null || true)
+            if [ "$got" = "$want" ]; then echo "jsDelivr is serving the new index ✅"; exit 0; fi
+            echo "jsDelivr still has '$got' (want '$want') — retry $i/20"
+            sleep 15
+          done
+          echo "::warning::jsDelivr not fresh after ~10 min — open the purge link once by hand"
