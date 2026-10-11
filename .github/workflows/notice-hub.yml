@@ -1,9 +1,9 @@
 # 📁 PATH (repo: mhinnovix/MHInnovix-Cloud-Assets): .github/workflows/notice-hub.yml
 #
-# NoticeTexts/ ba NoticeDocuments/ -e push korlei:
-#   1. validate (bhul thakle FAIL → index publish hoy na → app purono thik data-i dekhay)
-#   2. addedAt / updatedAt stamp + date ISO
-#   3. index.json + legacy NoticeHub.json build (index-e commit SHA "ref" thake → month file URL immutable)
+# NoticeTexts/ ba NoticeDocuments/ -e push holei (bot ba haat diye):
+#   1. validate — bhul thakle FAIL → index publish hoy na → app-e ager thik data-i thake
+#   2. auto ID + date ISO + addedAt/updatedAt stamp
+#   3. index.json (commit SHA "ref" shoho → month file URL immutable, CDN stale hoy na)
 #   4. push + jsDelivr purge
 name: Notice Hub — validate & publish
 
@@ -21,14 +21,6 @@ on:
         description: "Minimum app versionCode for Notice Hub (blank = keep current)"
         required: false
         default: ""
-      bootstrap:
-        description: "First migration run (new notices get addedAt = their date)"
-        type: boolean
-        default: false
-      migrate_media:
-        description: "ONE-TIME: copy documents from old HPRC_Scanner/Media/ into NoticeDocuments/YYYY-MM/"
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -50,35 +42,26 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Migrate documents from old Media folder (one-time)
-        if: ${{ github.event.inputs.migrate_media == 'true' }}
-        run: python .github/scripts/notice_hub.py migrate-media --source HPRC_Scanner/Media
+      - name: Validate & stamp notices
+        run: python .github/scripts/notice_hub.py normalize
 
-      - name: Validate & stamp month files
-        run: |
-          if [ "${{ github.event.inputs.bootstrap }}" = "true" ]; then
-            python .github/scripts/notice_hub.py normalize --bootstrap
-          else
-            python .github/scripts/notice_hub.py normalize
-          fi
-
-      - name: Commit stamped month files
+      - name: Commit stamped notices
         run: |
           git config user.name "notice-hub-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A HPRC_Scanner/NoticeHub
           if ! git diff --cached --quiet; then
-            git commit -m "NoticeHub: stamp addedAt/updatedAt / migrate documents"
+            git commit -m "NoticeHub: stamp ids / addedAt / updatedAt"
           fi
 
-      - name: Build index.json (+ legacy NoticeHub.json)
+      - name: Build index.json
         env:
           MIN_APP_VERSION: ${{ github.event.inputs.min_app_version }}
         run: python .github/scripts/notice_hub.py index --ref "$(git rev-parse HEAD)"
 
       - name: Commit & push
         run: |
-          git add HPRC_Scanner/NoticeHub/index.json HPRC_Scanner/NoticeHub.json
+          git add HPRC_Scanner/NoticeHub/index.json
           if ! git diff --cached --quiet; then
             git commit -m "NoticeHub: publish index"
           fi
@@ -86,7 +69,5 @@ jobs:
 
       - name: Purge jsDelivr cache
         run: |
-          for f in HPRC_Scanner/NoticeHub/index.json HPRC_Scanner/NoticeHub.json; do
-            curl -fsS "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/$f" \
-              || echo "purge failed for $f (app falls back to raw.githubusercontent)"
-          done
+          curl -fsS "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/HPRC_Scanner/NoticeHub/index.json" \
+            || echo "purge failed (app falls back to raw.githubusercontent)"
