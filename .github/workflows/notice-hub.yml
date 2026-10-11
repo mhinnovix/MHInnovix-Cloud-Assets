@@ -4,7 +4,7 @@
 #   1. validate — bhul thakle FAIL → index publish hoy na → app-e ager thik data-i thake
 #   2. auto ID + date ISO + addedAt/updatedAt stamp
 #   3. index.json (commit SHA "ref" shoho → month file URL immutable, CDN stale hoy na)
-#   4. push + jsDelivr purge
+#   4. push + index.json GitHub Pages-e deploy (app ekhan theke pore)
 name: Notice Hub — validate & publish
 
 on:
@@ -24,6 +24,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: notice-hub-publish
@@ -32,6 +34,9 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
@@ -67,20 +72,18 @@ jobs:
           fi
           git push origin HEAD:main
 
-      # jsDelivr purono index jate na dey: purge → jsDelivr notun index dicche kina MILIYE dekha → na hole abar।
-      # (Push-er shathe shathe purge korle GitHub raw tokhono purono thakte pare, jsDelivr shetai tule nito।)
-      - name: Refresh jsDelivr cache (verified)
+      # index.json GitHub Pages-e (free CDN, cache ~10 min, onek user-er jonno banano)।
+      # Shudhu ei ekta choto file — baki shob jsDelivr @<commit SHA> theke ase, ja kokhono stale hoy na।
+      - name: Prepare Pages site (index.json only)
         run: |
-          IDX=HPRC_Scanner/NoticeHub/index.json
-          want=$(python -c "import json;print(json.load(open('$IDX'))['generatedAt'])")
-          cdn="https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/$IDX"
-          purge="https://purge.jsdelivr.net/gh/${{ github.repository }}@main/$IDX"
-          for i in $(seq 1 20); do
-            curl -fsS "$purge" > /dev/null || true
-            sleep 15
-            got=$(curl -fsS "$cdn" | python -c "import sys,json;print(json.load(sys.stdin).get('generatedAt',''))" 2>/dev/null || true)
-            if [ "$got" = "$want" ]; then echo "jsDelivr is serving the new index ✅"; exit 0; fi
-            echo "jsDelivr still has '$got' (want '$want') — retry $i/20"
-            sleep 15
-          done
-          echo "::warning::jsDelivr not fresh after ~10 min — open the purge link once by hand"
+          mkdir -p _site/NoticeHub
+          cp HPRC_Scanner/NoticeHub/index.json _site/NoticeHub/index.json
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
