@@ -1,0 +1,1992 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-11T17:12:42Z",
+  "ref": "b5f27cd6905bf9147dcd9a434ee29b21c747b3a6",
+  "minAppVersion": 0,
+  "totalNotices": 60,
+  "categories": [
+    {
+      "name": "Finance",
+      "count": 9,
+      "sub": [
+        {
+          "name": "Pay Revision",
+          "count": 6
+        },
+        {
+          "name": "Bonus / Ex-gratia",
+          "count": 2
+        },
+        {
+          "name": "Increments",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Recruitment",
+      "count": 8,
+      "sub": [
+        {
+          "name": "2nd SLST",
+          "count": 3
+        },
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "Classes XI-XII",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "Application Edit",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher",
+          "count": 1
+        },
+        {
+          "name": "Classes IX-X",
+          "count": 1
+        },
+        {
+          "name": "Clerkship Examination 2024",
+          "count": 1
+        },
+        {
+          "name": "Date Extension",
+          "count": 1
+        },
+        {
+          "name": "DLSC",
+          "count": 1
+        },
+        {
+          "name": "Edit Window",
+          "count": 1
+        },
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "GroupC&D",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "Medical Officer",
+          "count": 1
+        },
+        {
+          "name": "NHM",
+          "count": 1
+        },
+        {
+          "name": "NTS",
+          "count": 1
+        },
+        {
+          "name": "OBC",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
+          "count": 1
+        },
+        {
+          "name": "RBSK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "School Education Department",
+      "count": 8,
+      "sub": [
+        {
+          "name": "A Category Pay",
+          "count": 1
+        },
+        {
+          "name": "Akshaya Patra Foundation",
+          "count": 1
+        },
+        {
+          "name": "Contractual Staff",
+          "count": 1
+        },
+        {
+          "name": "First Phase Census",
+          "count": 1
+        },
+        {
+          "name": "In-Service Teachers",
+          "count": 1
+        },
+        {
+          "name": "Mid Day Meal",
+          "count": 1
+        },
+        {
+          "name": "Para Teachers",
+          "count": 1
+        },
+        {
+          "name": "PPP Mode",
+          "count": 1
+        },
+        {
+          "name": "Primary Teachers",
+          "count": 1
+        },
+        {
+          "name": "PTT",
+          "count": 1
+        },
+        {
+          "name": "Salary Increase",
+          "count": 1
+        },
+        {
+          "name": "Sanskrit Divas",
+          "count": 1
+        },
+        {
+          "name": "Staff Release",
+          "count": 1
+        },
+        {
+          "name": "Verification",
+          "count": 1
+        },
+        {
+          "name": "WBBPE",
+          "count": 1
+        },
+        {
+          "name": "WBCSSC",
+          "count": 1
+        },
+        {
+          "name": "Zero-Enrolment Schools",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "School Service Commission",
+      "count": 8,
+      "sub": [
+        {
+          "name": "2nd SLST",
+          "count": 4
+        },
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "Assistant Teacher",
+          "count": 2
+        },
+        {
+          "name": "Classes XI-XII",
+          "count": 2
+        },
+        {
+          "name": "TET 2011",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "Barasat",
+          "count": 1
+        },
+        {
+          "name": "Classes IX-X",
+          "count": 1
+        },
+        {
+          "name": "Date Extension",
+          "count": 1
+        },
+        {
+          "name": "Edit Window",
+          "count": 1
+        },
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "Purba Bardhaman",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
+          "count": 1
+        },
+        {
+          "name": "Revised Vacancies",
+          "count": 1
+        },
+        {
+          "name": "WBRSSC ER",
+          "count": 1
+        },
+        {
+          "name": "WBRSSC SER",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Samagra Shiksha Mission",
+      "count": 5,
+      "sub": [
+        {
+          "name": "APAAR ID",
+          "count": 1
+        },
+        {
+          "name": "Drinking Water",
+          "count": 1
+        },
+        {
+          "name": "ECCE",
+          "count": 1
+        },
+        {
+          "name": "Jalpaiguri District",
+          "count": 1
+        },
+        {
+          "name": "Online Training",
+          "count": 1
+        },
+        {
+          "name": "PM e-Vidya App",
+          "count": 1
+        },
+        {
+          "name": "Purba Medinipur",
+          "count": 1
+        },
+        {
+          "name": "Student Enrollment",
+          "count": 1
+        },
+        {
+          "name": "Teachers and Guardians",
+          "count": 1
+        },
+        {
+          "name": "UDISE+",
+          "count": 1
+        },
+        {
+          "name": "Ujjiban Charcha",
+          "count": 1
+        },
+        {
+          "name": "Water Tank Cleaning",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Census",
+      "count": 4,
+      "sub": [
+        {
+          "name": "Cooch Behar",
+          "count": 1
+        },
+        {
+          "name": "High Court Order",
+          "count": 1
+        },
+        {
+          "name": "Jalpaiguri",
+          "count": 1
+        },
+        {
+          "name": "Murshidabad",
+          "count": 1
+        },
+        {
+          "name": "On-Duty",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Census 2027",
+      "count": 3,
+      "sub": [
+        {
+          "name": "Cooch Behar",
+          "count": 1
+        },
+        {
+          "name": "DPSC",
+          "count": 1
+        },
+        {
+          "name": "First Phase Census",
+          "count": 1
+        },
+        {
+          "name": "Malda District",
+          "count": 1
+        },
+        {
+          "name": "On-Duty Status",
+          "count": 1
+        },
+        {
+          "name": "Staff Release",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Primary Education",
+      "count": 3,
+      "sub": [
+        {
+          "name": "Cooch Behar",
+          "count": 1
+        },
+        {
+          "name": "DPSC",
+          "count": 1
+        },
+        {
+          "name": "ECCE",
+          "count": 1
+        },
+        {
+          "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "On-Duty Status",
+          "count": 1
+        },
+        {
+          "name": "Online Training",
+          "count": 1
+        },
+        {
+          "name": "Suspension of Classes",
+          "count": 1
+        },
+        {
+          "name": "Ujjiban Charcha",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBBPE",
+      "count": 3,
+      "sub": [
+        {
+          "name": "6 Months Certificate Course",
+          "count": 1
+        },
+        {
+          "name": "Holiday Notice",
+          "count": 1
+        },
+        {
+          "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "NIOS",
+          "count": 1
+        },
+        {
+          "name": "Suspension of Classes",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Category Update",
+      "count": 2,
+      "sub": [
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "Date Extension",
+          "count": 1
+        },
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Directorate of School Education",
+      "count": 2,
+      "sub": [
+        {
+          "name": "CCRT",
+          "count": 1
+        },
+        {
+          "name": "Jago Yuva Jago Bharat",
+          "count": 1
+        },
+        {
+          "name": "Primary Teachers",
+          "count": 1
+        },
+        {
+          "name": "Registration",
+          "count": 1
+        },
+        {
+          "name": "Unauthorised Absence",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Downloadable",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Apaar ID Consent",
+          "count": 1
+        },
+        {
+          "name": "S02 Form",
+          "count": 1
+        },
+        {
+          "name": "Student Profile Creation",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Drinking Water",
+          "count": 1
+        },
+        {
+          "name": "PPP Mode",
+          "count": 1
+        },
+        {
+          "name": "Purba Medinipur",
+          "count": 1
+        },
+        {
+          "name": "Water Tank Cleaning",
+          "count": 1
+        },
+        {
+          "name": "Zero-Enrolment Schools",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "PBSSM",
+      "count": 2,
+      "sub": [
+        {
+          "name": "CwSN",
+          "count": 1
+        },
+        {
+          "name": "Learning Outcomes",
+          "count": 1
+        },
+        {
+          "name": "NIPUN Bharat",
+          "count": 1
+        },
+        {
+          "name": "PRASHAST Portal",
+          "count": 1
+        },
+        {
+          "name": "Primary Schools",
+          "count": 1
+        },
+        {
+          "name": "Sensitization Module",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "PM POSHAN",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Akshaya Patra Foundation",
+          "count": 1
+        },
+        {
+          "name": "Mid Day Meal",
+          "count": 1
+        },
+        {
+          "name": "Mid Day Meal Menu",
+          "count": 1
+        },
+        {
+          "name": "Uttar Dinajpur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "School Holiday",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Holiday Notice",
+          "count": 1
+        },
+        {
+          "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "Suspension of Classes",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "TET Certificate",
+      "count": 2,
+      "sub": [
+        {
+          "name": "TET 2011",
+          "count": 2
+        },
+        {
+          "name": "Barasat",
+          "count": 1
+        },
+        {
+          "name": "Purba Bardhaman",
+          "count": 1
+        },
+        {
+          "name": "WBRSSC ER",
+          "count": 1
+        },
+        {
+          "name": "WBRSSC SER",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Transfer",
+      "count": 2,
+      "sub": [
+        {
+          "name": "First Phase Census",
+          "count": 1
+        },
+        {
+          "name": "P & AR Department",
+          "count": 1
+        },
+        {
+          "name": "School Service Commission",
+          "count": 1
+        },
+        {
+          "name": "Staff Release",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Acts & Rules",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Gazette Notification",
+          "count": 1
+        },
+        {
+          "name": "RTI Act 2005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "APAAR ID",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Jalpaiguri District",
+          "count": 1
+        },
+        {
+          "name": "Student Enrollment",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Block Level",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Murshidabad",
+          "count": 1
+        },
+        {
+          "name": "On-Duty",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Bridge Course",
+      "count": 1,
+      "sub": [
+        {
+          "name": "6 Months Certificate Course",
+          "count": 1
+        },
+        {
+          "name": "NIOS",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Central Board",
+      "count": 1,
+      "sub": [
+        {
+          "name": "CTET",
+          "count": 1
+        },
+        {
+          "name": "Online Application",
+          "count": 1
+        },
+        {
+          "name": "Public Notice",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Central Campaign",
+      "count": 1,
+      "sub": [
+        {
+          "name": "CCRT",
+          "count": 1
+        },
+        {
+          "name": "Jago Yuva Jago Bharat",
+          "count": 1
+        },
+        {
+          "name": "Registration",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Competitive Examinations",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Clerkship",
+          "count": 1
+        },
+        {
+          "name": "Miscellaneous",
+          "count": 1
+        },
+        {
+          "name": "WBCS",
+          "count": 1
+        },
+        {
+          "name": "WBPSC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Digital Learning",
+      "count": 1,
+      "sub": [
+        {
+          "name": "PM e-Vidya App",
+          "count": 1
+        },
+        {
+          "name": "Teachers and Guardians",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "District Administration",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Cooch Behar",
+          "count": 1
+        },
+        {
+          "name": "DPSC",
+          "count": 1
+        },
+        {
+          "name": "On-Duty Status",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "District Inspector of Schools",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "Malda District",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "District Magistrate",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Mid Day Meal Menu",
+          "count": 1
+        },
+        {
+          "name": "Uttar Dinajpur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Edit Window",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Kolkata Police 2024",
+          "count": 1
+        },
+        {
+          "name": "WBPRB",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Examination",
+      "count": 1,
+      "sub": [
+        {
+          "name": "CTET",
+          "count": 1
+        },
+        {
+          "name": "Online Application",
+          "count": 1
+        },
+        {
+          "name": "Public Notice",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Finance Department",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Ayushman Bharat",
+          "count": 1
+        },
+        {
+          "name": "Card Surrender",
+          "count": 1
+        },
+        {
+          "name": "Swasthya Sathi",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "FLN",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Learning Outcomes",
+          "count": 1
+        },
+        {
+          "name": "NIPUN Bharat",
+          "count": 1
+        },
+        {
+          "name": "Primary Schools",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Government Order",
+      "count": 1,
+      "sub": [
+        {
+          "name": "P & AR Department",
+          "count": 1
+        },
+        {
+          "name": "School Service Commission",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Guidelines / Help",
+      "count": 1,
+      "sub": [
+        {
+          "name": "SHVR 2026-27",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Health & Family Welfare",
+      "count": 1,
+      "sub": [
+        {
+          "name": "DLSC",
+          "count": 1
+        },
+        {
+          "name": "Medical Officer",
+          "count": 1
+        },
+        {
+          "name": "NHM",
+          "count": 1
+        },
+        {
+          "name": "RBSK",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Health & Safety",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Drinking Water",
+          "count": 1
+        },
+        {
+          "name": "Purba Medinipur",
+          "count": 1
+        },
+        {
+          "name": "Water Tank Cleaning",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Higher Education",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Governing Body",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "ICT Project",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Verification",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Inclusive Education",
+      "count": 1,
+      "sub": [
+        {
+          "name": "CwSN",
+          "count": 1
+        },
+        {
+          "name": "PRASHAST Portal",
+          "count": 1
+        },
+        {
+          "name": "Sensitization Module",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Mid-Day Meal",
+      "count": 1,
+      "sub": [
+        {
+          "name": "PM POSHAN",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Pay Scale",
+      "count": 1,
+      "sub": [
+        {
+          "name": "A Category Pay",
+          "count": 1
+        },
+        {
+          "name": "Primary Teachers",
+          "count": 1
+        },
+        {
+          "name": "PTT",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Police Recruitment",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Kolkata Police 2024",
+          "count": 1
+        },
+        {
+          "name": "WBPRB",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "PSC WB",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Clerkship Examination 2024",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Public Service Commission",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Clerkship",
+          "count": 1
+        },
+        {
+          "name": "Miscellaneous",
+          "count": 1
+        },
+        {
+          "name": "WBCS",
+          "count": 1
+        },
+        {
+          "name": "WBPSC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Remuneration",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Contractual Staff",
+          "count": 1
+        },
+        {
+          "name": "Para Teachers",
+          "count": 1
+        },
+        {
+          "name": "Salary Increase",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Right to Information",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Gazette Notification",
+          "count": 1
+        },
+        {
+          "name": "RTI Act 2005",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Secondary Education",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "Malda District",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Student Enrolment",
+      "count": 1,
+      "sub": [
+        {
+          "name": "APAAR ID",
+          "count": 1
+        },
+        {
+          "name": "UDISE+",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Supreme Court Order",
+      "count": 1,
+      "sub": [
+        {
+          "name": "In-Service Teachers",
+          "count": 1
+        },
+        {
+          "name": "WBBPE",
+          "count": 1
+        },
+        {
+          "name": "WBCSSC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Teacher Eligibility Test",
+      "count": 1,
+      "sub": [
+        {
+          "name": "CTET",
+          "count": 1
+        },
+        {
+          "name": "Online Application",
+          "count": 1
+        },
+        {
+          "name": "Public Notice",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Teachers Leave",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Primary Teachers",
+          "count": 1
+        },
+        {
+          "name": "Unauthorised Absence",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "TET",
+      "count": 1,
+      "sub": [
+        {
+          "name": "In-Service Teachers",
+          "count": 1
+        },
+        {
+          "name": "WBBPE",
+          "count": 1
+        },
+        {
+          "name": "WBCSSC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Training",
+      "count": 1,
+      "sub": [
+        {
+          "name": "PRASHAST 2.0",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "UDISE+",
+      "count": 1,
+      "sub": [
+        {
+          "name": "S02 Form",
+          "count": 1
+        },
+        {
+          "name": "Student Profile Creation",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Vacancy Report",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "Malda District",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBBSE",
+      "count": 1,
+      "sub": [
+        {
+          "name": "2nd SLST",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher",
+          "count": 1
+        },
+        {
+          "name": "Revised Vacancies",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBCS",
+      "count": 1,
+      "sub": [
+        {
+          "name": "P & AR Department",
+          "count": 1
+        },
+        {
+          "name": "School Service Commission",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBHS",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Ayushman Bharat",
+          "count": 1
+        },
+        {
+          "name": "Card Surrender",
+          "count": 1
+        },
+        {
+          "name": "Swasthya Sathi",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Webinar",
+      "count": 1,
+      "sub": [
+        {
+          "name": "ECCE",
+          "count": 1
+        },
+        {
+          "name": "Online Training",
+          "count": 1
+        },
+        {
+          "name": "Ujjiban Charcha",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "months": [
+    {
+      "month": "2026-10",
+      "path": "months/2026-10.json",
+      "version": "3fa152e8078badf8",
+      "count": 7,
+      "categories": {
+        "Finance Department": [
+          "Ayushman Bharat",
+          "Card Surrender",
+          "Swasthya Sathi"
+        ],
+        "Health & Family Welfare": [
+          "DLSC",
+          "Medical Officer",
+          "NHM",
+          "RBSK"
+        ],
+        "Inclusive Education": [
+          "CwSN",
+          "PRASHAST Portal",
+          "Sensitization Module"
+        ],
+        "PBSSM": [
+          "CwSN",
+          "PRASHAST Portal",
+          "Sensitization Module"
+        ],
+        "PSC WB": [
+          "Clerkship Examination 2024"
+        ],
+        "Recruitment": [
+          "2nd SLST",
+          "Classes IX-X",
+          "Classes XI-XII",
+          "Clerkship Examination 2024",
+          "DLSC",
+          "Edit Window",
+          "Interview Schedule",
+          "Medical Officer",
+          "NHM",
+          "RBSK"
+        ],
+        "School Service Commission": [
+          "2nd SLST",
+          "Assistant Teacher",
+          "Classes IX-X",
+          "Classes XI-XII",
+          "Edit Window",
+          "Interview Schedule",
+          "Revised Vacancies"
+        ],
+        "WBBSE": [
+          "2nd SLST",
+          "Assistant Teacher",
+          "Revised Vacancies"
+        ],
+        "WBHS": [
+          "Ayushman Bharat",
+          "Card Surrender",
+          "Swasthya Sathi"
+        ]
+      }
+    },
+    {
+      "month": "2026-09",
+      "path": "months/2026-09.json",
+      "version": "59ab60106f742e6f",
+      "count": 23,
+      "categories": {
+        "APAAR ID": [
+          "Jalpaiguri District",
+          "Student Enrollment"
+        ],
+        "Bridge Course": [
+          "6 Months Certificate Course",
+          "NIOS"
+        ],
+        "Category Update": [
+          "1st SLST NTS",
+          "Date Extension",
+          "Group C&D",
+          "PwBD",
+          "WBCSSC"
+        ],
+        "Census 2027": [
+          "First Phase Census",
+          "Staff Release"
+        ],
+        "Central Campaign": [
+          "CCRT",
+          "Jago Yuva Jago Bharat",
+          "Registration"
+        ],
+        "Directorate of School Education": [
+          "CCRT",
+          "Jago Yuva Jago Bharat",
+          "Primary Teachers",
+          "Registration",
+          "Unauthorised Absence"
+        ],
+        "District Magistrate": [
+          "Mid Day Meal Menu",
+          "Uttar Dinajpur"
+        ],
+        "Downloadable": [
+          "Apaar ID Consent",
+          "S02 Form",
+          "Student Profile Creation"
+        ],
+        "Edit Window": [
+          "Kolkata Police 2024",
+          "WBPRB"
+        ],
+        "FLN": [
+          "Learning Outcomes",
+          "NIPUN Bharat",
+          "Primary Schools"
+        ],
+        "Health & Safety": [
+          "Drinking Water",
+          "Purba Medinipur",
+          "Water Tank Cleaning"
+        ],
+        "Infrastructure": [
+          "Drinking Water",
+          "PPP Mode",
+          "Purba Medinipur",
+          "Water Tank Cleaning",
+          "Zero-Enrolment Schools"
+        ],
+        "PBSSM": [
+          "Learning Outcomes",
+          "NIPUN Bharat",
+          "Primary Schools"
+        ],
+        "PM POSHAN": [
+          "Akshaya Patra Foundation",
+          "Mid Day Meal",
+          "Mid Day Meal Menu",
+          "Uttar Dinajpur"
+        ],
+        "Pay Scale": [
+          "A Category Pay",
+          "PTT",
+          "Primary Teachers"
+        ],
+        "Police Recruitment": [
+          "Kolkata Police 2024",
+          "WBPRB"
+        ],
+        "Primary Education": [
+          "HS Semester-III Exam",
+          "Suspension of Classes"
+        ],
+        "Recruitment": [
+          "1st SLST NTS",
+          "2nd SLST",
+          "Assistant Teacher",
+          "Classes XI-XII",
+          "Date Extension",
+          "Group C&D",
+          "PwBD",
+          "WBCSSC"
+        ],
+        "Remuneration": [
+          "Contractual Staff",
+          "Para Teachers",
+          "Salary Increase"
+        ],
+        "Samagra Shiksha Mission": [
+          "APAAR ID",
+          "Drinking Water",
+          "Jalpaiguri District",
+          "Purba Medinipur",
+          "Student Enrollment",
+          "UDISE+",
+          "Water Tank Cleaning"
+        ],
+        "School Education Department": [
+          "A Category Pay",
+          "Akshaya Patra Foundation",
+          "Contractual Staff",
+          "First Phase Census",
+          "In-Service Teachers",
+          "Mid Day Meal",
+          "PPP Mode",
+          "PTT",
+          "Para Teachers",
+          "Primary Teachers",
+          "Salary Increase",
+          "Staff Release",
+          "WBBPE",
+          "WBCSSC",
+          "Zero-Enrolment Schools"
+        ],
+        "School Holiday": [
+          "HS Semester-III Exam",
+          "Holiday Notice",
+          "Suspension of Classes"
+        ],
+        "School Service Commission": [
+          "1st SLST NTS",
+          "2nd SLST",
+          "Assistant Teacher",
+          "Classes XI-XII",
+          "Date Extension",
+          "Group C&D",
+          "Purba Bardhaman",
+          "PwBD",
+          "TET 2011",
+          "WBCSSC",
+          "WBRSSC ER"
+        ],
+        "Student Enrolment": [
+          "APAAR ID",
+          "UDISE+"
+        ],
+        "Supreme Court Order": [
+          "In-Service Teachers",
+          "WBBPE",
+          "WBCSSC"
+        ],
+        "TET": [
+          "In-Service Teachers",
+          "WBBPE",
+          "WBCSSC"
+        ],
+        "TET Certificate": [
+          "Purba Bardhaman",
+          "TET 2011",
+          "WBRSSC ER"
+        ],
+        "Teachers Leave": [
+          "Primary Teachers",
+          "Unauthorised Absence"
+        ],
+        "Transfer": [
+          "First Phase Census",
+          "Staff Release"
+        ],
+        "UDISE+": [
+          "S02 Form",
+          "Student Profile Creation"
+        ],
+        "WBBPE": [
+          "6 Months Certificate Course",
+          "HS Semester-III Exam",
+          "Holiday Notice",
+          "NIOS",
+          "Suspension of Classes"
+        ]
+      }
+    },
+    {
+      "month": "2026-08",
+      "path": "months/2026-08.json",
+      "version": "b1b402b450d685a1",
+      "count": 20,
+      "categories": {
+        "Block Level": [
+          "Murshidabad",
+          "On-Duty"
+        ],
+        "Census": [
+          "Cooch Behar",
+          "High Court Order",
+          "Jalpaiguri",
+          "Murshidabad",
+          "On-Duty"
+        ],
+        "Census 2027": [
+          "Cooch Behar",
+          "DPSC",
+          "Malda District",
+          "On-Duty Status"
+        ],
+        "Central Board": [
+          "CTET",
+          "Online Application",
+          "Public Notice"
+        ],
+        "Competitive Examinations": [
+          "Clerkship",
+          "Miscellaneous",
+          "WBCS",
+          "WBPSC"
+        ],
+        "Digital Learning": [
+          "PM e-Vidya App",
+          "Teachers and Guardians"
+        ],
+        "District Administration": [
+          "Cooch Behar",
+          "DPSC",
+          "On-Duty Status"
+        ],
+        "District Inspector of Schools": [
+          "Group C&D",
+          "Malda District"
+        ],
+        "Examination": [
+          "CTET",
+          "Online Application",
+          "Public Notice"
+        ],
+        "Government Order": [
+          "P & AR Department",
+          "School Service Commission"
+        ],
+        "Guidelines / Help": [
+          "SHVR 2026-27"
+        ],
+        "Higher Education": [
+          "Governing Body"
+        ],
+        "ICT Project": [
+          "Verification"
+        ],
+        "Mid-Day Meal": [
+          "PM POSHAN"
+        ],
+        "Primary Education": [
+          "Cooch Behar",
+          "DPSC",
+          "ECCE",
+          "On-Duty Status",
+          "Online Training",
+          "Ujjiban Charcha"
+        ],
+        "Public Service Commission": [
+          "Clerkship",
+          "Miscellaneous",
+          "WBCS",
+          "WBPSC"
+        ],
+        "Recruitment": [
+          "Application Edit",
+          "GroupC&D",
+          "NTS",
+          "OBC"
+        ],
+        "Samagra Shiksha Mission": [
+          "ECCE",
+          "Online Training",
+          "PM e-Vidya App",
+          "Teachers and Guardians",
+          "Ujjiban Charcha"
+        ],
+        "School Education Department": [
+          "Sanskrit Divas",
+          "Verification"
+        ],
+        "School Service Commission": [
+          "Barasat",
+          "TET 2011",
+          "WBRSSC SER"
+        ],
+        "Secondary Education": [
+          "Group C&D",
+          "Malda District"
+        ],
+        "TET Certificate": [
+          "Barasat",
+          "TET 2011",
+          "WBRSSC SER"
+        ],
+        "Teacher Eligibility Test": [
+          "CTET",
+          "Online Application",
+          "Public Notice"
+        ],
+        "Training": [
+          "PRASHAST 2.0"
+        ],
+        "Transfer": [
+          "P & AR Department",
+          "School Service Commission"
+        ],
+        "Vacancy Report": [
+          "Group C&D",
+          "Malda District"
+        ],
+        "WBCS": [
+          "P & AR Department",
+          "School Service Commission"
+        ],
+        "Webinar": [
+          "ECCE",
+          "Online Training",
+          "Ujjiban Charcha"
+        ]
+      }
+    },
+    {
+      "month": "2022-05",
+      "path": "months/2022-05.json",
+      "version": "7e90a0ae7d1abba5",
+      "count": 1,
+      "categories": {
+        "Finance": [
+          "Pay Revision"
+        ]
+      }
+    },
+    {
+      "month": "2022-04",
+      "path": "months/2022-04.json",
+      "version": "f03c939f339e39d3",
+      "count": 2,
+      "categories": {
+        "Finance": [
+          "Bonus / Ex-gratia",
+          "Increments"
+        ]
+      }
+    },
+    {
+      "month": "2021-05",
+      "path": "months/2021-05.json",
+      "version": "0bdb7994cbb20362",
+      "count": 1,
+      "categories": {
+        "Finance": [
+          "Bonus / Ex-gratia"
+        ]
+      }
+    },
+    {
+      "month": "2021-01",
+      "path": "months/2021-01.json",
+      "version": "e006f31574570218",
+      "count": 1,
+      "categories": {
+        "Finance": [
+          "Pay Revision"
+        ]
+      }
+    },
+    {
+      "month": "2019-12",
+      "path": "months/2019-12.json",
+      "version": "9734fdfdfedcf1a9",
+      "count": 1,
+      "categories": {
+        "Finance": [
+          "Pay Revision"
+        ]
+      }
+    },
+    {
+      "month": "2009-02",
+      "path": "months/2009-02.json",
+      "version": "4a11c6f75a4e8373",
+      "count": 2,
+      "categories": {
+        "Finance": [
+          "Pay Revision"
+        ]
+      }
+    },
+    {
+      "month": "2005-06",
+      "path": "months/2005-06.json",
+      "version": "2fe307789aef4b9b",
+      "count": 1,
+      "categories": {
+        "Acts & Rules": [
+          "Gazette Notification",
+          "RTI Act 2005"
+        ],
+        "Right to Information": [
+          "Gazette Notification",
+          "RTI Act 2005"
+        ]
+      }
+    },
+    {
+      "month": "1998-10",
+      "path": "months/1998-10.json",
+      "version": "18a2725bc51ef094",
+      "count": 1,
+      "categories": {
+        "Finance": [
+          "Pay Revision"
+        ]
+      }
+    }
+  ],
+  "recent": [
+    {
+      "id": "60",
+      "month": "2026-10",
+      "addedAt": 1791504000000
+    },
+    {
+      "id": "59",
+      "month": "2026-10",
+      "addedAt": 1791504000000
+    },
+    {
+      "id": "58",
+      "month": "2026-10",
+      "addedAt": 1791331200000
+    },
+    {
+      "id": "57",
+      "month": "2026-10",
+      "addedAt": 1791244800000
+    },
+    {
+      "id": "56",
+      "month": "2026-10",
+      "addedAt": 1791158400000
+    },
+    {
+      "id": "55",
+      "month": "2026-10",
+      "addedAt": 1790812800000
+    },
+    {
+      "id": "54",
+      "month": "2026-10",
+      "addedAt": 1790812800000
+    },
+    {
+      "id": "52",
+      "month": "2026-09",
+      "addedAt": 1790726400000
+    },
+    {
+      "id": "50",
+      "month": "2026-09",
+      "addedAt": 1790640000000
+    },
+    {
+      "id": "53",
+      "month": "2026-09",
+      "addedAt": 1790553600000
+    },
+    {
+      "id": "49",
+      "month": "2026-09",
+      "addedAt": 1790553600000
+    },
+    {
+      "id": "48",
+      "month": "2026-09",
+      "addedAt": 1790208000000
+    },
+    {
+      "id": "47",
+      "month": "2026-09",
+      "addedAt": 1790208000000
+    },
+    {
+      "id": "46",
+      "month": "2026-09",
+      "addedAt": 1790208000000
+    },
+    {
+      "id": "45",
+      "month": "2026-09",
+      "addedAt": 1790208000000
+    },
+    {
+      "id": "51",
+      "month": "2026-09",
+      "addedAt": 1789948800000
+    },
+    {
+      "id": "44",
+      "month": "2026-09",
+      "addedAt": 1789948800000
+    },
+    {
+      "id": "43",
+      "month": "2026-09",
+      "addedAt": 1789948800000
+    },
+    {
+      "id": "42",
+      "month": "2026-09",
+      "addedAt": 1789948800000
+    },
+    {
+      "id": "41",
+      "month": "2026-09",
+      "addedAt": 1789948800000
+    },
+    {
+      "id": "39",
+      "month": "2026-09",
+      "addedAt": 1789603200000
+    },
+    {
+      "id": "40",
+      "month": "2026-09",
+      "addedAt": 1789516800000
+    },
+    {
+      "id": "38",
+      "month": "2026-09",
+      "addedAt": 1789084800000
+    },
+    {
+      "id": "36",
+      "month": "2026-09",
+      "addedAt": 1789084800000
+    },
+    {
+      "id": "37",
+      "month": "2026-09",
+      "addedAt": 1788998400000
+    },
+    {
+      "id": "35",
+      "month": "2026-09",
+      "addedAt": 1788912000000
+    },
+    {
+      "id": "34",
+      "month": "2026-09",
+      "addedAt": 1788825600000
+    },
+    {
+      "id": "33",
+      "month": "2026-09",
+      "addedAt": 1788739200000
+    },
+    {
+      "id": "31",
+      "month": "2026-09",
+      "addedAt": 1788307200000
+    },
+    {
+      "id": "29",
+      "month": "2026-09",
+      "addedAt": 1788220800000
+    },
+    {
+      "id": "32",
+      "month": "2026-08",
+      "addedAt": 1788134400000
+    },
+    {
+      "id": "27",
+      "month": "2026-08",
+      "addedAt": 1788134400000
+    },
+    {
+      "id": "25",
+      "month": "2026-08",
+      "addedAt": 1787788800000
+    },
+    {
+      "id": "26",
+      "month": "2026-08",
+      "addedAt": 1787616000000
+    },
+    {
+      "id": "24",
+      "month": "2026-08",
+      "addedAt": 1787616000000
+    },
+    {
+      "id": "21",
+      "month": "2026-08",
+      "addedAt": 1787616000000
+    },
+    {
+      "id": "20",
+      "month": "2026-08",
+      "addedAt": 1787616000000
+    },
+    {
+      "id": "19",
+      "month": "2026-08",
+      "addedAt": 1787616000000
+    },
+    {
+      "id": "18",
+      "month": "2026-08",
+      "addedAt": 1787616000000
+    },
+    {
+      "id": "17",
+      "month": "2026-08",
+      "addedAt": 1787616000000
+    }
+  ]
+}
