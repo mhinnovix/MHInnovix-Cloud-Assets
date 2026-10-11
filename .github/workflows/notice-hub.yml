@@ -1,6 +1,6 @@
 # 📁 PATH (repo: mhinnovix/MHInnovix-Cloud-Assets): .github/workflows/notice-hub.yml
 #
-#  Month file push korlei:
+# NoticeTexts/ ba NoticeDocuments/ -e push korlei:
 #   1. validate (bhul thakle FAIL → index publish hoy na → app purono thik data-i dekhay)
 #   2. addedAt / updatedAt stamp + date ISO
 #   3. index.json + legacy NoticeHub.json build (index-e commit SHA "ref" thake → month file URL immutable)
@@ -11,7 +11,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "HPRC_Scanner/NoticeHub/months/**"
+      - "HPRC_Scanner/NoticeHub/NoticeTexts/**"
+      - "HPRC_Scanner/NoticeHub/NoticeDocuments/**"
       - ".github/scripts/notice_hub.py"
       - ".github/workflows/notice-hub.yml"
   workflow_dispatch:
@@ -22,6 +23,10 @@ on:
         default: ""
       bootstrap:
         description: "First migration run (new notices get addedAt = their date)"
+        type: boolean
+        default: false
+      migrate_media:
+        description: "ONE-TIME: copy documents from old HPRC_Scanner/Media/ into NoticeDocuments/YYYY-MM/"
         type: boolean
         default: false
 
@@ -45,6 +50,10 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Migrate documents from old Media folder (one-time)
+        if: ${{ github.event.inputs.migrate_media == 'true' }}
+        run: python .github/scripts/notice_hub.py migrate-media --source HPRC_Scanner/Media
+
       - name: Validate & stamp month files
         run: |
           if [ "${{ github.event.inputs.bootstrap }}" = "true" ]; then
@@ -57,9 +66,9 @@ jobs:
         run: |
           git config user.name "notice-hub-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add HPRC_Scanner/NoticeHub/months HPRC_Scanner/NoticeHub/registry.json
+          git add -A HPRC_Scanner/NoticeHub
           if ! git diff --cached --quiet; then
-            git commit -m "NoticeHub: stamp addedAt/updatedAt"
+            git commit -m "NoticeHub: stamp addedAt/updatedAt / migrate documents"
           fi
 
       - name: Build index.json (+ legacy NoticeHub.json)
