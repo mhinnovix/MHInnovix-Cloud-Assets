@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-11T19:18:56Z",
-  "ref": "4a3176149e83b2ecb54eaac30508fd7ccfe23b2c",
+  "generatedAt": "2026-10-11T19:21:16Z",
+  "ref": "0b60958a5caa07c305a6122c5fb8203fcd45cc16",
   "minAppVersion": 0,
-  "totalNotices": 60,
+  "totalNotices": 61,
   "categories": [
     {
       "name": "Finance",
@@ -19,6 +19,84 @@
         },
         {
           "name": "Increments",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "School Education Department",
+      "count": 9,
+      "sub": [
+        {
+          "name": "A Category Pay",
+          "count": 1
+        },
+        {
+          "name": "Akshaya Patra Foundation",
+          "count": 1
+        },
+        {
+          "name": "Contractual Staff",
+          "count": 1
+        },
+        {
+          "name": "First Phase Census",
+          "count": 1
+        },
+        {
+          "name": "In-Service Teachers",
+          "count": 1
+        },
+        {
+          "name": "Mid Day Meal",
+          "count": 1
+        },
+        {
+          "name": "Para Teachers",
+          "count": 1
+        },
+        {
+          "name": "PPP Mode",
+          "count": 1
+        },
+        {
+          "name": "Primary Teachers",
+          "count": 1
+        },
+        {
+          "name": "PTT",
+          "count": 1
+        },
+        {
+          "name": "Salary Increase",
+          "count": 1
+        },
+        {
+          "name": "Sanskrit Divas",
+          "count": 1
+        },
+        {
+          "name": "Staff Release",
+          "count": 1
+        },
+        {
+          "name": "Unit Test",
+          "count": 1
+        },
+        {
+          "name": "Verification",
+          "count": 1
+        },
+        {
+          "name": "WBBPE",
+          "count": 1
+        },
+        {
+          "name": "WBCSSC",
+          "count": 1
+        },
+        {
+          "name": "Zero-Enrolment Schools",
           "count": 1
         }
       ]
@@ -105,80 +183,6 @@
         },
         {
           "name": "RBSK",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "School Education Department",
-      "count": 8,
-      "sub": [
-        {
-          "name": "A Category Pay",
-          "count": 1
-        },
-        {
-          "name": "Akshaya Patra Foundation",
-          "count": 1
-        },
-        {
-          "name": "Contractual Staff",
-          "count": 1
-        },
-        {
-          "name": "First Phase Census",
-          "count": 1
-        },
-        {
-          "name": "In-Service Teachers",
-          "count": 1
-        },
-        {
-          "name": "Mid Day Meal",
-          "count": 1
-        },
-        {
-          "name": "Para Teachers",
-          "count": 1
-        },
-        {
-          "name": "PPP Mode",
-          "count": 1
-        },
-        {
-          "name": "Primary Teachers",
-          "count": 1
-        },
-        {
-          "name": "PTT",
-          "count": 1
-        },
-        {
-          "name": "Salary Increase",
-          "count": 1
-        },
-        {
-          "name": "Sanskrit Divas",
-          "count": 1
-        },
-        {
-          "name": "Staff Release",
-          "count": 1
-        },
-        {
-          "name": "Verification",
-          "count": 1
-        },
-        {
-          "name": "WBBPE",
-          "count": 1
-        },
-        {
-          "name": "WBCSSC",
-          "count": 1
-        },
-        {
-          "name": "Zero-Enrolment Schools",
           "count": 1
         }
       ]
@@ -497,6 +501,28 @@
         },
         {
           "name": "Student Profile Creation",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Examination",
+      "count": 2,
+      "sub": [
+        {
+          "name": "CTET",
+          "count": 1
+        },
+        {
+          "name": "Online Application",
+          "count": 1
+        },
+        {
+          "name": "Public Notice",
+          "count": 1
+        },
+        {
+          "name": "Unit Test",
           "count": 1
         }
       ]
@@ -829,24 +855,6 @@
         },
         {
           "name": "WBPRB",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Examination",
-      "count": 1,
-      "sub": [
-        {
-          "name": "CTET",
-          "count": 1
-        },
-        {
-          "name": "Online Application",
-          "count": 1
-        },
-        {
-          "name": "Public Notice",
           "count": 1
         }
       ]
@@ -1302,9 +1310,12 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "3fa152e8078badf8",
-      "count": 7,
+      "version": "4b2cd838da60dfec",
+      "count": 8,
       "categories": {
+        "Examination": [
+          "Unit Test"
+        ],
         "Finance Department": [
           "Ayushman Bharat",
           "Card Surrender",
@@ -1340,6 +1351,9 @@
           "Medical Officer",
           "NHM",
           "RBSK"
+        ],
+        "School Education Department": [
+          "Unit Test"
         ],
         "School Service Commission": [
           "2nd SLST",
@@ -1789,6 +1803,11 @@
   ],
   "recent": [
     {
+      "id": "20261012-02",
+      "month": "2026-10",
+      "addedAt": 1791746476000
+    },
+    {
       "id": "60",
       "month": "2026-10",
       "addedAt": 1791504000000
@@ -1980,11 +1999,6 @@
     },
     {
       "id": "18",
-      "month": "2026-08",
-      "addedAt": 1787616000000
-    },
-    {
-      "id": "17",
       "month": "2026-08",
       "addedAt": 1787616000000
     }
