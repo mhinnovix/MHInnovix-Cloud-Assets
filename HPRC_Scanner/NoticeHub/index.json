@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-11T19:42:54Z",
-  "ref": "3675ea8681558adf31a23f51ebeaf12120f0df75",
+  "generatedAt": "2026-10-12T07:40:23Z",
+  "ref": "322a71fb3f919f3a5bd04aecf392b1bc3ac0cea4",
   "minAppVersion": 0,
-  "totalNotices": 60,
+  "totalNotices": 61,
   "categories": [
     {
       "name": "Finance",
@@ -338,6 +338,44 @@
       ]
     },
     {
+      "name": "WBBPE",
+      "count": 4,
+      "sub": [
+        {
+          "name": "6 Months Certificate Course",
+          "count": 1
+        },
+        {
+          "name": "Holiday Notice",
+          "count": 1
+        },
+        {
+          "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "Merit List",
+          "count": 1
+        },
+        {
+          "name": "NIOS",
+          "count": 1
+        },
+        {
+          "name": "Online Scrutiny",
+          "count": 1
+        },
+        {
+          "name": "Session 2026-2028",
+          "count": 1
+        },
+        {
+          "name": "Suspension of Classes",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Census 2027",
       "count": 3,
       "sub": [
@@ -401,32 +439,6 @@
         },
         {
           "name": "Ujjiban Charcha",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBBPE",
-      "count": 3,
-      "sub": [
-        {
-          "name": "6 Months Certificate Course",
-          "count": 1
-        },
-        {
-          "name": "Holiday Notice",
-          "count": 1
-        },
-        {
-          "name": "HS Semester-III Exam",
-          "count": 1
-        },
-        {
-          "name": "NIOS",
-          "count": 1
-        },
-        {
-          "name": "Suspension of Classes",
           "count": 1
         }
       ]
@@ -755,6 +767,24 @@
         },
         {
           "name": "WBPSC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "D.El.Ed Admission",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Merit List",
+          "count": 1
+        },
+        {
+          "name": "Online Scrutiny",
+          "count": 1
+        },
+        {
+          "name": "Session 2026-2028",
           "count": 1
         }
       ]
@@ -1302,9 +1332,14 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "3fa152e8078badf8",
-      "count": 7,
+      "version": "d790dcffc579e7f0",
+      "count": 8,
       "categories": {
+        "D.El.Ed Admission": [
+          "Merit List",
+          "Online Scrutiny",
+          "Session 2026-2028"
+        ],
         "Finance Department": [
           "Ayushman Bharat",
           "Card Surrender",
@@ -1349,6 +1384,11 @@
           "Edit Window",
           "Interview Schedule",
           "Revised Vacancies"
+        ],
+        "WBBPE": [
+          "Merit List",
+          "Online Scrutiny",
+          "Session 2026-2028"
         ],
         "WBBSE": [
           "2nd SLST",
@@ -1789,6 +1829,11 @@
   ],
   "recent": [
     {
+      "id": "20261007-01",
+      "month": "2026-10",
+      "addedAt": 1791790823000
+    },
+    {
       "id": "60",
       "month": "2026-10",
       "addedAt": 1791504000000
@@ -1980,11 +2025,6 @@
     },
     {
       "id": "18",
-      "month": "2026-08",
-      "addedAt": 1787616000000
-    },
-    {
-      "id": "17",
       "month": "2026-08",
       "addedAt": 1787616000000
     }
