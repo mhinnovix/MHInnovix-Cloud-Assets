@@ -1,34 +1,20 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-13T13:45:25Z",
-  "ref": "3f61ac23340845809476dc33e3f90421356629c2",
+  "generatedAt": "2026-10-13T13:56:12Z",
+  "ref": "6055e34537fca71d9f98473132d314d02430f7cd",
   "minAppVersion": 0,
-  "totalNotices": 63,
+  "totalNotices": 64,
   "categories": [
     {
-      "name": "Finance",
-      "count": 9,
-      "sub": [
-        {
-          "name": "Pay Revision",
-          "count": 6
-        },
-        {
-          "name": "Bonus / Ex-gratia",
-          "count": 2
-        },
-        {
-          "name": "Increments",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "School Education Department",
-      "count": 9,
+      "count": 10,
       "sub": [
         {
           "name": "A Category Pay",
+          "count": 1
+        },
+        {
+          "name": "Ad hoc Committee Appointment",
           "count": 1
         },
         {
@@ -101,6 +87,24 @@
         },
         {
           "name": "Zero-Enrolment Schools",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "count": 9,
+      "sub": [
+        {
+          "name": "Pay Revision",
+          "count": 6
+        },
+        {
+          "name": "Bonus / Ex-gratia",
+          "count": 2
+        },
+        {
+          "name": "Increments",
           "count": 1
         }
       ]
@@ -266,6 +270,52 @@
       ]
     },
     {
+      "name": "WBBPE",
+      "count": 6,
+      "sub": [
+        {
+          "name": "Session 2026-2028",
+          "count": 2
+        },
+        {
+          "name": "6 Months Certificate Course",
+          "count": 1
+        },
+        {
+          "name": "Ad hoc Committee Appointment",
+          "count": 1
+        },
+        {
+          "name": "Holiday Notice",
+          "count": 1
+        },
+        {
+          "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "In-Service Teachers",
+          "count": 1
+        },
+        {
+          "name": "Merit List",
+          "count": 1
+        },
+        {
+          "name": "NIOS",
+          "count": 1
+        },
+        {
+          "name": "Online Scrutiny",
+          "count": 1
+        },
+        {
+          "name": "Suspension of Classes",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Samagra Shiksha Mission",
       "count": 5,
       "sub": [
@@ -315,48 +365,6 @@
         },
         {
           "name": "Water Tank Cleaning",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBBPE",
-      "count": 5,
-      "sub": [
-        {
-          "name": "Session 2026-2028",
-          "count": 2
-        },
-        {
-          "name": "6 Months Certificate Course",
-          "count": 1
-        },
-        {
-          "name": "Holiday Notice",
-          "count": 1
-        },
-        {
-          "name": "HS Semester-III Exam",
-          "count": 1
-        },
-        {
-          "name": "In-Service Teachers",
-          "count": 1
-        },
-        {
-          "name": "Merit List",
-          "count": 1
-        },
-        {
-          "name": "NIOS",
-          "count": 1
-        },
-        {
-          "name": "Online Scrutiny",
-          "count": 1
-        },
-        {
-          "name": "Suspension of Classes",
           "count": 1
         }
       ]
@@ -1362,8 +1370,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "f1766995b8d34945",
-      "count": 10,
+      "version": "b130696abecc6847",
+      "count": 11,
       "categories": {
         "D.El.Ed Admission": [
           "In-Service Teachers",
@@ -1412,6 +1420,7 @@
           "RBSK"
         ],
         "School Education Department": [
+          "Ad hoc Committee Appointment",
           "Chairman Appointment",
           "Primary Education"
         ],
@@ -1425,6 +1434,7 @@
           "Revised Vacancies"
         ],
         "WBBPE": [
+          "Ad hoc Committee Appointment",
           "In-Service Teachers",
           "Merit List",
           "Online Scrutiny",
@@ -1869,6 +1879,11 @@
   ],
   "recent": [
     {
+      "id": "20261013-01",
+      "month": "2026-10",
+      "addedAt": 1791899772000
+    },
+    {
       "id": "20261012-06",
       "month": "2026-10",
       "addedAt": 1791880604000
@@ -2060,11 +2075,6 @@
     },
     {
       "id": "21",
-      "month": "2026-08",
-      "addedAt": 1787616000000
-    },
-    {
-      "id": "20",
       "month": "2026-08",
       "addedAt": 1787616000000
     }
