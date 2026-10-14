@@ -1,10 +1,108 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T12:00:51Z",
-  "ref": "97f8b13e04aedd6372077bd00f7a33c642f42061",
+  "generatedAt": "2026-10-14T16:48:43Z",
+  "ref": "31f8b539a2167dbc8e2031a28297f853029a1982",
   "minAppVersion": 0,
-  "totalNotices": 65,
+  "totalNotices": 66,
   "categories": [
+    {
+      "name": "Recruitment",
+      "count": 10,
+      "sub": [
+        {
+          "name": "2nd SLST",
+          "count": 3
+        },
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "Classes XI-XII",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "Application Edit",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher Recruitment 2025",
+          "count": 1
+        },
+        {
+          "name": "Category Correction",
+          "count": 1
+        },
+        {
+          "name": "Classes IX-X",
+          "count": 1
+        },
+        {
+          "name": "Clerkship Examination 2024",
+          "count": 1
+        },
+        {
+          "name": "Date Extension",
+          "count": 1
+        },
+        {
+          "name": "DLSC",
+          "count": 1
+        },
+        {
+          "name": "Edit Window",
+          "count": 1
+        },
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "GroupC&D",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "Medical Officer",
+          "count": 1
+        },
+        {
+          "name": "NHM",
+          "count": 1
+        },
+        {
+          "name": "NTS",
+          "count": 1
+        },
+        {
+          "name": "OBC",
+          "count": 1
+        },
+        {
+          "name": "Primary Teacher 2025",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
+          "count": 1
+        },
+        {
+          "name": "RBSK",
+          "count": 1
+        }
+      ]
+    },
     {
       "name": "School Education Department",
       "count": 10,
@@ -110,100 +208,6 @@
       ]
     },
     {
-      "name": "Recruitment",
-      "count": 9,
-      "sub": [
-        {
-          "name": "2nd SLST",
-          "count": 3
-        },
-        {
-          "name": "1st SLST NTS",
-          "count": 2
-        },
-        {
-          "name": "Classes XI-XII",
-          "count": 2
-        },
-        {
-          "name": "WBCSSC",
-          "count": 2
-        },
-        {
-          "name": "Application Edit",
-          "count": 1
-        },
-        {
-          "name": "Assistant Teacher",
-          "count": 1
-        },
-        {
-          "name": "Category Correction",
-          "count": 1
-        },
-        {
-          "name": "Classes IX-X",
-          "count": 1
-        },
-        {
-          "name": "Clerkship Examination 2024",
-          "count": 1
-        },
-        {
-          "name": "Date Extension",
-          "count": 1
-        },
-        {
-          "name": "DLSC",
-          "count": 1
-        },
-        {
-          "name": "Edit Window",
-          "count": 1
-        },
-        {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "GroupC&D",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
-          "count": 1
-        },
-        {
-          "name": "Medical Officer",
-          "count": 1
-        },
-        {
-          "name": "NHM",
-          "count": 1
-        },
-        {
-          "name": "NTS",
-          "count": 1
-        },
-        {
-          "name": "OBC",
-          "count": 1
-        },
-        {
-          "name": "Primary Teacher 2025",
-          "count": 1
-        },
-        {
-          "name": "PwBD",
-          "count": 1
-        },
-        {
-          "name": "RBSK",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "School Service Commission",
       "count": 8,
       "sub": [
@@ -279,7 +283,7 @@
     },
     {
       "name": "WBBPE",
-      "count": 7,
+      "count": 8,
       "sub": [
         {
           "name": "Session 2026-2028",
@@ -291,6 +295,10 @@
         },
         {
           "name": "Ad hoc Committee Appointment",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher Recruitment 2025",
           "count": 1
         },
         {
@@ -1803,6 +1811,20 @@
       }
     },
     {
+      "month": "2025-11",
+      "path": "NoticeTexts/2025-11.json",
+      "version": "02cbc559e5bfa5a4",
+      "count": 1,
+      "categories": {
+        "Recruitment": [
+          "Assistant Teacher Recruitment 2025"
+        ],
+        "WBBPE": [
+          "Assistant Teacher Recruitment 2025"
+        ]
+      }
+    },
+    {
       "month": "2022-05",
       "path": "NoticeTexts/2022-05.json",
       "version": "7e90a0ae7d1abba5",
@@ -1898,6 +1920,11 @@
     }
   ],
   "recent": [
+    {
+      "id": "20251119-01",
+      "month": "2025-11",
+      "addedAt": 1791996523000
+    },
     {
       "id": "20261014-01",
       "month": "2026-10",
@@ -2090,11 +2117,6 @@
     },
     {
       "id": "26",
-      "month": "2026-08",
-      "addedAt": 1787616000000
-    },
-    {
-      "id": "24",
       "month": "2026-08",
       "addedAt": 1787616000000
     }
