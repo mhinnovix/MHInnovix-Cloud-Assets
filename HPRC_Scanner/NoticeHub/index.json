@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-14T16:52:10Z",
-  "ref": "de04e385f5728b7dfb249da4ca778e407d56a32d",
+  "generatedAt": "2026-10-15T14:16:46Z",
+  "ref": "16e360a6a73ffe15b84b7b86e89d488e847713fc",
   "minAppVersion": 0,
   "totalNotices": 66,
   "categories": [
@@ -1394,7 +1394,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "70de28fa4495c884",
+      "version": "de20dc972384f39a",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
