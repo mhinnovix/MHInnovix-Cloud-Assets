@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T19:36:52Z",
-  "ref": "8cdbe22d8429a77c5752e6ec621db2cc196f5b7a",
+  "generatedAt": "2026-10-15T19:55:30Z",
+  "ref": "6bc444a1e78fb51afa2f4c6c4ebebd41ce54ff95",
   "minAppVersion": 0,
-  "totalNotices": 67,
+  "totalNotices": 68,
   "categories": [
     {
       "name": "School Education Department",
@@ -87,6 +87,72 @@
         },
         {
           "name": "Zero-Enrolment Schools",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBBPE",
+      "count": 10,
+      "sub": [
+        {
+          "name": "Recruitment",
+          "count": 3
+        },
+        {
+          "name": "Session 2026-2028",
+          "count": 2
+        },
+        {
+          "name": "6 Months Certificate Course",
+          "count": 1
+        },
+        {
+          "name": "Ad hoc Committee Appointment",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher Recruitment 2025",
+          "count": 1
+        },
+        {
+          "name": "Holiday Notice",
+          "count": 1
+        },
+        {
+          "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "In-Service Teachers",
+          "count": 1
+        },
+        {
+          "name": "Interview",
+          "count": 1
+        },
+        {
+          "name": "Merit List",
+          "count": 1
+        },
+        {
+          "name": "NIOS",
+          "count": 1
+        },
+        {
+          "name": "OBC Correction",
+          "count": 1
+        },
+        {
+          "name": "Online Scrutiny",
+          "count": 1
+        },
+        {
+          "name": "Primary Teacher",
+          "count": 1
+        },
+        {
+          "name": "Suspension of Classes",
           "count": 1
         }
       ]
@@ -195,68 +261,6 @@
         },
         {
           "name": "RBSK",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBBPE",
-      "count": 9,
-      "sub": [
-        {
-          "name": "Recruitment",
-          "count": 2
-        },
-        {
-          "name": "Session 2026-2028",
-          "count": 2
-        },
-        {
-          "name": "6 Months Certificate Course",
-          "count": 1
-        },
-        {
-          "name": "Ad hoc Committee Appointment",
-          "count": 1
-        },
-        {
-          "name": "Assistant Teacher Recruitment 2025",
-          "count": 1
-        },
-        {
-          "name": "Holiday Notice",
-          "count": 1
-        },
-        {
-          "name": "HS Semester-III Exam",
-          "count": 1
-        },
-        {
-          "name": "In-Service Teachers",
-          "count": 1
-        },
-        {
-          "name": "Merit List",
-          "count": 1
-        },
-        {
-          "name": "NIOS",
-          "count": 1
-        },
-        {
-          "name": "OBC Correction",
-          "count": 1
-        },
-        {
-          "name": "Online Scrutiny",
-          "count": 1
-        },
-        {
-          "name": "Primary Teacher",
-          "count": 1
-        },
-        {
-          "name": "Suspension of Classes",
           "count": 1
         }
       ]
@@ -1805,6 +1809,18 @@
       }
     },
     {
+      "month": "2025-12",
+      "path": "NoticeTexts/2025-12.json",
+      "version": "ff07474172ff6070",
+      "count": 1,
+      "categories": {
+        "WBBPE": [
+          "Interview",
+          "Recruitment"
+        ]
+      }
+    },
+    {
       "month": "2025-11",
       "path": "NoticeTexts/2025-11.json",
       "version": "278c9c4f9c0b9a8b",
@@ -1926,6 +1942,11 @@
     }
   ],
   "recent": [
+    {
+      "id": "20251224-01",
+      "month": "2025-12",
+      "addedAt": 1792094130000
+    },
     {
       "id": "20250925-01",
       "month": "2025-09",
@@ -2120,16 +2141,11 @@
       "id": "27",
       "month": "2026-08",
       "addedAt": 1788134400000
-    },
-    {
-      "id": "25",
-      "month": "2026-08",
-      "addedAt": 1787788800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "dd57b72c0866d537",
-    "count": 2
+    "version": "69d73f9842d6bda9",
+    "count": 3
   }
 }
