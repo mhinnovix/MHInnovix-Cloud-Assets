@@ -1,108 +1,10 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T14:46:44Z",
-  "ref": "df27b2fc3ef9f60d64d6a3ba8809c772be71d8f7",
+  "generatedAt": "2026-10-15T14:47:18Z",
+  "ref": "3ba93430cd1254f9ecff18736bfc3cefd7014589",
   "minAppVersion": 0,
-  "totalNotices": 67,
+  "totalNotices": 66,
   "categories": [
-    {
-      "name": "Recruitment",
-      "count": 10,
-      "sub": [
-        {
-          "name": "2nd SLST",
-          "count": 3
-        },
-        {
-          "name": "1st SLST NTS",
-          "count": 2
-        },
-        {
-          "name": "Classes XI-XII",
-          "count": 2
-        },
-        {
-          "name": "WBCSSC",
-          "count": 2
-        },
-        {
-          "name": "Application Edit",
-          "count": 1
-        },
-        {
-          "name": "Assistant Teacher",
-          "count": 1
-        },
-        {
-          "name": "Assistant Teacher Recruitment 2025",
-          "count": 1
-        },
-        {
-          "name": "Category Correction",
-          "count": 1
-        },
-        {
-          "name": "Classes IX-X",
-          "count": 1
-        },
-        {
-          "name": "Clerkship Examination 2024",
-          "count": 1
-        },
-        {
-          "name": "Date Extension",
-          "count": 1
-        },
-        {
-          "name": "DLSC",
-          "count": 1
-        },
-        {
-          "name": "Edit Window",
-          "count": 1
-        },
-        {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "GroupC&D",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
-          "count": 1
-        },
-        {
-          "name": "Medical Officer",
-          "count": 1
-        },
-        {
-          "name": "NHM",
-          "count": 1
-        },
-        {
-          "name": "NTS",
-          "count": 1
-        },
-        {
-          "name": "OBC",
-          "count": 1
-        },
-        {
-          "name": "Primary Teacher 2025",
-          "count": 1
-        },
-        {
-          "name": "PwBD",
-          "count": 1
-        },
-        {
-          "name": "RBSK",
-          "count": 1
-        }
-      ]
-    },
     {
       "name": "School Education Department",
       "count": 10,
@@ -208,19 +110,31 @@
       ]
     },
     {
-      "name": "WBBPE",
+      "name": "Recruitment",
       "count": 9,
       "sub": [
         {
-          "name": "Session 2026-2028",
+          "name": "2nd SLST",
+          "count": 3
+        },
+        {
+          "name": "1st SLST NTS",
           "count": 2
         },
         {
-          "name": "6 Months Certificate Course",
+          "name": "Classes XI-XII",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "Application Edit",
           "count": 1
         },
         {
-          "name": "Ad hoc Committee Appointment",
+          "name": "Assistant Teacher",
           "count": 1
         },
         {
@@ -228,47 +142,59 @@
           "count": 1
         },
         {
-          "name": "Category Correction",
+          "name": "Classes IX-X",
           "count": 1
         },
         {
-          "name": "Holiday Notice",
+          "name": "Clerkship Examination 2024",
           "count": 1
         },
         {
-          "name": "HS Semester-III Exam",
+          "name": "Date Extension",
           "count": 1
         },
         {
-          "name": "In-Service Teachers",
+          "name": "DLSC",
           "count": 1
         },
         {
-          "name": "Merit List",
+          "name": "Edit Window",
           "count": 1
         },
         {
-          "name": "NIOS",
+          "name": "Group C&D",
           "count": 1
         },
         {
-          "name": "OBC Correction",
+          "name": "GroupC&D",
           "count": 1
         },
         {
-          "name": "Online Scrutiny",
+          "name": "Interview Schedule",
           "count": 1
         },
         {
-          "name": "Primary Teacher 2025",
+          "name": "Medical Officer",
           "count": 1
         },
         {
-          "name": "Recruitment",
+          "name": "NHM",
           "count": 1
         },
         {
-          "name": "Suspension of Classes",
+          "name": "NTS",
+          "count": 1
+        },
+        {
+          "name": "OBC",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
+          "count": 1
+        },
+        {
+          "name": "RBSK",
           "count": 1
         }
       ]
@@ -343,6 +269,64 @@
         },
         {
           "name": "WBRSSC SER",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBBPE",
+      "count": 8,
+      "sub": [
+        {
+          "name": "Session 2026-2028",
+          "count": 2
+        },
+        {
+          "name": "6 Months Certificate Course",
+          "count": 1
+        },
+        {
+          "name": "Ad hoc Committee Appointment",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher Recruitment 2025",
+          "count": 1
+        },
+        {
+          "name": "Holiday Notice",
+          "count": 1
+        },
+        {
+          "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "In-Service Teachers",
+          "count": 1
+        },
+        {
+          "name": "Merit List",
+          "count": 1
+        },
+        {
+          "name": "NIOS",
+          "count": 1
+        },
+        {
+          "name": "OBC Correction",
+          "count": 1
+        },
+        {
+          "name": "Online Scrutiny",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "Suspension of Classes",
           "count": 1
         }
       ]
@@ -1402,8 +1386,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "6d227d6c6a50e77e",
-      "count": 13,
+      "version": "e8ce24983f20555f",
+      "count": 12,
       "categories": {
         "D.El.Ed Admission": [
           "In-Service Teachers",
@@ -1441,7 +1425,6 @@
         ],
         "Recruitment": [
           "2nd SLST",
-          "Category Correction",
           "Classes IX-X",
           "Classes XI-XII",
           "Clerkship Examination 2024",
@@ -1450,7 +1433,6 @@
           "Interview Schedule",
           "Medical Officer",
           "NHM",
-          "Primary Teacher 2025",
           "RBSK"
         ],
         "School Education Department": [
@@ -1469,12 +1451,10 @@
         ],
         "WBBPE": [
           "Ad hoc Committee Appointment",
-          "Category Correction",
           "In-Service Teachers",
           "Merit List",
           "OBC Correction",
           "Online Scrutiny",
-          "Primary Teacher 2025",
           "Recruitment",
           "Session 2026-2028"
         ],
@@ -1931,7 +1911,7 @@
   ],
   "recent": [
     {
-      "id": "20261014-02",
+      "id": "20261014-01",
       "month": "2026-10",
       "addedAt": 1792075195000
     },
@@ -1939,11 +1919,6 @@
       "id": "20251119-01",
       "month": "2025-11",
       "addedAt": 1791996523000
-    },
-    {
-      "id": "20261014-01",
-      "month": "2026-10",
-      "addedAt": 1791979251000
     },
     {
       "id": "20261013-01",
@@ -2129,6 +2104,11 @@
       "id": "25",
       "month": "2026-08",
       "addedAt": 1787788800000
+    },
+    {
+      "id": "26",
+      "month": "2026-08",
+      "addedAt": 1787616000000
     }
   ]
 }
