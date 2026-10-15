@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T20:00:18Z",
-  "ref": "9d0e32a49306d4345ff03fbfcebfefe691e06cbf",
+  "generatedAt": "2026-10-15T20:01:06Z",
+  "ref": "a8e48462b4d09578289144ff56411f3c5c4f81ed",
   "minAppVersion": 0,
-  "totalNotices": 72,
+  "totalNotices": 73,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 14,
+      "count": 15,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 6
+          "count": 7
         },
         {
           "name": "Interview",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Session 2026-2028",
@@ -1831,8 +1831,8 @@
     {
       "month": "2026-01",
       "path": "NoticeTexts/2026-01.json",
-      "version": "d90dbea66664acf3",
-      "count": 2,
+      "version": "bc4b3eac62326b5e",
+      "count": 3,
       "categories": {
         "WBBPE": [
           "Certificate",
@@ -1976,6 +1976,11 @@
     }
   ],
   "recent": [
+    {
+      "id": "20260119-01",
+      "month": "2026-01",
+      "addedAt": 1792094466000
+    },
     {
       "id": "20260130-01",
       "month": "2026-01",
@@ -2170,16 +2175,11 @@
       "id": "34",
       "month": "2026-09",
       "addedAt": 1788825600000
-    },
-    {
-      "id": "33",
-      "month": "2026-09",
-      "addedAt": 1788739200000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "242a81e79b3ae286",
-    "count": 7
+    "version": "2af6d92dfc213da9",
+    "count": 8
   }
 }
