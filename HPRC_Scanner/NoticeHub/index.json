@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T14:36:45Z",
-  "ref": "1c098ca67f61c1536d9c764e7fd04bc9ebfa4df8",
+  "generatedAt": "2026-10-15T14:39:55Z",
+  "ref": "36cd9ae55e061037a104eabbd09c4842395b7ea2",
   "minAppVersion": 0,
-  "totalNotices": 66,
+  "totalNotices": 67,
   "categories": [
     {
       "name": "Recruitment",
@@ -208,6 +208,72 @@
       ]
     },
     {
+      "name": "WBBPE",
+      "count": 9,
+      "sub": [
+        {
+          "name": "Session 2026-2028",
+          "count": 2
+        },
+        {
+          "name": "6 Months Certificate Course",
+          "count": 1
+        },
+        {
+          "name": "Ad hoc Committee Appointment",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher Recruitment 2025",
+          "count": 1
+        },
+        {
+          "name": "Category Correction",
+          "count": 1
+        },
+        {
+          "name": "Holiday Notice",
+          "count": 1
+        },
+        {
+          "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "In-Service Teachers",
+          "count": 1
+        },
+        {
+          "name": "Merit List",
+          "count": 1
+        },
+        {
+          "name": "NIOS",
+          "count": 1
+        },
+        {
+          "name": "OBC Correction",
+          "count": 1
+        },
+        {
+          "name": "Online Scrutiny",
+          "count": 1
+        },
+        {
+          "name": "Primary Teacher 2025",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "Suspension of Classes",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "School Service Commission",
       "count": 8,
       "sub": [
@@ -277,64 +343,6 @@
         },
         {
           "name": "WBRSSC SER",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBBPE",
-      "count": 8,
-      "sub": [
-        {
-          "name": "Session 2026-2028",
-          "count": 2
-        },
-        {
-          "name": "6 Months Certificate Course",
-          "count": 1
-        },
-        {
-          "name": "Ad hoc Committee Appointment",
-          "count": 1
-        },
-        {
-          "name": "Assistant Teacher Recruitment 2025",
-          "count": 1
-        },
-        {
-          "name": "Category Correction",
-          "count": 1
-        },
-        {
-          "name": "Holiday Notice",
-          "count": 1
-        },
-        {
-          "name": "HS Semester-III Exam",
-          "count": 1
-        },
-        {
-          "name": "In-Service Teachers",
-          "count": 1
-        },
-        {
-          "name": "Merit List",
-          "count": 1
-        },
-        {
-          "name": "NIOS",
-          "count": 1
-        },
-        {
-          "name": "Online Scrutiny",
-          "count": 1
-        },
-        {
-          "name": "Primary Teacher 2025",
-          "count": 1
-        },
-        {
-          "name": "Suspension of Classes",
           "count": 1
         }
       ]
@@ -1394,8 +1402,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "dff2dcf9c311b1fc",
-      "count": 12,
+      "version": "2805ff3f2662a43a",
+      "count": 13,
       "categories": {
         "D.El.Ed Admission": [
           "In-Service Teachers",
@@ -1464,8 +1472,10 @@
           "Category Correction",
           "In-Service Teachers",
           "Merit List",
+          "OBC Correction",
           "Online Scrutiny",
           "Primary Teacher 2025",
+          "Recruitment",
           "Session 2026-2028"
         ],
         "WBBSE": [
@@ -1921,6 +1931,11 @@
   ],
   "recent": [
     {
+      "id": "20261014-02",
+      "month": "2026-10",
+      "addedAt": 1792075195000
+    },
+    {
       "id": "20251119-01",
       "month": "2025-11",
       "addedAt": 1791996523000
@@ -2114,11 +2129,6 @@
       "id": "25",
       "month": "2026-08",
       "addedAt": 1787788800000
-    },
-    {
-      "id": "26",
-      "month": "2026-08",
-      "addedAt": 1787616000000
     }
   ]
 }
