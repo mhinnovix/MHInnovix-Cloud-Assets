@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T20:01:06Z",
-  "ref": "a8e48462b4d09578289144ff56411f3c5c4f81ed",
+  "generatedAt": "2026-10-15T20:02:04Z",
+  "ref": "fb9475e9bc9abb60e1b9b26b7617b37e2c3ad7de",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -1831,7 +1831,7 @@
     {
       "month": "2026-01",
       "path": "NoticeTexts/2026-01.json",
-      "version": "bc4b3eac62326b5e",
+      "version": "96603ec299cc76d8",
       "count": 3,
       "categories": {
         "WBBPE": [
