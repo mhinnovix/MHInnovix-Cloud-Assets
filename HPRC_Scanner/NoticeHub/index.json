@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T14:17:40Z",
-  "ref": "bd1f7ddfdec9f5d6f5fad61e4b184e791ef37378",
+  "generatedAt": "2026-10-15T14:36:45Z",
+  "ref": "1c098ca67f61c1536d9c764e7fd04bc9ebfa4df8",
   "minAppVersion": 0,
   "totalNotices": 66,
   "categories": [
@@ -1394,7 +1394,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "997190d67bdb7eb3",
+      "version": "dff2dcf9c311b1fc",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
@@ -1483,7 +1483,7 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "59ab60106f742e6f",
+      "version": "ec041b4d4c012efe",
       "count": 23,
       "categories": {
         "APAAR ID": [
@@ -1673,7 +1673,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "b1b402b450d685a1",
+      "version": "47a0f9d059d5ed16",
       "count": 20,
       "categories": {
         "Block Level": [
@@ -1813,7 +1813,7 @@
     {
       "month": "2025-11",
       "path": "NoticeTexts/2025-11.json",
-      "version": "02cbc559e5bfa5a4",
+      "version": "560b307114cad479",
       "count": 1,
       "categories": {
         "Recruitment": [
@@ -1827,7 +1827,7 @@
     {
       "month": "2022-05",
       "path": "NoticeTexts/2022-05.json",
-      "version": "7e90a0ae7d1abba5",
+      "version": "87a6d2da57274d3f",
       "count": 1,
       "categories": {
         "Finance": [
@@ -1838,7 +1838,7 @@
     {
       "month": "2022-04",
       "path": "NoticeTexts/2022-04.json",
-      "version": "f03c939f339e39d3",
+      "version": "4bbdfc8b0531296b",
       "count": 2,
       "categories": {
         "Finance": [
@@ -1850,7 +1850,7 @@
     {
       "month": "2021-05",
       "path": "NoticeTexts/2021-05.json",
-      "version": "0bdb7994cbb20362",
+      "version": "25fe9445a6fdc107",
       "count": 1,
       "categories": {
         "Finance": [
@@ -1861,7 +1861,7 @@
     {
       "month": "2021-01",
       "path": "NoticeTexts/2021-01.json",
-      "version": "e006f31574570218",
+      "version": "c9be77b764eced3a",
       "count": 1,
       "categories": {
         "Finance": [
@@ -1872,7 +1872,7 @@
     {
       "month": "2019-12",
       "path": "NoticeTexts/2019-12.json",
-      "version": "9734fdfdfedcf1a9",
+      "version": "7cf4d26227fedc4b",
       "count": 1,
       "categories": {
         "Finance": [
@@ -1883,7 +1883,7 @@
     {
       "month": "2009-02",
       "path": "NoticeTexts/2009-02.json",
-      "version": "4a11c6f75a4e8373",
+      "version": "e82b64565ed4a501",
       "count": 2,
       "categories": {
         "Finance": [
@@ -1894,7 +1894,7 @@
     {
       "month": "2005-06",
       "path": "NoticeTexts/2005-06.json",
-      "version": "2fe307789aef4b9b",
+      "version": "0d257c90ece28269",
       "count": 1,
       "categories": {
         "Acts & Rules": [
@@ -1910,7 +1910,7 @@
     {
       "month": "1998-10",
       "path": "NoticeTexts/1998-10.json",
-      "version": "18a2725bc51ef094",
+      "version": "71c2ba4b9e33e510",
       "count": 1,
       "categories": {
         "Finance": [
