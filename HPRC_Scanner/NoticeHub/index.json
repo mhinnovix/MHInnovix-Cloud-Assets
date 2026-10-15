@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T17:45:22Z",
-  "ref": "4644db395a8d1cfc93c9dab53b53e4618e469f82",
+  "generatedAt": "2026-10-15T18:28:39Z",
+  "ref": "40c6de531e33c2eaf9f4d2e40dc4793e9e2cd6af",
   "minAppVersion": 0,
   "totalNotices": 66,
   "categories": [
@@ -2110,5 +2110,10 @@
       "month": "2026-08",
       "addedAt": 1787616000000
     }
-  ]
+  ],
+  "memoIndex": {
+    "path": "memo-index.json",
+    "version": "782acbe234287ff3",
+    "count": 1
+  }
 }
