@@ -5,6 +5,11 @@
 #   2. auto ID + date ISO + addedAt/updatedAt stamp
 #   3. index.json (commit SHA "ref" shoho → month file URL immutable, CDN stale hoy na)
 #   4. push + index.json GitHub Pages-e deploy (app ekhan theke pore)
+#
+# 🟢 Safe push: admin app jodi ei run cholar majhe notun commit dey, push reject hoy.
+#    Tokhon rebase (conflict-er jhuki) na kore → latest main abar nie → normalize + index
+#    abar chalay → abar push. Script idempotent, tai protibar result thik thake.
+#    (NoticeDocumentsBin/ trigger path-e nei → app-er archive commit run start kore na)
 name: Notice Hub — validate & publish
 
 on:
@@ -42,35 +47,53 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Validate & stamp notices
-        run: python .github/scripts/notice_hub.py normalize
-
-      - name: Commit stamped notices
-        run: |
-          git config user.name "notice-hub-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A HPRC_Scanner/NoticeHub
-          if ! git diff --cached --quiet; then
-            git commit -m "NoticeHub: stamp ids / addedAt / updatedAt"
-          fi
-
-      - name: Build index.json
+      - name: Validate, stamp, build index & push (retry on race)
         env:
           MIN_APP_VERSION: ${{ github.event.inputs.min_app_version }}
-        run: python .github/scripts/notice_hub.py index --ref "$(git rev-parse HEAD)"
-
-      - name: Commit & push
         run: |
-          git add HPRC_Scanner/NoticeHub/index.json
-          if ! git diff --cached --quiet; then
-            git commit -m "NoticeHub: publish index"
-          fi
-          git push origin HEAD:main
+          set -euo pipefail
+          git config user.name "notice-hub-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3 4 5; do
+            echo "::group::Attempt $attempt"
+            # Always start from the newest main (admin app may have pushed meanwhile)
+            git fetch --quiet origin main
+            git reset --hard origin/main
+
+            # 1+2. validate & stamp (exits non-zero on validation error → whole job fails, nothing published)
+            python .github/scripts/notice_hub.py normalize
+            git add -A HPRC_Scanner/NoticeHub
+            if ! git diff --cached --quiet; then
+              git commit -q -m "NoticeHub: stamp ids / addedAt / updatedAt"
+            fi
+
+            # 3. index.json pinned to the commit that contains these month files
+            python .github/scripts/notice_hub.py index --ref "$(git rev-parse HEAD)"
+            git add HPRC_Scanner/NoticeHub/index.json
+            if ! git diff --cached --quiet; then
+              git commit -q -m "NoticeHub: publish index"
+            fi
+
+            # 4. push — success → done
+            if git push origin HEAD:main; then
+              echo "::endgroup::"
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "::endgroup::"
+            echo "::warning::main moved while publishing (attempt $attempt) — retrying from latest main"
+            sleep $((attempt * 5))
+          done
+
+          echo "::error::Could not push after 5 attempts"
+          exit 1
 
       # index.json GitHub Pages-e (free CDN, cache ~10 min, onek user-er jonno banano)।
       # Shudhu ei ekta choto file — baki shob jsDelivr @<commit SHA> theke ase, ja kokhono stale hoy na।
