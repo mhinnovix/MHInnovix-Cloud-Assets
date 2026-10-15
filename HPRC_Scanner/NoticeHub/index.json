@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T19:28:34Z",
-  "ref": "5bad929f1abdc8ced5cff8039b312cdad2802e3d",
+  "generatedAt": "2026-10-15T19:31:19Z",
+  "ref": "10daffbf862fd39517f980a2bb33a03b1b3cfd33",
   "minAppVersion": 0,
   "totalNotices": 66,
   "categories": [
@@ -1803,7 +1803,7 @@
     {
       "month": "2025-11",
       "path": "NoticeTexts/2025-11.json",
-      "version": "560b307114cad479",
+      "version": "278c9c4f9c0b9a8b",
       "count": 1,
       "categories": {
         "Recruitment": [
