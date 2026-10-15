@@ -5,7 +5,8 @@ NoticeHub publisher — HPRC Scanner  (GitHub Action theke chole)
 Layout (HPRC_Scanner/NoticeHub/):
   NoticeTexts/YYYY-MM.json         ← notice gulo (bot / admin edit kore)
   NoticeDocuments/YYYY-MM/<file>   ← attachment — notice-er date-er month folder-e
-  NoticeDocumentsBin/YYYY-MM/      ← bot-e delete kora document
+  NoticeDocumentsBin/YYYY-MM/      ← delete/replace kora document (name~YYYYMMDD-HHMMSS.ext)
+                                     + deleted-notices.json (restore-er jonno) — admin app likhe
   index.json, registry.json        ← ei script banay
 """
 from __future__ import annotations
@@ -114,6 +115,20 @@ def is_link(s: str) -> bool:
 def content_hash(n: dict) -> str:
     payload = json.dumps({k: n.get(k, "") for k in CONTENT_FIELDS}, ensure_ascii=False, sort_keys=True)
     return hashlib.sha256(payload.encode()).hexdigest()[:16]
+
+
+def media_hash(n: dict) -> str:
+    """Hash of the notice's document CONTENT (same file name, new PDF → different hash → updatedAt bumps)."""
+    h = hashlib.sha256()
+    month = (n.get("date") or "")[:7]
+    for media in split_csv(n.get("mediaName")):
+        if is_link(media):
+            continue
+        p = DOCS_DIR / month / media
+        h.update(media.encode())
+        h.update(b"\0")
+        h.update(hashlib.sha256(p.read_bytes()).digest() if p.is_file() else b"missing")
+    return h.hexdigest()[:16]
 
 
 def dump_json(obj) -> str:
@@ -255,6 +270,7 @@ def cmd_normalize(args) -> int:
             nid = n["id"]
             present.add(nid)
             h = content_hash(n)
+            mh = media_hash(n)
             reg = reg_notices.get(nid)
             if reg and reg.get("deleted"):
                 warn(f"id '{nid}' was deleted on {reg['deleted']} and is used again", path)
@@ -262,7 +278,10 @@ def cmd_normalize(args) -> int:
 
             added = parse_ts(n.get("addedAt")) or (parse_ts(reg.get("addedAt")) if reg else None) or parse_ts(now)
             added_iso = ts_iso(added)
-            if reg and reg.get("hash") and reg["hash"] != h:
+            text_changed = bool(reg and reg.get("hash") and reg["hash"] != h)
+            # first run after this update: no mediaHash stored yet → only record it, don't bump
+            media_changed = bool(reg and reg.get("mediaHash") and reg["mediaHash"] != mh)
+            if text_changed or media_changed:
                 updated_iso = now
             else:
                 upd = parse_ts(n.get("updatedAt")) or (parse_ts(reg.get("updatedAt")) if reg else None)
@@ -270,7 +289,8 @@ def cmd_normalize(args) -> int:
 
             n["addedAt"] = added_iso
             n["updatedAt"] = updated_iso
-            reg_notices[nid] = {"month": path.stem, "hash": h, "addedAt": added_iso, "updatedAt": updated_iso}
+            reg_notices[nid] = {"month": path.stem, "hash": h, "mediaHash": mh,
+                                "addedAt": added_iso, "updatedAt": updated_iso}
 
     for nid, reg in reg_notices.items():
         if nid not in present and not reg.get("deleted"):
