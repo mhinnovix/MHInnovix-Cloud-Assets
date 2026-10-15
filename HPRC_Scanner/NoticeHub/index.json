@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T19:58:38Z",
-  "ref": "c988cba5a70e1105a986fa5be17db5b2d35fc2bf",
+  "generatedAt": "2026-10-15T19:59:04Z",
+  "ref": "9b8fafe861bf3965c0a59769de5ac0e9bee3864f",
   "minAppVersion": 0,
-  "totalNotices": 70,
+  "totalNotices": 71,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 12,
+      "count": 13,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Interview",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Session 2026-2028",
@@ -1819,8 +1819,8 @@
     {
       "month": "2026-02",
       "path": "NoticeTexts/2026-02.json",
-      "version": "00da4a5e812121c3",
-      "count": 1,
+      "version": "d4584afaaa73125a",
+      "count": 2,
       "categories": {
         "WBBPE": [
           "Interview",
@@ -1974,6 +1974,11 @@
     }
   ],
   "recent": [
+    {
+      "id": "20260213-01",
+      "month": "2026-02",
+      "addedAt": 1792094344000
+    },
     {
       "id": "20260227-01",
       "month": "2026-02",
@@ -2168,16 +2173,11 @@
       "id": "31",
       "month": "2026-09",
       "addedAt": 1788307200000
-    },
-    {
-      "id": "29",
-      "month": "2026-09",
-      "addedAt": 1788220800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "62b5a2e88820abb1",
-    "count": 5
+    "version": "829d25e034381d8f",
+    "count": 6
   }
 }
