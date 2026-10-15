@@ -1,21 +1,21 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T19:59:04Z",
-  "ref": "9b8fafe861bf3965c0a59769de5ac0e9bee3864f",
+  "generatedAt": "2026-10-15T20:00:18Z",
+  "ref": "9d0e32a49306d4345ff03fbfcebfefe691e06cbf",
   "minAppVersion": 0,
-  "totalNotices": 71,
+  "totalNotices": 72,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 13,
+      "count": 14,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Interview",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Session 2026-2028",
@@ -1831,11 +1831,13 @@
     {
       "month": "2026-01",
       "path": "NoticeTexts/2026-01.json",
-      "version": "ddfd89af9bf5240b",
-      "count": 1,
+      "version": "d90dbea66664acf3",
+      "count": 2,
       "categories": {
         "WBBPE": [
           "Certificate",
+          "Interview",
+          "Recruitment",
           "TET"
         ]
       }
@@ -1974,6 +1976,11 @@
     }
   ],
   "recent": [
+    {
+      "id": "20260130-01",
+      "month": "2026-01",
+      "addedAt": 1792094418000
+    },
     {
       "id": "20260213-01",
       "month": "2026-02",
@@ -2168,16 +2175,11 @@
       "id": "33",
       "month": "2026-09",
       "addedAt": 1788739200000
-    },
-    {
-      "id": "31",
-      "month": "2026-09",
-      "addedAt": 1788307200000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "829d25e034381d8f",
-    "count": 6
+    "version": "242a81e79b3ae286",
+    "count": 7
   }
 }
