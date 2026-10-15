@@ -1,6 +1,7 @@
 [
   {
     "id": "7",
+    "memoNo": "",
     "date": "2022-04-22",
     "title": "PG Scale of Pay for Physical Education Teachers (ROPA '90)",
     "descriptionENG": "This official memorandum from the **Secondary Branch, School Education Department** clarifies the effective date for granting the Post Graduate (PG) scale of pay to specific educators.\n\n**Important Points:**\n- The directive specifically applies to Assistant Teachers of **Physical Education** governed by ROPA '90.\n- The higher scale benefit takes effect either from _01.01.1986_ or the _actual date of acquiring the higher qualification_, depending on which is later.\n- This order explicitly overrides previous memos that incorrectly set the effective date to 22.11.1993.",
@@ -9,10 +10,11 @@
     "subCategory": "Increments",
     "mediaName": "20220422_PG_Scale_PE.jpg",
     "addedAt": "2022-04-22T00:00:00Z",
-    "updatedAt": "2022-04-22T00:00:00Z"
+    "updatedAt": "2026-10-15T14:36:44Z"
   },
   {
     "id": "9",
+    "memoNo": "",
     "date": "2022-04-18",
     "title": "Grant of Ad-hoc Bonus (2021-2022) for State Govt Employees",
     "descriptionENG": "This is an official memorandum from the **Finance (Audit) Department, Government of West Bengal** concerning the grant of the Ad-hoc Bonus for the accounting year 2021-2022.\n\n**Important Guidelines:**\n- The bonus amount is fixed at _Rs. 4,800/-_ per eligible employee.\n- Employees whose revised emoluments did not exceed _Rs. 37,000/- per month_ as of 31.03.2022 are eligible.\n- This benefit is also extended to employees of State-aided Non-Government Educational Institutions.",
@@ -21,6 +23,6 @@
     "subCategory": "Bonus / Ex-gratia",
     "mediaName": "20220418XYZ.pdf",
     "addedAt": "2022-04-18T00:00:00Z",
-    "updatedAt": "2022-04-18T00:00:00Z"
+    "updatedAt": "2026-10-15T14:36:44Z"
   }
 ]
