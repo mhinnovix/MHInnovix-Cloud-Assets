@@ -8,6 +8,8 @@ Layout (HPRC_Scanner/NoticeHub/):
   NoticeDocumentsBin/YYYY-MM/      ← delete/replace kora document (name~YYYYMMDD-HHMMSS.ext)
                                      + deleted-notices.json (restore-er jonno) — admin app likhe
   index.json, registry.json        ← ei script banay
+  memo-index.json                  ← memo no → notice (client app-er memo search) — normalize banay,
+                                     tai month file-er SAME commit-e thake (index "ref" diye immutable)
 """
 from __future__ import annotations
 
@@ -25,6 +27,7 @@ TEXTS_DIR = HUB_DIR / "NoticeTexts"
 DOCS_DIR = HUB_DIR / "NoticeDocuments"
 REGISTRY = HUB_DIR / "registry.json"
 INDEX = HUB_DIR / "index.json"
+MEMO_INDEX = HUB_DIR / "memo-index.json"
 
 SCHEMA = 1
 RECENT_LIMIT = 40
@@ -315,9 +318,35 @@ def cmd_normalize(args) -> int:
     if not dry:
         REGISTRY.write_text(dump_json(registry), encoding="utf-8")
 
+    # ── 5. memo-index.json (shudhu memo search-er jonno — choto, compact) ──
+    memo_text = build_memo_index(parsed)
+    old_memo = MEMO_INDEX.read_text(encoding="utf-8") if MEMO_INDEX.exists() else ""
+    if old_memo != memo_text:
+        if not dry:
+            MEMO_INDEX.write_text(memo_text, encoding="utf-8")
+        print(f"{'would update' if dry else 'updated'}: {MEMO_INDEX}")
+
     total = sum(len(v) for v in parsed.values())
     print(f"OK: {len(parsed)} month files, {total} notices, {changed} file(s) normalized")
     return finish()
+
+
+# ───────────────────────── memo index ─────────────────────────
+def build_memo_index(parsed: dict[Path, list[dict]]) -> str:
+    """
+    {"schema":1,"fields":["memo","id","month","date"],"items":[[...], ...]}
+    Notun theke purono; memo faka hole bad. Deterministic → bodlay shudhu memo/id/date bodlale.
+    """
+    rows = []
+    for path, notices in parsed.items():
+        for n in notices:
+            memo = str(n.get("memoNo") or "").strip()
+            nid = str(n.get("id") or "").strip()
+            if memo and nid:
+                rows.append([memo, nid, path.stem, str(n.get("date") or "")])
+    rows.sort(key=lambda r: (r[2], r[3], r[1]), reverse=True)
+    return json.dumps({"schema": 1, "fields": ["memo", "id", "month", "date"], "items": rows},
+                      ensure_ascii=False, separators=(",", ":")) + "\n"
 
 
 # ───────────────────────── index ─────────────────────────
@@ -376,6 +405,19 @@ def cmd_index(args) -> int:
     if env_min:
         min_app = int(env_min)
 
+    memo_index = None
+    if MEMO_INDEX.exists():
+        memo_bytes = MEMO_INDEX.read_bytes()
+        try:
+            memo_count = len(json.loads(memo_bytes.decode("utf-8")).get("items", []))
+        except (ValueError, json.JSONDecodeError):
+            memo_count = 0
+        memo_index = {
+            "path": MEMO_INDEX.name,
+            "version": hashlib.sha256(memo_bytes).hexdigest()[:16],
+            "count": memo_count,
+        }
+
     INDEX.write_text(dump_json({
         "schema": SCHEMA,
         "generatedAt": now_iso(),
@@ -385,6 +427,7 @@ def cmd_index(args) -> int:
         "categories": categories,
         "months": months,
         "recent": recent,
+        **({"memoIndex": memo_index} if memo_index else {}),
     }), encoding="utf-8")
     print(f"index.json: {len(months)} months, {len(everything)} notices, ref={args.ref or '(main)'}")
     return finish()
