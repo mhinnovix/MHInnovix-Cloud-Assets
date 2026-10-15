@@ -7,17 +7,6 @@ Layout (HPRC_Scanner/NoticeHub/):
   NoticeDocuments/YYYY-MM/<file>   ← attachment — notice-er date-er month folder-e
   NoticeDocumentsBin/YYYY-MM/      ← bot-e delete kora document
   index.json, registry.json        ← ei script banay
-
-Commands:
-  normalize   validate + date ISO + faka id-e auto ID + addedAt/updatedAt stamp + registry update
-  check       normalize-er dry run (kichu lekhe na) — push-er age local-e chalate paro
-  index       index.json (app ei file prothome pore)
-
-Rules (bhul thakle FAIL → index publish HOY NA → app-e ager thik data-i thake):
-  • file naam YYYY-MM.json, bhetore JSON array
-  • protiti notice-e title ar date thakte hobe; date-er month == file-er month
-  • id faka rakho → "YYYYMMDD-NN" auto। Ekbar dewa id bodlay na, delete kora id-o reuse hoy na
-  • mediaName-e shudhu file-er naam (folder = notice-er month)
 """
 from __future__ import annotations
 
@@ -41,9 +30,11 @@ RECENT_LIMIT = 40
 
 MONTH_FILE_RE = re.compile(r"^(\d{4})-(0[1-9]|1[0-2])\.json$")
 ID_RE = re.compile(r"^[A-Za-z0-9_.\-]+$")
-KNOWN_FIELDS = ["id", "date", "title", "descriptionENG", "descriptionBNG",
+
+# 🟢 Added "memoNo" right after "id"
+KNOWN_FIELDS = ["id", "memoNo", "date", "title", "descriptionENG", "descriptionBNG",
                 "category", "subCategory", "mediaName", "addedAt", "updatedAt"]
-CONTENT_FIELDS = ["date", "title", "descriptionENG", "descriptionBNG",
+CONTENT_FIELDS = ["memoNo", "date", "title", "descriptionENG", "descriptionBNG",
                   "category", "subCategory", "mediaName"]
 
 _errors: list[str] = []
@@ -196,7 +187,7 @@ def cmd_normalize(args) -> int:
                 error(f"notice #{i + 1}: must be a JSON object", path)
                 continue
             n = dict(raw)
-            for k in ("id", "title", "date", "category", "subCategory", "mediaName"):
+            for k in ("id", "memoNo", "title", "date", "category", "subCategory", "mediaName"):
                 if n.get(k) is not None and not isinstance(n[k], str):
                     n[k] = str(n[k])
                 if isinstance(n.get(k), str):
@@ -221,6 +212,7 @@ def cmd_normalize(args) -> int:
             else:
                 n["date"] = iso
 
+            n["memoNo"] = n.get("memoNo") or ""
             n["descriptionENG"] = n.get("descriptionENG") or ""
             n["descriptionBNG"] = n.get("descriptionBNG") or ""
             n["category"] = n.get("category") or "General"
