@@ -3,90 +3,105 @@
     "1": {
       "month": "1998-10",
       "hash": "feee3f377128443d",
+      "mediaHash": "6d60b13583bea0ab",
       "addedAt": "1998-10-16T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "10": {
       "month": "2021-05",
       "hash": "864f52ed405afa7f",
+      "mediaHash": "5544bebceee2c485",
       "addedAt": "2021-05-10T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "11": {
       "month": "2021-01",
       "hash": "e3860076b885f084",
+      "mediaHash": "222619f6887a45da",
       "addedAt": "2021-01-14T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "12": {
       "month": "2026-08",
       "hash": "488922f041d55614",
+      "mediaHash": "b3e2c65c7c26f6ed",
       "addedAt": "2026-08-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "13": {
       "month": "2026-08",
       "hash": "d8ce0357c56c79ed",
+      "mediaHash": "f9881c23adb37547",
       "addedAt": "2026-08-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "14": {
       "month": "2026-08",
       "hash": "5af0d0efd2601cad",
+      "mediaHash": "ce053e81ab2d2456",
       "addedAt": "2026-08-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "15": {
       "month": "2026-08",
       "hash": "68a33a2a1ddf81b3",
+      "mediaHash": "c67e14cef1e15232",
       "addedAt": "2026-08-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "16": {
       "month": "2026-08",
       "hash": "c291ae0b3955d6f3",
+      "mediaHash": "68f538a38590eb64",
       "addedAt": "2026-08-24T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "17": {
       "month": "2026-08",
       "hash": "378f4673ad83b7f3",
+      "mediaHash": "e3b0c44298fc1c14",
       "addedAt": "2026-08-25T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "18": {
       "month": "2026-08",
       "hash": "662a2d1ff7f5df6c",
+      "mediaHash": "3bb151d4de39a9ed",
       "addedAt": "2026-08-25T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "19": {
       "month": "2026-08",
       "hash": "ce8f1e6f9efdecea",
+      "mediaHash": "81be2fffe4046509",
       "addedAt": "2026-08-25T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "2": {
       "month": "2026-08",
       "hash": "7c604d1c41604475",
+      "mediaHash": "26a31f3d9aaeba88",
       "addedAt": "2026-08-20T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "20": {
       "month": "2026-08",
       "hash": "935aae9d363855b7",
+      "mediaHash": "c5cc567f2abf34d9",
       "addedAt": "2026-08-25T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "20251119-01": {
       "month": "2025-11",
       "hash": "372f9f61c66b32f0",
+      "mediaHash": "de4ef7f729e20e22",
       "addedAt": "2026-10-14T16:48:43Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "20261007-01": {
       "month": "2026-10",
       "hash": "31177338789f3382",
+      "mediaHash": "eee3467ca780eb50",
       "addedAt": "2026-10-12T07:40:23Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
@@ -121,24 +136,28 @@
     "20261012-05": {
       "month": "2026-10",
       "hash": "40dc88bc873ade84",
+      "mediaHash": "cc0bee8c41a767b0",
       "addedAt": "2026-10-12T13:12:33Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "20261012-06": {
       "month": "2026-10",
       "hash": "f238be3ccc385ffc",
+      "mediaHash": "b88ad41c4475c9b7",
       "addedAt": "2026-10-13T08:36:44Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "20261013-01": {
       "month": "2026-10",
       "hash": "b7da491381ab4787",
+      "mediaHash": "ec643dea413841d4",
       "addedAt": "2026-10-13T13:56:12Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "20261014-01": {
       "month": "2026-10",
       "hash": "541cb1bea9a3626d",
+      "mediaHash": "a9b0f31df94ae072",
       "addedAt": "2026-10-15T14:39:55Z",
       "updatedAt": "2026-10-15T14:47:18Z"
     },
@@ -152,282 +171,329 @@
     "21": {
       "month": "2026-08",
       "hash": "1866ab614c8c9d40",
+      "mediaHash": "5fd6bb4f29c89da6",
       "addedAt": "2026-08-25T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "22": {
       "month": "2026-08",
       "hash": "5530860938e78e14",
+      "mediaHash": "1791c2a14e27d4af",
       "addedAt": "2026-08-20T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "23": {
       "month": "2026-08",
       "hash": "b1a0c106c800d62c",
+      "mediaHash": "6dada0fbe9097e73",
       "addedAt": "2026-08-24T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "24": {
       "month": "2026-08",
       "hash": "c3a22f92d0077b81",
+      "mediaHash": "6ca86ed2bdffb076",
       "addedAt": "2026-08-25T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "25": {
       "month": "2026-08",
       "hash": "31c4013ff1fc62e8",
+      "mediaHash": "4ddd5214ef4ff09b",
       "addedAt": "2026-08-27T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "26": {
       "month": "2026-08",
       "hash": "e36b0bcc1f1649c7",
+      "mediaHash": "49b2193850f5c04b",
       "addedAt": "2026-08-25T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "27": {
       "month": "2026-08",
       "hash": "1c6fd3b1a5760861",
+      "mediaHash": "d8d8da1be54a8b90",
       "addedAt": "2026-08-31T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "28": {
       "month": "2005-06",
       "hash": "0fbf321ccb2974e4",
+      "mediaHash": "7f363786e5e542c9",
       "addedAt": "2005-06-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "29": {
       "month": "2026-09",
       "hash": "5f7df7d5eda9ea86",
+      "mediaHash": "6c8c81ad99ac6290",
       "addedAt": "2026-09-01T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "3": {
       "month": "2026-08",
       "hash": "c7ebfc7a266033ec",
+      "mediaHash": "4062752f2e3fe9ad",
       "addedAt": "2026-08-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "30": {
       "month": "2026-08",
       "hash": "72b606ce7183f435",
+      "mediaHash": "55bc7cb0f2d5b790",
       "addedAt": "2026-08-19T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "31": {
       "month": "2026-09",
       "hash": "c1f35c704dfe910e",
+      "mediaHash": "5dae55e07667917c",
       "addedAt": "2026-09-02T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "32": {
       "month": "2026-08",
       "hash": "dd87fddba471e618",
+      "mediaHash": "48ff33b99384dc93",
       "addedAt": "2026-08-31T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "33": {
       "month": "2026-09",
       "hash": "ce53dd5c1fce3e02",
+      "mediaHash": "2f664224434b435a",
       "addedAt": "2026-09-07T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "34": {
       "month": "2026-09",
       "hash": "59ec93df5c29a4ea",
+      "mediaHash": "caddf0ea49c13963",
       "addedAt": "2026-09-08T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "35": {
       "month": "2026-09",
       "hash": "3f702923a0411d98",
+      "mediaHash": "16d3cb72fe0352ea",
       "addedAt": "2026-09-09T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "36": {
       "month": "2026-09",
       "hash": "ccff5907fc967750",
+      "mediaHash": "7ed1056d196d04f6",
       "addedAt": "2026-09-11T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "37": {
       "month": "2026-09",
       "hash": "9d24376b0c3b5969",
+      "mediaHash": "1eea79510ebc6c35",
       "addedAt": "2026-09-10T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "38": {
       "month": "2026-09",
       "hash": "0fc3445f872226d0",
+      "mediaHash": "99307cf7005d0bbe",
       "addedAt": "2026-09-11T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "39": {
       "month": "2026-09",
       "hash": "e2d25724cebe8b14",
+      "mediaHash": "bf387b126ad9cccc",
       "addedAt": "2026-09-17T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "4": {
       "month": "2019-12",
       "hash": "549f0071b073710e",
+      "mediaHash": "a69ccdbdf3105b5a",
       "addedAt": "2019-12-13T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "40": {
       "month": "2026-09",
       "hash": "bcd2ba317f139da7",
+      "mediaHash": "5218735e4e41e657",
       "addedAt": "2026-09-16T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "41": {
       "month": "2026-09",
       "hash": "9109d3b5e3824dc9",
+      "mediaHash": "1f8a20d6420bba5c",
       "addedAt": "2026-09-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "42": {
       "month": "2026-09",
       "hash": "54a7e1b8e1a79624",
+      "mediaHash": "bf79d971d88ab0aa",
       "addedAt": "2026-09-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "43": {
       "month": "2026-09",
       "hash": "dd69748f068b9c0b",
+      "mediaHash": "8673803a915435fd",
       "addedAt": "2026-09-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "44": {
       "month": "2026-09",
       "hash": "12c66cffba790419",
+      "mediaHash": "5f41b28892b56b9f",
       "addedAt": "2026-09-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "45": {
       "month": "2026-09",
       "hash": "3e73884ed46fbe40",
+      "mediaHash": "7405ce30951fa538",
       "addedAt": "2026-09-24T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "46": {
       "month": "2026-09",
       "hash": "fc9aedfd26bacfb6",
+      "mediaHash": "0cdecf5151b42c04",
       "addedAt": "2026-09-24T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "47": {
       "month": "2026-09",
       "hash": "8ab5824503f77467",
+      "mediaHash": "da4d08362c6b7347",
       "addedAt": "2026-09-24T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "48": {
       "month": "2026-09",
       "hash": "cfbe1a10e2b20ce6",
+      "mediaHash": "57144e951721254f",
       "addedAt": "2026-09-24T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "49": {
       "month": "2026-09",
       "hash": "930d0d4dd2f79fa0",
+      "mediaHash": "c416e2d13412ad79",
       "addedAt": "2026-09-28T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "5": {
       "month": "2009-02",
       "hash": "89eef8f30857673d",
+      "mediaHash": "83740740d0e71eb7",
       "addedAt": "2009-02-23T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "50": {
       "month": "2026-09",
       "hash": "1fdc2e421ec98dab",
+      "mediaHash": "27fb7c5ec4c9bfcf",
       "addedAt": "2026-09-29T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "51": {
       "month": "2026-09",
       "hash": "90f161e461682ac4",
+      "mediaHash": "5529bdc64b388bfb",
       "addedAt": "2026-09-21T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "52": {
       "month": "2026-09",
       "hash": "a56a9952b1c006bb",
+      "mediaHash": "3be7097decc8a4c2",
       "addedAt": "2026-09-30T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "53": {
       "month": "2026-09",
       "hash": "00b72f01fd0e72c6",
+      "mediaHash": "7612fec47fe28c8d",
       "addedAt": "2026-09-28T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "54": {
       "month": "2026-10",
       "hash": "a3adc1917e8c52e0",
+      "mediaHash": "89296b9d53b20f0e",
       "addedAt": "2026-10-01T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "55": {
       "month": "2026-10",
       "hash": "08db18b76efb0973",
+      "mediaHash": "17b8fe6a7c64aaa6",
       "addedAt": "2026-10-01T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "56": {
       "month": "2026-10",
       "hash": "d46624a4dd97fb25",
+      "mediaHash": "cd5daf0a3b271fe6",
       "addedAt": "2026-10-05T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "57": {
       "month": "2026-10",
       "hash": "d5e66b4599e61e8a",
+      "mediaHash": "bf4b4376af59af39",
       "addedAt": "2026-10-06T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "58": {
       "month": "2026-10",
       "hash": "41682ab49f0c91f8",
+      "mediaHash": "9580af0a25d266b1",
       "addedAt": "2026-10-07T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "59": {
       "month": "2026-10",
       "hash": "6dfbff6e3dcc8338",
+      "mediaHash": "b2c587655b44e872",
       "addedAt": "2026-10-09T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "6": {
       "month": "2009-02",
       "hash": "89eef8f30857673d",
+      "mediaHash": "83740740d0e71eb7",
       "addedAt": "2009-02-23T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "60": {
       "month": "2026-10",
       "hash": "a88619f6cf3c122b",
+      "mediaHash": "4c5228151dc52d2f",
       "addedAt": "2026-10-09T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "7": {
       "month": "2022-04",
       "hash": "61cb2643bb072900",
+      "mediaHash": "2d09de5968ea2edc",
       "addedAt": "2022-04-22T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "8": {
       "month": "2022-05",
       "hash": "08f79d9a148a987a",
+      "mediaHash": "3b8c8b24ba65e4df",
       "addedAt": "2022-05-02T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     },
     "9": {
       "month": "2022-04",
       "hash": "10da2a6dc43b36bd",
+      "mediaHash": "32bf4e6335580d7b",
       "addedAt": "2022-04-18T00:00:00Z",
       "updatedAt": "2026-10-15T14:36:44Z"
     }
