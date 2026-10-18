@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T10:31:04Z",
-  "ref": "b4bc1f92dc266923d11d5336fb8acda75db46f1e",
+  "generatedAt": "2026-10-18T10:33:36Z",
+  "ref": "717233e01fc79258a8907989111ac533e2aa8ff7",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -196,12 +196,12 @@
           "count": 2
         },
         {
-          "name": "2nd SLST",
+          "name": "WBCSSC",
           "count": 2
         },
         {
-          "name": "WBCSSC",
-          "count": 2
+          "name": "2nd SLST",
+          "count": 1
         },
         {
           "name": "Application Edit",
@@ -216,11 +216,11 @@
           "count": 1
         },
         {
-          "name": "Classes IX-X",
+          "name": "Classes XI-XII",
           "count": 1
         },
         {
-          "name": "Classes XI-XII",
+          "name": "Correction Notice",
           "count": 1
         },
         {
@@ -229,10 +229,6 @@
         },
         {
           "name": "DLSC",
-          "count": 1
-        },
-        {
-          "name": "Edit Window",
           "count": 1
         },
         {
@@ -278,16 +274,16 @@
           "count": 2
         },
         {
-          "name": "2nd SLST",
-          "count": 2
-        },
-        {
           "name": "TET 2011",
           "count": 2
         },
         {
           "name": "WBCSSC",
           "count": 2
+        },
+        {
+          "name": "2nd SLST",
+          "count": 1
         },
         {
           "name": "Assistant Teacher",
@@ -298,19 +294,15 @@
           "count": 1
         },
         {
-          "name": "Classes IX-X",
-          "count": 1
-        },
-        {
           "name": "Classes XI-XII",
           "count": 1
         },
         {
-          "name": "Date Extension",
+          "name": "Correction Notice",
           "count": 1
         },
         {
-          "name": "Edit Window",
+          "name": "Date Extension",
           "count": 1
         },
         {
@@ -1378,7 +1370,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "5f2738fa036664c4",
+      "version": "58562ebacbc8f457",
       "count": 11,
       "categories": {
         "D.El.Ed Admission": [
@@ -1406,10 +1398,8 @@
           "School Administration"
         ],
         "Recruitment": [
-          "2nd SLST",
-          "Classes IX-X",
+          "Correction Notice",
           "DLSC",
-          "Edit Window",
           "Medical Officer",
           "NHM",
           "RBSK"
@@ -1420,9 +1410,7 @@
           "Primary Education"
         ],
         "School Service Commission": [
-          "2nd SLST",
-          "Classes IX-X",
-          "Edit Window"
+          "Correction Notice"
         ],
         "WBBPE": [
           "Administration",
@@ -2146,7 +2134,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "4680370dd86b9af4",
-    "count": 14
+    "version": "465db066a40cf551",
+    "count": 15
   }
 }
