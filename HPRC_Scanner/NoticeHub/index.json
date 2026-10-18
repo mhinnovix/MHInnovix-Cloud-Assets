@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T10:06:42Z",
-  "ref": "d6f3ad2f432eeae0b97bfc8185e3841961c36d8f",
+  "generatedAt": "2026-10-18T10:20:23Z",
+  "ref": "b1d5314391feaf820f4d8ca7d9ab61d514c112b7",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -592,10 +592,6 @@
       "count": 2,
       "sub": [
         {
-          "name": "CwSN",
-          "count": 1
-        },
-        {
           "name": "Learning Outcomes",
           "count": 1
         },
@@ -604,15 +600,11 @@
           "count": 1
         },
         {
-          "name": "PRASHAST Portal",
-          "count": 1
-        },
-        {
           "name": "Primary Schools",
           "count": 1
         },
         {
-          "name": "Sensitization Module",
+          "name": "School Administration",
           "count": 1
         }
       ]
@@ -1068,15 +1060,7 @@
       "count": 1,
       "sub": [
         {
-          "name": "CwSN",
-          "count": 1
-        },
-        {
-          "name": "PRASHAST Portal",
-          "count": 1
-        },
-        {
-          "name": "Sensitization Module",
+          "name": "School Administration",
           "count": 1
         }
       ]
@@ -1404,7 +1388,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "b3349951be046e7a",
+      "version": "6b3b6b58a19c378a",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
@@ -1428,14 +1412,10 @@
           "RBSK"
         ],
         "Inclusive Education": [
-          "CwSN",
-          "PRASHAST Portal",
-          "Sensitization Module"
+          "School Administration"
         ],
         "PBSSM": [
-          "CwSN",
-          "PRASHAST Portal",
-          "Sensitization Module"
+          "School Administration"
         ],
         "PSC WB": [
           "Clerkship Examination 2024"
@@ -2180,7 +2160,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "4c11407700c00322",
-    "count": 11
+    "version": "be3f6b339a70b98d",
+    "count": 12
   }
 }
