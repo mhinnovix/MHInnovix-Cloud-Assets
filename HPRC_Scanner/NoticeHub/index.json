@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T10:27:42Z",
-  "ref": "b1fd2ecdd324ea66f479287e642daedcb59fb46b",
+  "generatedAt": "2026-10-18T10:29:33Z",
+  "ref": "e47fabe9d1090227ab537fbf572f9e9477a60482",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -275,18 +275,14 @@
     },
     {
       "name": "School Service Commission",
-      "count": 7,
+      "count": 6,
       "sub": [
-        {
-          "name": "2nd SLST",
-          "count": 3
-        },
         {
           "name": "1st SLST NTS",
           "count": 2
         },
         {
-          "name": "Assistant Teacher",
+          "name": "2nd SLST",
           "count": 2
         },
         {
@@ -296,6 +292,10 @@
         {
           "name": "WBCSSC",
           "count": 2
+        },
+        {
+          "name": "Assistant Teacher",
+          "count": 1
         },
         {
           "name": "Barasat",
@@ -327,10 +327,6 @@
         },
         {
           "name": "PwBD",
-          "count": 1
-        },
-        {
-          "name": "Revised Vacancies",
           "count": 1
         },
         {
@@ -1304,15 +1300,11 @@
       "count": 1,
       "sub": [
         {
-          "name": "2nd SLST",
+          "name": "Recruitment",
           "count": 1
         },
         {
-          "name": "Assistant Teacher",
-          "count": 1
-        },
-        {
-          "name": "Revised Vacancies",
+          "name": "Vacancy Notice",
           "count": 1
         }
       ]
@@ -1386,8 +1378,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "98e913fbf7a3180c",
-      "count": 12,
+      "version": "be05c7c9e2849c2b",
+      "count": 11,
       "categories": {
         "D.El.Ed Admission": [
           "Merit List",
@@ -1433,10 +1425,8 @@
         ],
         "School Service Commission": [
           "2nd SLST",
-          "Assistant Teacher",
           "Classes IX-X",
-          "Edit Window",
-          "Revised Vacancies"
+          "Edit Window"
         ],
         "WBBPE": [
           "Administration",
@@ -1447,11 +1437,6 @@
           "Online Scrutiny",
           "Recruitment",
           "Session 2026-2028"
-        ],
-        "WBBSE": [
-          "2nd SLST",
-          "Assistant Teacher",
-          "Revised Vacancies"
         ],
         "WBCSSC": [
           "Interview Schedule",
@@ -1467,8 +1452,8 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "ec041b4d4c012efe",
-      "count": 23,
+      "version": "f456639e59156e42",
+      "count": 24,
       "categories": {
         "APAAR ID": [
           "Jalpaiguri District",
@@ -1651,6 +1636,10 @@
           "Holiday Notice",
           "NIOS",
           "Suspension of Classes"
+        ],
+        "WBBSE": [
+          "Recruitment",
+          "Vacancy Notice"
         ]
       }
     },
@@ -2041,7 +2030,7 @@
     },
     {
       "id": "56",
-      "month": "2026-10",
+      "month": "2026-09",
       "addedAt": 1791158400000
     },
     {
@@ -2157,7 +2146,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "be3f6b339a70b98d",
-    "count": 12
+    "version": "1ef4cf88985a067d",
+    "count": 13
   }
 }
