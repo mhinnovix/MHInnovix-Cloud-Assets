@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T10:29:33Z",
-  "ref": "e47fabe9d1090227ab537fbf572f9e9477a60482",
+  "generatedAt": "2026-10-18T10:31:04Z",
+  "ref": "b4bc1f92dc266923d11d5336fb8acda75db46f1e",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -189,7 +189,7 @@
     },
     {
       "name": "Recruitment",
-      "count": 8,
+      "count": 7,
       "sub": [
         {
           "name": "1st SLST NTS",
@@ -221,10 +221,6 @@
         },
         {
           "name": "Classes XI-XII",
-          "count": 1
-        },
-        {
-          "name": "Clerkship Examination 2024",
           "count": 1
         },
         {
@@ -1098,16 +1094,6 @@
       ]
     },
     {
-      "name": "PSC WB",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Clerkship Examination 2024",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Public Service Commission",
       "count": 1,
       "sub": [
@@ -1356,6 +1342,20 @@
       ]
     },
     {
+      "name": "WBPSC",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Government Jobs",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Webinar",
       "count": 1,
       "sub": [
@@ -1378,7 +1378,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "be05c7c9e2849c2b",
+      "version": "5f2738fa036664c4",
       "count": 11,
       "categories": {
         "D.El.Ed Admission": [
@@ -1405,13 +1405,9 @@
           "Inclusive Education",
           "School Administration"
         ],
-        "PSC WB": [
-          "Clerkship Examination 2024"
-        ],
         "Recruitment": [
           "2nd SLST",
           "Classes IX-X",
-          "Clerkship Examination 2024",
           "DLSC",
           "Edit Window",
           "Medical Officer",
@@ -1446,6 +1442,10 @@
           "Ayushman Bharat",
           "Card Surrender",
           "Swasthya Sathi"
+        ],
+        "WBPSC": [
+          "Government Jobs",
+          "Recruitment"
         ]
       }
     },
@@ -2146,7 +2146,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "1ef4cf88985a067d",
-    "count": 13
+    "version": "4680370dd86b9af4",
+    "count": 14
   }
 }
