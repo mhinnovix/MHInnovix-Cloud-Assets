@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T04:27:49Z",
-  "ref": "82d6b5f5499f369da8ac08dcf297e378567d12bf",
+  "generatedAt": "2026-10-18T04:30:54Z",
+  "ref": "b5eb5f57009f1845eeb5b85f74cdac8b79b97a8a",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -18,15 +18,15 @@
           "count": 5
         },
         {
-          "name": "Session 2026-2028",
-          "count": 2
-        },
-        {
           "name": "6 Months Certificate Course",
           "count": 1
         },
         {
           "name": "Administration",
+          "count": 1
+        },
+        {
+          "name": "Admission",
           "count": 1
         },
         {
@@ -38,15 +38,15 @@
           "count": 1
         },
         {
+          "name": "D.El.Ed",
+          "count": 1
+        },
+        {
           "name": "Holiday Notice",
           "count": 1
         },
         {
           "name": "HS Semester-III Exam",
-          "count": 1
-        },
-        {
-          "name": "In-Service Teachers",
           "count": 1
         },
         {
@@ -67,6 +67,10 @@
         },
         {
           "name": "Primary Teacher",
+          "count": 1
+        },
+        {
+          "name": "Session 2026-2028",
           "count": 1
         },
         {
@@ -522,28 +526,6 @@
       ]
     },
     {
-      "name": "D.El.Ed Admission",
-      "count": 2,
-      "sub": [
-        {
-          "name": "Session 2026-2028",
-          "count": 2
-        },
-        {
-          "name": "In-Service Teachers",
-          "count": 1
-        },
-        {
-          "name": "Merit List",
-          "count": 1
-        },
-        {
-          "name": "Online Scrutiny",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Directorate of School Education",
       "count": 2,
       "sub": [
@@ -841,6 +823,24 @@
         },
         {
           "name": "WBPSC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "D.El.Ed Admission",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Merit List",
+          "count": 1
+        },
+        {
+          "name": "Online Scrutiny",
+          "count": 1
+        },
+        {
+          "name": "Session 2026-2028",
           "count": 1
         }
       ]
@@ -1402,11 +1402,10 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "f983b95db10646f7",
+      "version": "5247e9586d9169fd",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
-          "In-Service Teachers",
           "Merit List",
           "Online Scrutiny",
           "Session 2026-2028"
@@ -1467,7 +1466,8 @@
         ],
         "WBBPE": [
           "Administration",
-          "In-Service Teachers",
+          "Admission",
+          "D.El.Ed",
           "Merit List",
           "OBC Correction",
           "Online Scrutiny",
@@ -2179,7 +2179,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "0a444c1af0a512ee",
-    "count": 9
+    "version": "4ca0c144bfea54bb",
+    "count": 10
   }
 }
