@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T10:27:15Z",
-  "ref": "c1ac639dc6b441da241c405ecd92af3b68390e27",
+  "generatedAt": "2026-10-18T10:27:42Z",
+  "ref": "b1fd2ecdd324ea66f479287e642daedcb59fb46b",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -591,6 +591,10 @@
       "name": "PBSSM",
       "count": 2,
       "sub": [
+        {
+          "name": "Inclusive Education",
+          "count": 1
+        },
         {
           "name": "Learning Outcomes",
           "count": 1
@@ -1382,7 +1386,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "a6a9bcd5655af753",
+      "version": "98e913fbf7a3180c",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
@@ -1406,6 +1410,7 @@
           "RBSK"
         ],
         "PBSSM": [
+          "Inclusive Education",
           "School Administration"
         ],
         "PSC WB": [
