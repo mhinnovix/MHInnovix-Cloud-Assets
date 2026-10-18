@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T09:48:34Z",
-  "ref": "698fc1c58ff6346c5e4a2ed428aa5ef970becf5b",
+  "generatedAt": "2026-10-18T10:06:42Z",
+  "ref": "d6f3ad2f432eeae0b97bfc8185e3841961c36d8f",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -189,18 +189,14 @@
     },
     {
       "name": "Recruitment",
-      "count": 9,
+      "count": 8,
       "sub": [
-        {
-          "name": "2nd SLST",
-          "count": 3
-        },
         {
           "name": "1st SLST NTS",
           "count": 2
         },
         {
-          "name": "Classes XI-XII",
+          "name": "2nd SLST",
           "count": 2
         },
         {
@@ -221,6 +217,10 @@
         },
         {
           "name": "Classes IX-X",
+          "count": 1
+        },
+        {
+          "name": "Classes XI-XII",
           "count": 1
         },
         {
@@ -245,10 +245,6 @@
         },
         {
           "name": "GroupC&D",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
           "count": 1
         },
         {
@@ -279,11 +275,11 @@
     },
     {
       "name": "School Service Commission",
-      "count": 8,
+      "count": 7,
       "sub": [
         {
           "name": "2nd SLST",
-          "count": 4
+          "count": 3
         },
         {
           "name": "1st SLST NTS",
@@ -291,10 +287,6 @@
         },
         {
           "name": "Assistant Teacher",
-          "count": 2
-        },
-        {
-          "name": "Classes XI-XII",
           "count": 2
         },
         {
@@ -314,6 +306,10 @@
           "count": 1
         },
         {
+          "name": "Classes XI-XII",
+          "count": 1
+        },
+        {
           "name": "Date Extension",
           "count": 1
         },
@@ -323,10 +319,6 @@
         },
         {
           "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
           "count": 1
         },
         {
@@ -1362,6 +1354,16 @@
       ]
     },
     {
+      "name": "WBCSSC",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Interview",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "WBHS",
       "count": 1,
       "sub": [
@@ -1402,7 +1404,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "5247e9586d9169fd",
+      "version": "b3349951be046e7a",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
@@ -1441,11 +1443,9 @@
         "Recruitment": [
           "2nd SLST",
           "Classes IX-X",
-          "Classes XI-XII",
           "Clerkship Examination 2024",
           "DLSC",
           "Edit Window",
-          "Interview Schedule",
           "Medical Officer",
           "NHM",
           "RBSK"
@@ -1459,9 +1459,7 @@
           "2nd SLST",
           "Assistant Teacher",
           "Classes IX-X",
-          "Classes XI-XII",
           "Edit Window",
-          "Interview Schedule",
           "Revised Vacancies"
         ],
         "WBBPE": [
@@ -1478,6 +1476,9 @@
           "2nd SLST",
           "Assistant Teacher",
           "Revised Vacancies"
+        ],
+        "WBCSSC": [
+          "Interview"
         ],
         "WBHS": [
           "Ayushman Bharat",
@@ -2179,7 +2180,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "4ca0c144bfea54bb",
-    "count": 10
+    "version": "4c11407700c00322",
+    "count": 11
   }
 }
