@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T10:33:36Z",
-  "ref": "717233e01fc79258a8907989111ac533e2aa8ff7",
+  "generatedAt": "2026-10-18T13:34:53Z",
+  "ref": "320033e99871e50dcb14727b31e5b7b898984bf5",
   "minAppVersion": 0,
-  "totalNotices": 73,
+  "totalNotices": 74,
   "categories": [
     {
       "name": "WBBPE",
@@ -686,6 +686,28 @@
       ]
     },
     {
+      "name": "WBPSC",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Examination",
+          "count": 1
+        },
+        {
+          "name": "Government Jobs",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "Syllabus",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Acts & Rules",
       "count": 1,
       "sub": [
@@ -1334,20 +1356,6 @@
       ]
     },
     {
-      "name": "WBPSC",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Government Jobs",
-          "count": 1
-        },
-        {
-          "name": "Recruitment",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Webinar",
       "count": 1,
       "sub": [
@@ -1370,8 +1378,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "58562ebacbc8f457",
-      "count": 11,
+      "version": "47032b2325e5f9f4",
+      "count": 12,
       "categories": {
         "D.El.Ed Admission": [
           "Merit List",
@@ -1432,8 +1440,10 @@
           "Swasthya Sathi"
         ],
         "WBPSC": [
+          "Examination",
           "Government Jobs",
-          "Recruitment"
+          "Recruitment",
+          "Syllabus"
         ]
       }
     },
@@ -1932,6 +1942,11 @@
   ],
   "recent": [
     {
+      "id": "20261018-01",
+      "month": "2026-10",
+      "addedAt": 1792330493000
+    },
+    {
       "id": "20260119-01",
       "month": "2026-01",
       "addedAt": 1792094466000
@@ -2125,16 +2140,11 @@
       "id": "35",
       "month": "2026-09",
       "addedAt": 1788912000000
-    },
-    {
-      "id": "34",
-      "month": "2026-09",
-      "addedAt": 1788825600000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "465db066a40cf551",
-    "count": 15
+    "version": "ef2d8f3a6701ac54",
+    "count": 16
   }
 }
