@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-15T20:03:12Z",
-  "ref": "8cafbd9f99758c869a08929f228aedc3d935cf30",
+  "generatedAt": "2026-10-18T04:27:49Z",
+  "ref": "82d6b5f5499f369da8ac08dcf297e378567d12bf",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -26,7 +26,7 @@
           "count": 1
         },
         {
-          "name": "Ad hoc Committee Appointment",
+          "name": "Administration",
           "count": 1
         },
         {
@@ -88,7 +88,7 @@
           "count": 1
         },
         {
-          "name": "Ad hoc Committee Appointment",
+          "name": "Administration",
           "count": 1
         },
         {
@@ -1402,7 +1402,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "57f84995d07d0afe",
+      "version": "f983b95db10646f7",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
@@ -1452,7 +1452,7 @@
           "RBSK"
         ],
         "School Education Department": [
-          "Ad hoc Committee Appointment",
+          "Administration",
           "Chairman Appointment",
           "Primary Education"
         ],
@@ -1466,7 +1466,7 @@
           "Revised Vacancies"
         ],
         "WBBPE": [
-          "Ad hoc Committee Appointment",
+          "Administration",
           "In-Service Teachers",
           "Merit List",
           "OBC Correction",
@@ -2179,7 +2179,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "2af6d92dfc213da9",
-    "count": 8
+    "version": "0a444c1af0a512ee",
+    "count": 9
   }
 }
