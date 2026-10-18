@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T04:30:54Z",
-  "ref": "b5eb5f57009f1845eeb5b85f74cdac8b79b97a8a",
+  "generatedAt": "2026-10-18T09:47:58Z",
+  "ref": "7dcbdddf0dbe819f70c34f392e33faa718fb3e83",
   "minAppVersion": 0,
-  "totalNotices": 73,
+  "totalNotices": 74,
   "categories": [
     {
       "name": "WBBPE",
@@ -79,6 +79,28 @@
         },
         {
           "name": "TET",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "count": 10,
+      "sub": [
+        {
+          "name": "Pay Revision",
+          "count": 6
+        },
+        {
+          "name": "Bonus / Ex-gratia",
+          "count": 2
+        },
+        {
+          "name": "General",
+          "count": 1
+        },
+        {
+          "name": "Increments",
           "count": 1
         }
       ]
@@ -165,24 +187,6 @@
         },
         {
           "name": "Zero-Enrolment Schools",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Finance",
-      "count": 9,
-      "sub": [
-        {
-          "name": "Pay Revision",
-          "count": 6
-        },
-        {
-          "name": "Bonus / Ex-gratia",
-          "count": 2
-        },
-        {
-          "name": "Increments",
           "count": 1
         }
       ]
@@ -1402,8 +1406,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "5247e9586d9169fd",
-      "count": 12,
+      "version": "9a47d24d23670e40",
+      "count": 13,
       "categories": {
         "D.El.Ed Admission": [
           "Merit List",
@@ -1413,6 +1417,9 @@
         "DPSC": [
           "Chairman Appointment",
           "Primary Education"
+        ],
+        "Finance": [
+          "General"
         ],
         "Finance Department": [
           "Ayushman Bharat",
@@ -1977,6 +1984,11 @@
   ],
   "recent": [
     {
+      "id": "20261014-03",
+      "month": "2026-10",
+      "addedAt": 1792316877000
+    },
+    {
       "id": "20260119-01",
       "month": "2026-01",
       "addedAt": 1792094466000
@@ -2170,11 +2182,6 @@
       "id": "35",
       "month": "2026-09",
       "addedAt": 1788912000000
-    },
-    {
-      "id": "34",
-      "month": "2026-09",
-      "addedAt": 1788825600000
     }
   ],
   "memoIndex": {
