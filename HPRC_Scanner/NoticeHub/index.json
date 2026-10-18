@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T10:20:23Z",
-  "ref": "b1d5314391feaf820f4d8ca7d9ab61d514c112b7",
+  "generatedAt": "2026-10-18T10:20:54Z",
+  "ref": "114f4404a61de03b037cd9bb9a456e94bcbf1d53",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -1056,16 +1056,6 @@
       ]
     },
     {
-      "name": "Inclusive Education",
-      "count": 1,
-      "sub": [
-        {
-          "name": "School Administration",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Mid-Day Meal",
       "count": 1,
       "sub": [
@@ -1388,7 +1378,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "6b3b6b58a19c378a",
+      "version": "fa95d971e7963b8f",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
@@ -1410,9 +1400,6 @@
           "Medical Officer",
           "NHM",
           "RBSK"
-        ],
-        "Inclusive Education": [
-          "School Administration"
         ],
         "PBSSM": [
           "School Administration"
