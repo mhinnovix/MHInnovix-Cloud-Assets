@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:12:15Z",
-  "ref": "f9f15737ab67dcd7ff9804dd90e5c6961146f467",
+  "generatedAt": "2026-10-19T07:12:37Z",
+  "ref": "fc202c438f2eced8f33dea7dd482d8fa08ca4253",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -178,10 +178,6 @@
           "count": 2
         },
         {
-          "name": "ROPA",
-          "count": 2
-        },
-        {
           "name": "Service Rules",
           "count": 2
         },
@@ -191,6 +187,14 @@
         },
         {
           "name": "Increments",
+          "count": 1
+        },
+        {
+          "name": "ROPA",
+          "count": 1
+        },
+        {
+          "name": "ROPA 2009",
           "count": 1
         },
         {
@@ -1894,13 +1898,13 @@
     {
       "month": "2009-02",
       "path": "NoticeTexts/2009-02.json",
-      "version": "1716ce04662326de",
+      "version": "31775ca6d0d08e45",
       "count": 1,
       "categories": {
         "Finance": [
           "Allowance Rules",
           "Pay Revision",
-          "ROPA",
+          "ROPA 2009",
           "Service Rules"
         ]
       }
