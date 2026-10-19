@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T08:34:56Z",
-  "ref": "97682252b96c330251ba211f4d2933b8316d2337",
+  "generatedAt": "2026-10-19T08:38:18Z",
+  "ref": "b9b7a5a609f30538f4cb3c230e7893bfa82c2aa7",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -224,6 +224,60 @@
       ]
     },
     {
+      "name": "Samagra Shiksha Mission",
+      "count": 6,
+      "sub": [
+        {
+          "name": "APAAR ID",
+          "count": 1
+        },
+        {
+          "name": "Digital Learning",
+          "count": 1
+        },
+        {
+          "name": "Drinking Water",
+          "count": 1
+        },
+        {
+          "name": "ECCE",
+          "count": 1
+        },
+        {
+          "name": "Jalpaiguri District",
+          "count": 1
+        },
+        {
+          "name": "Prashast 2.0",
+          "count": 1
+        },
+        {
+          "name": "Purba Medinipur",
+          "count": 1
+        },
+        {
+          "name": "Student Enrollment",
+          "count": 1
+        },
+        {
+          "name": "Teacher Guidelines",
+          "count": 1
+        },
+        {
+          "name": "UDISE+",
+          "count": 1
+        },
+        {
+          "name": "Water Tank Cleaning",
+          "count": 1
+        },
+        {
+          "name": "Webniar",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Census",
       "count": 5,
       "sub": [
@@ -303,56 +357,6 @@
         },
         {
           "name": "RBSK",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Samagra Shiksha Mission",
-      "count": 5,
-      "sub": [
-        {
-          "name": "APAAR ID",
-          "count": 1
-        },
-        {
-          "name": "Digital Learning",
-          "count": 1
-        },
-        {
-          "name": "Drinking Water",
-          "count": 1
-        },
-        {
-          "name": "ECCE",
-          "count": 1
-        },
-        {
-          "name": "Jalpaiguri District",
-          "count": 1
-        },
-        {
-          "name": "Purba Medinipur",
-          "count": 1
-        },
-        {
-          "name": "Student Enrollment",
-          "count": 1
-        },
-        {
-          "name": "Teacher Guidelines",
-          "count": 1
-        },
-        {
-          "name": "UDISE+",
-          "count": 1
-        },
-        {
-          "name": "Water Tank Cleaning",
-          "count": 1
-        },
-        {
-          "name": "Webniar",
           "count": 1
         }
       ]
@@ -1128,16 +1132,6 @@
       ]
     },
     {
-      "name": "Training",
-      "count": 1,
-      "sub": [
-        {
-          "name": "PRASHAST 2.0",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Transfer",
       "count": 1,
       "sub": [
@@ -1486,7 +1480,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "1f2ce0e7bbebd9ed",
+      "version": "f0ba7236e6d783f9",
       "count": 20,
       "categories": {
         "Census": [
@@ -1539,6 +1533,7 @@
         "Samagra Shiksha Mission": [
           "Digital Learning",
           "ECCE",
+          "Prashast 2.0",
           "Teacher Guidelines",
           "Webniar"
         ],
@@ -1553,9 +1548,6 @@
           "CTET",
           "Online Application",
           "Public Notice"
-        ],
-        "Training": [
-          "PRASHAST 2.0"
         ],
         "WBCS": [
           "Transfer Order"
@@ -1935,7 +1927,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "b949a2da8bb3cdfa",
-    "count": 33
+    "version": "e9c07fd7beebaddf",
+    "count": 34
   }
 }
