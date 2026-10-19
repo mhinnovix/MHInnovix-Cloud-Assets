@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T08:27:03Z",
-  "ref": "1c359648efa5726801a9a135b93b04fe4c613942",
+  "generatedAt": "2026-10-19T08:29:33Z",
+  "ref": "8aacfae1df76b844683bc30fc9511cee3cc76099",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -224,80 +224,6 @@
       ]
     },
     {
-      "name": "Recruitment",
-      "count": 6,
-      "sub": [
-        {
-          "name": "1st SLST NTS",
-          "count": 2
-        },
-        {
-          "name": "WBCSSC",
-          "count": 2
-        },
-        {
-          "name": "2nd SLST",
-          "count": 1
-        },
-        {
-          "name": "Application Edit",
-          "count": 1
-        },
-        {
-          "name": "Assistant Teacher",
-          "count": 1
-        },
-        {
-          "name": "Classes XI-XII",
-          "count": 1
-        },
-        {
-          "name": "Correction Notice",
-          "count": 1
-        },
-        {
-          "name": "Date Extension",
-          "count": 1
-        },
-        {
-          "name": "DLSC",
-          "count": 1
-        },
-        {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "GroupC&D",
-          "count": 1
-        },
-        {
-          "name": "Medical Officer",
-          "count": 1
-        },
-        {
-          "name": "NHM",
-          "count": 1
-        },
-        {
-          "name": "NTS",
-          "count": 1
-        },
-        {
-          "name": "OBC",
-          "count": 1
-        },
-        {
-          "name": "PwBD",
-          "count": 1
-        },
-        {
-          "name": "RBSK",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "School Service Commission",
       "count": 6,
       "sub": [
@@ -381,6 +307,64 @@
         },
         {
           "name": "On-Duty Status",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Recruitment",
+      "count": 5,
+      "sub": [
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "2nd SLST",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher",
+          "count": 1
+        },
+        {
+          "name": "Classes XI-XII",
+          "count": 1
+        },
+        {
+          "name": "Correction Notice",
+          "count": 1
+        },
+        {
+          "name": "Date Extension",
+          "count": 1
+        },
+        {
+          "name": "DLSC",
+          "count": 1
+        },
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "Medical Officer",
+          "count": 1
+        },
+        {
+          "name": "NHM",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
+          "count": 1
+        },
+        {
+          "name": "RBSK",
           "count": 1
         }
       ]
@@ -637,6 +621,28 @@
         },
         {
           "name": "WBRSSC SER",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBCSSC",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Category Update",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "SLST",
           "count": 1
         }
       ]
@@ -1200,20 +1206,6 @@
       ]
     },
     {
-      "name": "WBCSSC",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Interview Schedule",
-          "count": 1
-        },
-        {
-          "name": "Recruitment",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "WBHS",
       "count": 1,
       "sub": [
@@ -1500,7 +1492,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "6fb6c13209aa4cb0",
+      "version": "baecd9c3a23ce816",
       "count": 20,
       "categories": {
         "Census": [
@@ -1550,12 +1542,6 @@
           "WBCS",
           "WBPSC"
         ],
-        "Recruitment": [
-          "Application Edit",
-          "GroupC&D",
-          "NTS",
-          "OBC"
-        ],
         "Samagra Shiksha Mission": [
           "Digital Learning",
           "ECCE",
@@ -1589,6 +1575,10 @@
         ],
         "WBCS": [
           "Transfer Order"
+        ],
+        "WBCSSC": [
+          "Category Update",
+          "SLST"
         ]
       }
     },
@@ -1958,7 +1948,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "2db5d4baf2fab4fc",
-    "count": 31
+    "version": "bd54342313d94a7f",
+    "count": 32
   }
 }
