@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:35:43Z",
-  "ref": "179c447a5464c53431fe26ba5fe59360ac0cefbf",
+  "generatedAt": "2026-10-19T07:36:10Z",
+  "ref": "e681b32a432b5179ad85c05313831d927cd8aa8f",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -11,11 +11,11 @@
       "sub": [
         {
           "name": "Recruitment",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Interview",
-          "count": 4
+          "count": 5
         },
         {
           "name": "6 Months Certificate Course",
@@ -38,10 +38,6 @@
           "count": 1
         },
         {
-          "name": "Document Verification",
-          "count": 1
-        },
-        {
           "name": "Holiday Notice",
           "count": 1
         },
@@ -51,10 +47,6 @@
         },
         {
           "name": "Interview Application",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
           "count": 1
         },
         {
@@ -71,10 +63,6 @@
         },
         {
           "name": "Suspension of Classes",
-          "count": 1
-        },
-        {
-          "name": "Teacher Recruitment",
           "count": 1
         },
         {
@@ -1816,17 +1804,14 @@
     {
       "month": "2026-01",
       "path": "NoticeTexts/2026-01.json",
-      "version": "f68fc223a6330483",
+      "version": "795978f35a9174fa",
       "count": 3,
       "categories": {
         "WBBPE": [
           "Certificate",
-          "Document Verification",
           "Interview",
-          "Interview Schedule",
           "Recruitment",
-          "TET",
-          "Teacher Recruitment"
+          "TET"
         ]
       }
     },
