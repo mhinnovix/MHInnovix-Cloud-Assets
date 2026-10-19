@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:11:03Z",
-  "ref": "15c5a527ba13e6190a90d7429d51a4b7ae9066db",
+  "generatedAt": "2026-10-19T07:12:15Z",
+  "ref": "f9f15737ab67dcd7ff9804dd90e5c6961146f467",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -182,6 +182,10 @@
           "count": 2
         },
         {
+          "name": "Service Rules",
+          "count": 2
+        },
+        {
           "name": "Allowance Rules",
           "count": 1
         },
@@ -190,7 +194,7 @@
           "count": 1
         },
         {
-          "name": "Service Rules",
+          "name": "ROPA 2019",
           "count": 1
         }
       ]
@@ -1877,11 +1881,13 @@
     {
       "month": "2019-12",
       "path": "NoticeTexts/2019-12.json",
-      "version": "7cf4d26227fedc4b",
+      "version": "cb514e53f793a52f",
       "count": 1,
       "categories": {
         "Finance": [
-          "Pay Revision"
+          "Pay Revision",
+          "ROPA 2019",
+          "Service Rules"
         ]
       }
     },
@@ -2127,7 +2133,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "2562c53682710ec6",
-    "count": 21
+    "version": "7d679ccbd170a556",
+    "count": 22
   }
 }
