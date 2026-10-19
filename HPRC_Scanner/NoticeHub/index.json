@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T06:37:20Z",
-  "ref": "64c533c4ef334f793614d49dc1808838fb1b101a",
+  "generatedAt": "2026-10-19T06:42:08Z",
+  "ref": "3fbe037ab7b77b2231ce1312beaa28bc98c982eb",
   "minAppVersion": 0,
   "totalNotices": 74,
   "categories": [
@@ -50,10 +50,6 @@
           "count": 1
         },
         {
-          "name": "Merit List",
-          "count": 1
-        },
-        {
           "name": "NIOS",
           "count": 1
         },
@@ -70,15 +66,15 @@
           "count": 1
         },
         {
-          "name": "Session 2026-2028",
-          "count": 1
-        },
-        {
           "name": "Suspension of Classes",
           "count": 1
         },
         {
           "name": "TET",
+          "count": 1
+        },
+        {
+          "name": "Verification",
           "count": 1
         }
       ]
@@ -826,15 +822,11 @@
       "count": 1,
       "sub": [
         {
-          "name": "Merit List",
-          "count": 1
-        },
-        {
           "name": "Online Scrutiny",
           "count": 1
         },
         {
-          "name": "Session 2026-2028",
+          "name": "Verification",
           "count": 1
         }
       ]
@@ -1378,13 +1370,12 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "6db2f957f8651fee",
+      "version": "ee2fd83fbe524fd1",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
-          "Merit List",
           "Online Scrutiny",
-          "Session 2026-2028"
+          "Verification"
         ],
         "DPSC": [
           "Chairman Appointment",
@@ -1424,11 +1415,10 @@
           "Administration",
           "Admission",
           "D.El.Ed",
-          "Merit List",
           "OBC Correction",
           "Online Scrutiny",
           "Recruitment",
-          "Session 2026-2028"
+          "Verification"
         ],
         "WBCSSC": [
           "Interview Schedule",
@@ -2144,7 +2134,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "c2c243f61417fca5",
-    "count": 17
+    "version": "10034f303f8484ee",
+    "count": 18
   }
 }
