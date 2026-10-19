@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:42:50Z",
-  "ref": "dd3336737122df88caca17cb7c2cf5b5ad5c48ff",
+  "generatedAt": "2026-10-19T07:45:58Z",
+  "ref": "93fafe6b1d6b9a6f8fd534e66f008b2869e75d98",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -696,28 +696,6 @@
       ]
     },
     {
-      "name": "Transfer",
-      "count": 2,
-      "sub": [
-        {
-          "name": "First Phase Census",
-          "count": 1
-        },
-        {
-          "name": "P & AR Department",
-          "count": 1
-        },
-        {
-          "name": "School Service Commission",
-          "count": 1
-        },
-        {
-          "name": "Staff Release",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "WBPSC",
       "count": 2,
       "sub": [
@@ -992,20 +970,6 @@
       ]
     },
     {
-      "name": "Government Order",
-      "count": 1,
-      "sub": [
-        {
-          "name": "P & AR Department",
-          "count": 1
-        },
-        {
-          "name": "School Service Commission",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Guidelines / Help",
       "count": 1,
       "sub": [
@@ -1264,6 +1228,20 @@
       ]
     },
     {
+      "name": "Transfer",
+      "count": 1,
+      "sub": [
+        {
+          "name": "First Phase Census",
+          "count": 1
+        },
+        {
+          "name": "Staff Release",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "UDISE+",
       "count": 1,
       "sub": [
@@ -1310,11 +1288,7 @@
       "count": 1,
       "sub": [
         {
-          "name": "P & AR Department",
-          "count": 1
-        },
-        {
-          "name": "School Service Commission",
+          "name": "Transfer Order",
           "count": 1
         }
       ]
@@ -1638,7 +1612,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "9a89b55c9c5ef9a2",
+      "version": "ce65e98c4a63f99f",
       "count": 20,
       "categories": {
         "Block Level": [
@@ -1682,10 +1656,6 @@
           "CTET",
           "Online Application",
           "Public Notice"
-        ],
-        "Government Order": [
-          "P & AR Department",
-          "School Service Commission"
         ],
         "Guidelines / Help": [
           "SHVR 2026-27"
@@ -1752,17 +1722,12 @@
         "Training": [
           "PRASHAST 2.0"
         ],
-        "Transfer": [
-          "P & AR Department",
-          "School Service Commission"
-        ],
         "Vacancy Report": [
           "Group C&D",
           "Malda District"
         ],
         "WBCS": [
-          "P & AR Department",
-          "School Service Commission"
+          "Transfer Order"
         ],
         "Webinar": [
           "ECCE",
@@ -2137,7 +2102,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "8fd28010b754f387",
-    "count": 27
+    "version": "ad58d18d2dae5da8",
+    "count": 28
   }
 }
