@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:34:19Z",
-  "ref": "0a5ecefbe12fd5f37bab713309857e65eade4ec3",
+  "generatedAt": "2026-10-19T07:35:43Z",
+  "ref": "179c447a5464c53431fe26ba5fe59360ac0cefbf",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -27,10 +27,6 @@
         },
         {
           "name": "Admission",
-          "count": 1
-        },
-        {
-          "name": "Admit Card",
           "count": 1
         },
         {
@@ -1837,11 +1833,10 @@
     {
       "month": "2025-12",
       "path": "NoticeTexts/2025-12.json",
-      "version": "907e5269fda63be2",
+      "version": "7ba08f6ce930b251",
       "count": 1,
       "categories": {
         "WBBPE": [
-          "Admit Card",
           "Interview",
           "Recruitment"
         ]
