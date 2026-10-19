@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:53:46Z",
-  "ref": "c1150347f6c0f66e95fa192c650b1dff1ca2435a",
+  "generatedAt": "2026-10-19T08:25:26Z",
+  "ref": "60f0529a6dcca3479f5e7d773f9fc7655507b1e7",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -360,6 +360,36 @@
       ]
     },
     {
+      "name": "Census",
+      "count": 5,
+      "sub": [
+        {
+          "name": "Census 2027 Guidelines",
+          "count": 1
+        },
+        {
+          "name": "Cooch Behar",
+          "count": 1
+        },
+        {
+          "name": "High Court Order",
+          "count": 1
+        },
+        {
+          "name": "Jalpaiguri",
+          "count": 1
+        },
+        {
+          "name": "Murshidabad",
+          "count": 1
+        },
+        {
+          "name": "On-Duty",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Samagra Shiksha Mission",
       "count": 5,
       "sub": [
@@ -410,62 +440,6 @@
       ]
     },
     {
-      "name": "Census",
-      "count": 4,
-      "sub": [
-        {
-          "name": "Cooch Behar",
-          "count": 1
-        },
-        {
-          "name": "High Court Order",
-          "count": 1
-        },
-        {
-          "name": "Jalpaiguri",
-          "count": 1
-        },
-        {
-          "name": "Murshidabad",
-          "count": 1
-        },
-        {
-          "name": "On-Duty",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Census 2027",
-      "count": 3,
-      "sub": [
-        {
-          "name": "Cooch Behar",
-          "count": 1
-        },
-        {
-          "name": "DPSC",
-          "count": 1
-        },
-        {
-          "name": "First Phase Census",
-          "count": 1
-        },
-        {
-          "name": "Malda District",
-          "count": 1
-        },
-        {
-          "name": "On-Duty Status",
-          "count": 1
-        },
-        {
-          "name": "Staff Release",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Category Update",
       "count": 2,
       "sub": [
@@ -487,6 +461,24 @@
         },
         {
           "name": "PwBD",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Census 2027",
+      "count": 2,
+      "sub": [
+        {
+          "name": "First Phase Census",
+          "count": 1
+        },
+        {
+          "name": "Malda District",
+          "count": 1
+        },
+        {
+          "name": "Staff Release",
           "count": 1
         }
       ]
@@ -605,32 +597,6 @@
         },
         {
           "name": "Uttar Dinajpur",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Primary Education",
-      "count": 2,
-      "sub": [
-        {
-          "name": "Cooch Behar",
-          "count": 1
-        },
-        {
-          "name": "DPSC",
-          "count": 1
-        },
-        {
-          "name": "HS Semester-III Exam",
-          "count": 1
-        },
-        {
-          "name": "On-Duty Status",
-          "count": 1
-        },
-        {
-          "name": "Suspension of Classes",
           "count": 1
         }
       ]
@@ -821,24 +787,6 @@
         },
         {
           "name": "Verification",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "District Administration",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Cooch Behar",
-          "count": 1
-        },
-        {
-          "name": "DPSC",
-          "count": 1
-        },
-        {
-          "name": "On-Duty Status",
           "count": 1
         }
       ]
@@ -1057,6 +1005,20 @@
         },
         {
           "name": "WBPRB",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Primary Education",
+      "count": 1,
+      "sub": [
+        {
+          "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "Suspension of Classes",
           "count": 1
         }
       ]
@@ -1556,7 +1518,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "50e472dec2c35502",
+      "version": "148d1abd21bd2f34",
       "count": 20,
       "categories": {
         "Block Level": [
@@ -1564,6 +1526,7 @@
           "On-Duty"
         ],
         "Census": [
+          "Census 2027 Guidelines",
           "Cooch Behar",
           "High Court Order",
           "Jalpaiguri",
@@ -1571,10 +1534,7 @@
           "On-Duty"
         ],
         "Census 2027": [
-          "Cooch Behar",
-          "DPSC",
-          "Malda District",
-          "On-Duty Status"
+          "Malda District"
         ],
         "Central Board": [
           "CTET",
@@ -1586,11 +1546,6 @@
           "Miscellaneous",
           "WBCS",
           "WBPSC"
-        ],
-        "District Administration": [
-          "Cooch Behar",
-          "DPSC",
-          "On-Duty Status"
         ],
         "District Inspector of Schools": [
           "Vacancy Report"
@@ -1611,11 +1566,6 @@
         ],
         "Mid-Day Meal": [
           "PM POSHAN"
-        ],
-        "Primary Education": [
-          "Cooch Behar",
-          "DPSC",
-          "On-Duty Status"
         ],
         "Public Service Commission": [
           "Clerkship",
