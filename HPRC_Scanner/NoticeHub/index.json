@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:16:17Z",
-  "ref": "92844fc9ef621ea628e55e7d9024f86f2dfe5df1",
+  "generatedAt": "2026-10-19T07:18:58Z",
+  "ref": "35b89505910a07548eb5adeea2d0aaf8c7646689",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -206,7 +206,11 @@
           "count": 1
         },
         {
-          "name": "Increments",
+          "name": "Pay Scale",
+          "count": 1
+        },
+        {
+          "name": "Physical Education Teachers",
           "count": 1
         },
         {
@@ -1871,12 +1875,13 @@
     {
       "month": "2022-04",
       "path": "NoticeTexts/2022-04.json",
-      "version": "4bbdfc8b0531296b",
+      "version": "11a503f116921436",
       "count": 2,
       "categories": {
         "Finance": [
           "Bonus / Ex-gratia",
-          "Increments"
+          "Pay Scale",
+          "Physical Education Teachers"
         ]
       }
     },
@@ -2161,7 +2166,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "bf30a9f65f6cc77f",
-    "count": 24
+    "version": "8785c06d4cd7d942",
+    "count": 25
   }
 }
