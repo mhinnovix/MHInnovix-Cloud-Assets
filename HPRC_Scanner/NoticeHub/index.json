@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:09:47Z",
-  "ref": "64b976122ac7e0cb12dab10cab38fc1789e63244",
+  "generatedAt": "2026-10-19T07:11:03Z",
+  "ref": "15c5a527ba13e6190a90d7429d51a4b7ae9066db",
   "minAppVersion": 0,
-  "totalNotices": 74,
+  "totalNotices": 73,
   "categories": [
     {
       "name": "WBBPE",
@@ -167,11 +167,11 @@
     },
     {
       "name": "Finance",
-      "count": 9,
+      "count": 8,
       "sub": [
         {
           "name": "Pay Revision",
-          "count": 6
+          "count": 5
         },
         {
           "name": "Bonus / Ex-gratia",
@@ -1888,8 +1888,8 @@
     {
       "month": "2009-02",
       "path": "NoticeTexts/2009-02.json",
-      "version": "b5f9571b7705e15a",
-      "count": 2,
+      "version": "1716ce04662326de",
+      "count": 1,
       "categories": {
         "Finance": [
           "Allowance Rules",
