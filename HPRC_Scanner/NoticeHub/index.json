@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T08:25:26Z",
-  "ref": "60f0529a6dcca3479f5e7d773f9fc7655507b1e7",
+  "generatedAt": "2026-10-19T08:27:03Z",
+  "ref": "1c359648efa5726801a9a135b93b04fe4c613942",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -380,11 +380,7 @@
           "count": 1
         },
         {
-          "name": "Murshidabad",
-          "count": 1
-        },
-        {
-          "name": "On-Duty",
+          "name": "On-Duty Status",
           "count": 1
         }
       ]
@@ -687,20 +683,6 @@
         },
         {
           "name": "Student Enrollment",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Block Level",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Murshidabad",
-          "count": 1
-        },
-        {
-          "name": "On-Duty",
           "count": 1
         }
       ]
@@ -1518,20 +1500,15 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "148d1abd21bd2f34",
+      "version": "6fb6c13209aa4cb0",
       "count": 20,
       "categories": {
-        "Block Level": [
-          "Murshidabad",
-          "On-Duty"
-        ],
         "Census": [
           "Census 2027 Guidelines",
           "Cooch Behar",
           "High Court Order",
           "Jalpaiguri",
-          "Murshidabad",
-          "On-Duty"
+          "On-Duty Status"
         ],
         "Census 2027": [
           "Malda District"
@@ -1981,7 +1958,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "ec9c3321ca615127",
-    "count": 30
+    "version": "2db5d4baf2fab4fc",
+    "count": 31
   }
 }
