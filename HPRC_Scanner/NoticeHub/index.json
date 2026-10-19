@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-18T13:35:57Z",
-  "ref": "e2b2d687df8709ec483e0af76e4fac547d287f9f",
+  "generatedAt": "2026-10-19T06:37:20Z",
+  "ref": "64c533c4ef334f793614d49dc1808838fb1b101a",
   "minAppVersion": 0,
   "totalNotices": 74,
   "categories": [
@@ -950,15 +950,15 @@
       "count": 1,
       "sub": [
         {
-          "name": "Ayushman Bharat",
+          "name": "Employee Welfare",
           "count": 1
         },
         {
-          "name": "Card Surrender",
+          "name": "Government Order",
           "count": 1
         },
         {
-          "name": "Swasthya Sathi",
+          "name": "Health Scheme",
           "count": 1
         }
       ]
@@ -1342,15 +1342,15 @@
       "count": 1,
       "sub": [
         {
-          "name": "Ayushman Bharat",
+          "name": "Employee Welfare",
           "count": 1
         },
         {
-          "name": "Card Surrender",
+          "name": "Government Order",
           "count": 1
         },
         {
-          "name": "Swasthya Sathi",
+          "name": "Health Scheme",
           "count": 1
         }
       ]
@@ -1378,7 +1378,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "fc9dd906ca6e814c",
+      "version": "6db2f957f8651fee",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
@@ -1391,9 +1391,9 @@
           "Primary Education"
         ],
         "Finance Department": [
-          "Ayushman Bharat",
-          "Card Surrender",
-          "Swasthya Sathi"
+          "Employee Welfare",
+          "Government Order",
+          "Health Scheme"
         ],
         "Health & Family Welfare": [
           "DLSC",
@@ -1435,9 +1435,9 @@
           "Recruitment"
         ],
         "WBHS": [
-          "Ayushman Bharat",
-          "Card Surrender",
-          "Swasthya Sathi"
+          "Employee Welfare",
+          "Government Order",
+          "Health Scheme"
         ],
         "WBPSC": [
           "Examination",
@@ -2144,7 +2144,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "ef2d8f3a6701ac54",
-    "count": 16
+    "version": "c2c243f61417fca5",
+    "count": 17
   }
 }
