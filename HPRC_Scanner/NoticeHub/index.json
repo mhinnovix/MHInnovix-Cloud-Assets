@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:45:58Z",
-  "ref": "93fafe6b1d6b9a6f8fd534e66f008b2869e75d98",
+  "generatedAt": "2026-10-19T07:48:56Z",
+  "ref": "e09abeec518177fce5504124df4e00b7f176f357",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -384,10 +384,6 @@
           "count": 1
         },
         {
-          "name": "Online Training",
-          "count": 1
-        },
-        {
           "name": "Purba Medinipur",
           "count": 1
         },
@@ -404,11 +400,11 @@
           "count": 1
         },
         {
-          "name": "Ujjiban Charcha",
+          "name": "Water Tank Cleaning",
           "count": 1
         },
         {
-          "name": "Water Tank Cleaning",
+          "name": "Webniar",
           "count": 1
         }
       ]
@@ -465,44 +461,6 @@
         },
         {
           "name": "Staff Release",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Primary Education",
-      "count": 3,
-      "sub": [
-        {
-          "name": "Cooch Behar",
-          "count": 1
-        },
-        {
-          "name": "DPSC",
-          "count": 1
-        },
-        {
-          "name": "ECCE",
-          "count": 1
-        },
-        {
-          "name": "HS Semester-III Exam",
-          "count": 1
-        },
-        {
-          "name": "On-Duty Status",
-          "count": 1
-        },
-        {
-          "name": "Online Training",
-          "count": 1
-        },
-        {
-          "name": "Suspension of Classes",
-          "count": 1
-        },
-        {
-          "name": "Ujjiban Charcha",
           "count": 1
         }
       ]
@@ -647,6 +605,32 @@
         },
         {
           "name": "Uttar Dinajpur",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Primary Education",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Cooch Behar",
+          "count": 1
+        },
+        {
+          "name": "DPSC",
+          "count": 1
+        },
+        {
+          "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "On-Duty Status",
+          "count": 1
+        },
+        {
+          "name": "Suspension of Classes",
           "count": 1
         }
       ]
@@ -1324,24 +1308,6 @@
           "count": 1
         }
       ]
-    },
-    {
-      "name": "Webinar",
-      "count": 1,
-      "sub": [
-        {
-          "name": "ECCE",
-          "count": 1
-        },
-        {
-          "name": "Online Training",
-          "count": 1
-        },
-        {
-          "name": "Ujjiban Charcha",
-          "count": 1
-        }
-      ]
     }
   ],
   "months": [
@@ -1612,7 +1578,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "ce65e98c4a63f99f",
+      "version": "40dffdb360cf1668",
       "count": 20,
       "categories": {
         "Block Level": [
@@ -1672,10 +1638,7 @@
         "Primary Education": [
           "Cooch Behar",
           "DPSC",
-          "ECCE",
-          "On-Duty Status",
-          "Online Training",
-          "Ujjiban Charcha"
+          "On-Duty Status"
         ],
         "Public Service Commission": [
           "Clerkship",
@@ -1692,9 +1655,8 @@
         "Samagra Shiksha Mission": [
           "Digital Learning",
           "ECCE",
-          "Online Training",
           "Teacher Guidelines",
-          "Ujjiban Charcha"
+          "Webniar"
         ],
         "School Education Department": [
           "Sanskrit Divas",
@@ -1728,11 +1690,6 @@
         ],
         "WBCS": [
           "Transfer Order"
-        ],
-        "Webinar": [
-          "ECCE",
-          "Online Training",
-          "Ujjiban Charcha"
         ]
       }
     },
@@ -2102,7 +2059,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "ad58d18d2dae5da8",
-    "count": 28
+    "version": "0a3c293da8e1417c",
+    "count": 29
   }
 }
