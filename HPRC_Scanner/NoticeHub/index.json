@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:01:15Z",
-  "ref": "3bbff479a83c9597fd45e11ae16ee013bcbe2b48",
+  "generatedAt": "2026-10-19T07:07:47Z",
+  "ref": "b10dd8585a981d515be0a6766d06f474dd77cf53",
   "minAppVersion": 0,
   "totalNotices": 74,
   "categories": [
@@ -712,11 +712,7 @@
       "count": 1,
       "sub": [
         {
-          "name": "Gazette Notification",
-          "count": 1
-        },
-        {
-          "name": "RTI Act 2005",
+          "name": "RTI 2005",
           "count": 1
         }
       ]
@@ -1139,20 +1135,6 @@
         },
         {
           "name": "Salary Increase",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Right to Information",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Gazette Notification",
-          "count": 1
-        },
-        {
-          "name": "RTI Act 2005",
           "count": 1
         }
       ]
@@ -1909,16 +1891,11 @@
     {
       "month": "2005-06",
       "path": "NoticeTexts/2005-06.json",
-      "version": "0d257c90ece28269",
+      "version": "eb7432d03002671f",
       "count": 1,
       "categories": {
         "Acts & Rules": [
-          "Gazette Notification",
-          "RTI Act 2005"
-        ],
-        "Right to Information": [
-          "Gazette Notification",
-          "RTI Act 2005"
+          "RTI 2005"
         ]
       }
     },
