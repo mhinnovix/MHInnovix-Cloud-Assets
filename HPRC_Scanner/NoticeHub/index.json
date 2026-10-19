@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:18:58Z",
-  "ref": "35b89505910a07548eb5adeea2d0aaf8c7646689",
+  "generatedAt": "2026-10-19T07:29:39Z",
+  "ref": "d46b1ea0f39d19a33fffd64fa4906e8a7edb66c3",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -59,10 +59,6 @@
         },
         {
           "name": "Online Scrutiny",
-          "count": 1
-        },
-        {
-          "name": "Primary Teacher",
           "count": 1
         },
         {
@@ -1852,11 +1848,10 @@
     {
       "month": "2025-09",
       "path": "NoticeTexts/2025-09.json",
-      "version": "d53be56395840a36",
+      "version": "cf5f4b55e335266e",
       "count": 1,
       "categories": {
         "WBBPE": [
-          "Primary Teacher",
           "Recruitment"
         ]
       }
