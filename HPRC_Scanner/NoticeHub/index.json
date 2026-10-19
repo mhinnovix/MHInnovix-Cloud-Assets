@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T06:42:08Z",
-  "ref": "3fbe037ab7b77b2231ce1312beaa28bc98c982eb",
+  "generatedAt": "2026-10-19T06:57:37Z",
+  "ref": "683b248a7290717e5a9557b780f01c5e363d1d49",
   "minAppVersion": 0,
   "totalNotices": 74,
   "categories": [
@@ -179,6 +179,10 @@
         },
         {
           "name": "Increments",
+          "count": 1
+        },
+        {
+          "name": "ROPA",
           "count": 1
         }
       ]
@@ -1921,11 +1925,12 @@
     {
       "month": "1998-10",
       "path": "NoticeTexts/1998-10.json",
-      "version": "71c2ba4b9e33e510",
+      "version": "e078de94a273fdd3",
       "count": 1,
       "categories": {
         "Finance": [
-          "Pay Revision"
+          "Pay Revision",
+          "ROPA"
         ]
       }
     }
@@ -2134,7 +2139,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "10034f303f8484ee",
-    "count": 18
+    "version": "65be7debb8ff1023",
+    "count": 19
   }
 }
