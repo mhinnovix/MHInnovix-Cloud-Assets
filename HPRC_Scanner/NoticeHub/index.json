@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:12:37Z",
-  "ref": "fc202c438f2eced8f33dea7dd482d8fa08ca4253",
+  "generatedAt": "2026-10-19T07:13:59Z",
+  "ref": "38f91b70cefbac75b7303bc1f0d8c6f09c266b52",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -182,7 +182,15 @@
           "count": 2
         },
         {
+          "name": "Allowance",
+          "count": 1
+        },
+        {
           "name": "Allowance Rules",
+          "count": 1
+        },
+        {
+          "name": "DPSC Staff",
           "count": 1
         },
         {
@@ -1874,10 +1882,12 @@
     {
       "month": "2021-01",
       "path": "NoticeTexts/2021-01.json",
-      "version": "c9be77b764eced3a",
+      "version": "bcfdaf0ec934993d",
       "count": 1,
       "categories": {
         "Finance": [
+          "Allowance",
+          "DPSC Staff",
           "Pay Revision"
         ]
       }
@@ -2137,7 +2147,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "7d679ccbd170a556",
-    "count": 22
+    "version": "20818001542c7340",
+    "count": 23
   }
 }
