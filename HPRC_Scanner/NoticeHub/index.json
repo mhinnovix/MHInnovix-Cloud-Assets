@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T06:57:37Z",
-  "ref": "683b248a7290717e5a9557b780f01c5e363d1d49",
+  "generatedAt": "2026-10-19T07:01:15Z",
+  "ref": "3bbff479a83c9597fd45e11ae16ee013bcbe2b48",
   "minAppVersion": 0,
   "totalNotices": 74,
   "categories": [
@@ -92,11 +92,15 @@
           "count": 1
         },
         {
+          "name": "Administrative Order",
+          "count": 1
+        },
+        {
           "name": "Akshaya Patra Foundation",
           "count": 1
         },
         {
-          "name": "Chairman Appointment",
+          "name": "Appointments",
           "count": 1
         },
         {
@@ -121,10 +125,6 @@
         },
         {
           "name": "PPP Mode",
-          "count": 1
-        },
-        {
-          "name": "Primary Education",
           "count": 1
         },
         {
@@ -900,11 +900,11 @@
       "count": 1,
       "sub": [
         {
-          "name": "Chairman Appointment",
+          "name": "Administrative Order",
           "count": 1
         },
         {
-          "name": "Primary Education",
+          "name": "Appointments",
           "count": 1
         }
       ]
@@ -1374,7 +1374,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "ee2fd83fbe524fd1",
+      "version": "ee3f83dad4c88037",
       "count": 12,
       "categories": {
         "D.El.Ed Admission": [
@@ -1382,8 +1382,8 @@
           "Verification"
         ],
         "DPSC": [
-          "Chairman Appointment",
-          "Primary Education"
+          "Administrative Order",
+          "Appointments"
         ],
         "Finance Department": [
           "Employee Welfare",
@@ -1409,8 +1409,8 @@
         ],
         "School Education Department": [
           "Administration",
-          "Chairman Appointment",
-          "Primary Education"
+          "Administrative Order",
+          "Appointments"
         ],
         "School Service Commission": [
           "Correction Notice"
@@ -2139,7 +2139,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "65be7debb8ff1023",
-    "count": 19
+    "version": "d1429a039d3dd3c8",
+    "count": 20
   }
 }
