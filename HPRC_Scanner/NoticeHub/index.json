@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T08:29:33Z",
-  "ref": "8aacfae1df76b844683bc30fc9511cee3cc76099",
+  "generatedAt": "2026-10-19T08:34:56Z",
+  "ref": "97682252b96c330251ba211f4d2933b8316d2337",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -224,68 +224,6 @@
       ]
     },
     {
-      "name": "School Service Commission",
-      "count": 6,
-      "sub": [
-        {
-          "name": "1st SLST NTS",
-          "count": 2
-        },
-        {
-          "name": "TET 2011",
-          "count": 2
-        },
-        {
-          "name": "WBCSSC",
-          "count": 2
-        },
-        {
-          "name": "2nd SLST",
-          "count": 1
-        },
-        {
-          "name": "Assistant Teacher",
-          "count": 1
-        },
-        {
-          "name": "Barasat",
-          "count": 1
-        },
-        {
-          "name": "Classes XI-XII",
-          "count": 1
-        },
-        {
-          "name": "Correction Notice",
-          "count": 1
-        },
-        {
-          "name": "Date Extension",
-          "count": 1
-        },
-        {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "Purba Bardhaman",
-          "count": 1
-        },
-        {
-          "name": "PwBD",
-          "count": 1
-        },
-        {
-          "name": "WBRSSC ER",
-          "count": 1
-        },
-        {
-          "name": "WBRSSC SER",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Census",
       "count": 5,
       "sub": [
@@ -415,6 +353,60 @@
         },
         {
           "name": "Webniar",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "School Service Commission",
+      "count": 5,
+      "sub": [
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "2nd SLST",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher",
+          "count": 1
+        },
+        {
+          "name": "Classes XI-XII",
+          "count": 1
+        },
+        {
+          "name": "Correction Notice",
+          "count": 1
+        },
+        {
+          "name": "Date Extension",
+          "count": 1
+        },
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "Purba Bardhaman",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
+          "count": 1
+        },
+        {
+          "name": "TET 2011",
+          "count": 1
+        },
+        {
+          "name": "WBRSSC ER",
           "count": 1
         }
       ]
@@ -595,32 +587,6 @@
         },
         {
           "name": "Suspension of Classes",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "TET Certificate",
-      "count": 2,
-      "sub": [
-        {
-          "name": "TET 2011",
-          "count": 2
-        },
-        {
-          "name": "Barasat",
-          "count": 1
-        },
-        {
-          "name": "Purba Bardhaman",
-          "count": 1
-        },
-        {
-          "name": "WBRSSC ER",
-          "count": 1
-        },
-        {
-          "name": "WBRSSC SER",
           "count": 1
         }
       ]
@@ -1144,6 +1110,24 @@
       ]
     },
     {
+      "name": "TET Certificate",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Purba Bardhaman",
+          "count": 1
+        },
+        {
+          "name": "TET 2011",
+          "count": 1
+        },
+        {
+          "name": "WBRSSC ER",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Training",
       "count": 1,
       "sub": [
@@ -1219,6 +1203,16 @@
         },
         {
           "name": "Health Scheme",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBRSSC",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Certificate Distribution",
           "count": 1
         }
       ]
@@ -1492,7 +1486,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "baecd9c3a23ce816",
+      "version": "1f2ce0e7bbebd9ed",
       "count": 20,
       "categories": {
         "Census": [
@@ -1552,18 +1546,8 @@
           "Sanskrit Divas",
           "Verification"
         ],
-        "School Service Commission": [
-          "Barasat",
-          "TET 2011",
-          "WBRSSC SER"
-        ],
         "Secondary Education": [
           "Vacancy Report"
-        ],
-        "TET Certificate": [
-          "Barasat",
-          "TET 2011",
-          "WBRSSC SER"
         ],
         "Teacher Eligibility Test": [
           "CTET",
@@ -1579,6 +1563,9 @@
         "WBCSSC": [
           "Category Update",
           "SLST"
+        ],
+        "WBRSSC": [
+          "Certificate Distribution"
         ]
       }
     },
@@ -1948,7 +1935,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "bd54342313d94a7f",
-    "count": 32
+    "version": "b949a2da8bb3cdfa",
+    "count": 33
   }
 }
