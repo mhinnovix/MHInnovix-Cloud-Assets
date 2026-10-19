@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:48:56Z",
-  "ref": "e09abeec518177fce5504124df4e00b7f176f357",
+  "generatedAt": "2026-10-19T07:53:46Z",
+  "ref": "c1150347f6c0f66e95fa192c650b1dff1ca2435a",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -848,11 +848,7 @@
       "count": 1,
       "sub": [
         {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "Malda District",
+          "name": "Vacancy Report",
           "count": 1
         }
       ]
@@ -1110,11 +1106,7 @@
       "count": 1,
       "sub": [
         {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "Malda District",
+          "name": "Vacancy Report",
           "count": 1
         }
       ]
@@ -1235,20 +1227,6 @@
         },
         {
           "name": "Student Profile Creation",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Vacancy Report",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "Malda District",
           "count": 1
         }
       ]
@@ -1578,7 +1556,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "40dffdb360cf1668",
+      "version": "50e472dec2c35502",
       "count": 20,
       "categories": {
         "Block Level": [
@@ -1615,8 +1593,7 @@
           "On-Duty Status"
         ],
         "District Inspector of Schools": [
-          "Group C&D",
-          "Malda District"
+          "Vacancy Report"
         ],
         "Examination": [
           "CTET",
@@ -1668,8 +1645,7 @@
           "WBRSSC SER"
         ],
         "Secondary Education": [
-          "Group C&D",
-          "Malda District"
+          "Vacancy Report"
         ],
         "TET Certificate": [
           "Barasat",
@@ -1683,10 +1659,6 @@
         ],
         "Training": [
           "PRASHAST 2.0"
-        ],
-        "Vacancy Report": [
-          "Group C&D",
-          "Malda District"
         ],
         "WBCS": [
           "Transfer Order"
@@ -2059,7 +2031,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "0a3c293da8e1417c",
-    "count": 29
+    "version": "ec9c3321ca615127",
+    "count": 30
   }
 }
