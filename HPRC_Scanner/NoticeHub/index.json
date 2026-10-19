@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:29:39Z",
-  "ref": "d46b1ea0f39d19a33fffd64fa4906e8a7edb66c3",
+  "generatedAt": "2026-10-19T07:31:32Z",
+  "ref": "75fefc6d0a6bd31d6601c3a285c5d9cd5b705182",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -11,7 +11,7 @@
       "sub": [
         {
           "name": "Recruitment",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Interview",
@@ -30,10 +30,6 @@
           "count": 1
         },
         {
-          "name": "Assistant Teacher Recruitment 2025",
-          "count": 1
-        },
-        {
           "name": "Certificate",
           "count": 1
         },
@@ -47,6 +43,10 @@
         },
         {
           "name": "HS Semester-III Exam",
+          "count": 1
+        },
+        {
+          "name": "Interview Application",
           "count": 1
         },
         {
@@ -225,7 +225,7 @@
     },
     {
       "name": "Recruitment",
-      "count": 7,
+      "count": 6,
       "sub": [
         {
           "name": "1st SLST NTS",
@@ -245,10 +245,6 @@
         },
         {
           "name": "Assistant Teacher",
-          "count": 1
-        },
-        {
-          "name": "Assistant Teacher Recruitment 2025",
           "count": 1
         },
         {
@@ -1834,14 +1830,12 @@
     {
       "month": "2025-11",
       "path": "NoticeTexts/2025-11.json",
-      "version": "278c9c4f9c0b9a8b",
+      "version": "70d39b4c5982c5a4",
       "count": 1,
       "categories": {
-        "Recruitment": [
-          "Assistant Teacher Recruitment 2025"
-        ],
         "WBBPE": [
-          "Assistant Teacher Recruitment 2025"
+          "Interview Application",
+          "Recruitment"
         ]
       }
     },
@@ -2161,7 +2155,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "8785c06d4cd7d942",
-    "count": 25
+    "version": "27c4512f12244522",
+    "count": 26
   }
 }
