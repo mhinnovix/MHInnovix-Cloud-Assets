@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:07:47Z",
-  "ref": "b10dd8585a981d515be0a6766d06f474dd77cf53",
+  "generatedAt": "2026-10-19T07:09:47Z",
+  "ref": "64b976122ac7e0cb12dab10cab38fc1789e63244",
   "minAppVersion": 0,
   "totalNotices": 74,
   "categories": [
@@ -178,11 +178,19 @@
           "count": 2
         },
         {
+          "name": "ROPA",
+          "count": 2
+        },
+        {
+          "name": "Allowance Rules",
+          "count": 1
+        },
+        {
           "name": "Increments",
           "count": 1
         },
         {
-          "name": "ROPA",
+          "name": "Service Rules",
           "count": 1
         }
       ]
@@ -1880,11 +1888,14 @@
     {
       "month": "2009-02",
       "path": "NoticeTexts/2009-02.json",
-      "version": "e82b64565ed4a501",
+      "version": "b5f9571b7705e15a",
       "count": 2,
       "categories": {
         "Finance": [
-          "Pay Revision"
+          "Allowance Rules",
+          "Pay Revision",
+          "ROPA",
+          "Service Rules"
         ]
       }
     },
@@ -2116,7 +2127,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "d1429a039d3dd3c8",
-    "count": 20
+    "version": "2562c53682710ec6",
+    "count": 21
   }
 }
