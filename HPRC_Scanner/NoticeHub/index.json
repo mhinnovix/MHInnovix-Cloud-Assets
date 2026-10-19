@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T07:40:41Z",
-  "ref": "d02c08366eb1f5100f98362032f2cf93e40002e6",
+  "generatedAt": "2026-10-19T07:42:50Z",
+  "ref": "dd3336737122df88caca17cb7c2cf5b5ad5c48ff",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -368,6 +368,10 @@
           "count": 1
         },
         {
+          "name": "Digital Learning",
+          "count": 1
+        },
+        {
           "name": "Drinking Water",
           "count": 1
         },
@@ -384,10 +388,6 @@
           "count": 1
         },
         {
-          "name": "PM e-Vidya App",
-          "count": 1
-        },
-        {
           "name": "Purba Medinipur",
           "count": 1
         },
@@ -396,7 +396,7 @@
           "count": 1
         },
         {
-          "name": "Teachers and Guardians",
+          "name": "Teacher Guidelines",
           "count": 1
         },
         {
@@ -859,20 +859,6 @@
         },
         {
           "name": "Verification",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Digital Learning",
-      "count": 1,
-      "sub": [
-        {
-          "name": "PM e-Vidya App",
-          "count": 1
-        },
-        {
-          "name": "Teachers and Guardians",
           "count": 1
         }
       ]
@@ -1652,7 +1638,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "47a0f9d059d5ed16",
+      "version": "9a89b55c9c5ef9a2",
       "count": 20,
       "categories": {
         "Block Level": [
@@ -1682,10 +1668,6 @@
           "Miscellaneous",
           "WBCS",
           "WBPSC"
-        ],
-        "Digital Learning": [
-          "PM e-Vidya App",
-          "Teachers and Guardians"
         ],
         "District Administration": [
           "Cooch Behar",
@@ -1738,10 +1720,10 @@
           "OBC"
         ],
         "Samagra Shiksha Mission": [
+          "Digital Learning",
           "ECCE",
           "Online Training",
-          "PM e-Vidya App",
-          "Teachers and Guardians",
+          "Teacher Guidelines",
           "Ujjiban Charcha"
         ],
         "School Education Department": [
@@ -2155,7 +2137,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "27c4512f12244522",
-    "count": 26
+    "version": "8fd28010b754f387",
+    "count": 27
   }
 }
