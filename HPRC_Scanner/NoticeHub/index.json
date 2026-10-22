@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T16:54:03Z",
-  "ref": "742da7861227494c5c5f6392f1892a12a5747966",
+  "generatedAt": "2026-10-22T17:00:31Z",
+  "ref": "38b567f657dc4cc00fec3a659778a223a553118c",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -298,6 +298,10 @@
           "count": 1
         },
         {
+          "name": "Census Duty",
+          "count": 1
+        },
+        {
           "name": "Cooch Behar",
           "count": 1
         },
@@ -306,7 +310,7 @@
           "count": 1
         },
         {
-          "name": "Jalpaiguri",
+          "name": "Jalpaiguri Blocks",
           "count": 1
         },
         {
@@ -1440,14 +1444,15 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "1b9a994738fe65fa",
+      "version": "816e5fc19fbca79f",
       "count": 20,
       "categories": {
         "Census": [
           "Census 2027 Guidelines",
+          "Census Duty",
           "Cooch Behar",
           "High Court Order",
-          "Jalpaiguri",
+          "Jalpaiguri Blocks",
           "On-Duty Status"
         ],
         "Census 2027": [
@@ -1877,7 +1882,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "e6bfff94f8addb87",
-    "count": 39
+    "version": "26786111aa746140",
+    "count": 40
   }
 }
