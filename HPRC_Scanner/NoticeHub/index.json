@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T16:48:03Z",
-  "ref": "fdcfe666d593c961b9f48760cf75bdf36e1f1117",
+  "generatedAt": "2026-10-22T16:54:03Z",
+  "ref": "742da7861227494c5c5f6392f1892a12a5747966",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -904,7 +904,15 @@
       "count": 1,
       "sub": [
         {
+          "name": "College Administration",
+          "count": 1
+        },
+        {
           "name": "Governing Body",
+          "count": 1
+        },
+        {
+          "name": "Official Notification",
           "count": 1
         }
       ]
@@ -1432,7 +1440,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "ad52ea2e5f65b195",
+      "version": "1b9a994738fe65fa",
       "count": 20,
       "categories": {
         "Census": [
@@ -1462,7 +1470,9 @@
           "SHVR 2026-27"
         ],
         "Higher Education": [
-          "Governing Body"
+          "College Administration",
+          "Governing Body",
+          "Official Notification"
         ],
         "Samagra Shiksha Mission": [
           "Digital Learning",
@@ -1867,7 +1877,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "f3a2e2346194bdb2",
-    "count": 38
+    "version": "e6bfff94f8addb87",
+    "count": 39
   }
 }
