@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-19T08:38:18Z",
-  "ref": "b9b7a5a609f30538f4cb3c230e7893bfa82c2aa7",
+  "generatedAt": "2026-10-22T16:45:41Z",
+  "ref": "d9489196585eec2f68c4d3fb29fcfc6429d5d7e6",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -104,6 +104,10 @@
           "count": 1
         },
         {
+          "name": "Event Notification",
+          "count": 1
+        },
+        {
           "name": "First Phase Census",
           "count": 1
         },
@@ -144,7 +148,7 @@
           "count": 1
         },
         {
-          "name": "Verification",
+          "name": "Verification Report",
           "count": 1
         },
         {
@@ -416,6 +420,32 @@
       ]
     },
     {
+      "name": "WBPSC",
+      "count": 3,
+      "sub": [
+        {
+          "name": "Exam Schedule",
+          "count": 1
+        },
+        {
+          "name": "Examination",
+          "count": 1
+        },
+        {
+          "name": "Government Jobs",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "Syllabus",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Category Update",
       "count": 2,
       "sub": [
@@ -618,28 +648,6 @@
       ]
     },
     {
-      "name": "WBPSC",
-      "count": 2,
-      "sub": [
-        {
-          "name": "Examination",
-          "count": 1
-        },
-        {
-          "name": "Government Jobs",
-          "count": 1
-        },
-        {
-          "name": "Recruitment",
-          "count": 1
-        },
-        {
-          "name": "Syllabus",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Acts & Rules",
       "count": 1,
       "sub": [
@@ -709,28 +717,6 @@
         },
         {
           "name": "Registration",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Competitive Examinations",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Clerkship",
-          "count": 1
-        },
-        {
-          "name": "Miscellaneous",
-          "count": 1
-        },
-        {
-          "name": "WBCS",
-          "count": 1
-        },
-        {
-          "name": "WBPSC",
           "count": 1
         }
       ]
@@ -916,16 +902,6 @@
       ]
     },
     {
-      "name": "ICT Project",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Verification",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Mid-Day Meal",
       "count": 1,
       "sub": [
@@ -977,28 +953,6 @@
         },
         {
           "name": "Suspension of Classes",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Public Service Commission",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Clerkship",
-          "count": 1
-        },
-        {
-          "name": "Miscellaneous",
-          "count": 1
-        },
-        {
-          "name": "WBCS",
-          "count": 1
-        },
-        {
-          "name": "WBPSC",
           "count": 1
         }
       ]
@@ -1480,7 +1434,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "f0ba7236e6d783f9",
+      "version": "0de25bae4137d2e6",
       "count": 20,
       "categories": {
         "Census": [
@@ -1498,12 +1452,6 @@
           "Online Application",
           "Public Notice"
         ],
-        "Competitive Examinations": [
-          "Clerkship",
-          "Miscellaneous",
-          "WBCS",
-          "WBPSC"
-        ],
         "District Inspector of Schools": [
           "Vacancy Report"
         ],
@@ -1518,17 +1466,8 @@
         "Higher Education": [
           "Governing Body"
         ],
-        "ICT Project": [
-          "Verification"
-        ],
         "Mid-Day Meal": [
           "PM POSHAN"
-        ],
-        "Public Service Commission": [
-          "Clerkship",
-          "Miscellaneous",
-          "WBCS",
-          "WBPSC"
         ],
         "Samagra Shiksha Mission": [
           "Digital Learning",
@@ -1538,8 +1477,9 @@
           "Webniar"
         ],
         "School Education Department": [
+          "Event Notification",
           "Sanskrit Divas",
-          "Verification"
+          "Verification Report"
         ],
         "Secondary Education": [
           "Vacancy Report"
@@ -1555,6 +1495,9 @@
         "WBCSSC": [
           "Category Update",
           "SLST"
+        ],
+        "WBPSC": [
+          "Exam Schedule"
         ],
         "WBRSSC": [
           "Certificate Distribution"
@@ -1927,7 +1870,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "e9c07fd7beebaddf",
-    "count": 34
+    "version": "e8693c506d5f2a00",
+    "count": 37
   }
 }
