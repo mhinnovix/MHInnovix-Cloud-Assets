@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T16:45:41Z",
-  "ref": "d9489196585eec2f68c4d3fb29fcfc6429d5d7e6",
+  "generatedAt": "2026-10-22T16:48:03Z",
+  "ref": "fdcfe666d593c961b9f48760cf75bdf36e1f1117",
   "minAppVersion": 0,
   "totalNotices": 73,
   "categories": [
@@ -77,7 +77,7 @@
     },
     {
       "name": "School Education Department",
-      "count": 10,
+      "count": 11,
       "sub": [
         {
           "name": "A Category Pay",
@@ -120,7 +120,15 @@
           "count": 1
         },
         {
+          "name": "Mid-day Meal",
+          "count": 1
+        },
+        {
           "name": "Para Teachers",
+          "count": 1
+        },
+        {
+          "name": "PM Poshan",
           "count": 1
         },
         {
@@ -902,16 +910,6 @@
       ]
     },
     {
-      "name": "Mid-Day Meal",
-      "count": 1,
-      "sub": [
-        {
-          "name": "PM POSHAN",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Pay Scale",
       "count": 1,
       "sub": [
@@ -1434,7 +1432,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "0de25bae4137d2e6",
+      "version": "ad52ea2e5f65b195",
       "count": 20,
       "categories": {
         "Census": [
@@ -1466,9 +1464,6 @@
         "Higher Education": [
           "Governing Body"
         ],
-        "Mid-Day Meal": [
-          "PM POSHAN"
-        ],
         "Samagra Shiksha Mission": [
           "Digital Learning",
           "ECCE",
@@ -1478,6 +1473,8 @@
         ],
         "School Education Department": [
           "Event Notification",
+          "Mid-day Meal",
+          "PM Poshan",
           "Sanskrit Divas",
           "Verification Report"
         ],
@@ -1870,7 +1867,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "e8693c506d5f2a00",
-    "count": 37
+    "version": "f3a2e2346194bdb2",
+    "count": 38
   }
 }
