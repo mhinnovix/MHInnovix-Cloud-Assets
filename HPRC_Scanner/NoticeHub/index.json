@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-22T17:00:31Z",
-  "ref": "38b567f657dc4cc00fec3a659778a223a553118c",
+  "generatedAt": "2026-10-25T05:24:11Z",
+  "ref": "e445453322960e488a35b93dc63ef16500e6f9f6",
   "minAppVersion": 0,
-  "totalNotices": 73,
+  "totalNotices": 74,
   "categories": [
     {
       "name": "WBBPE",
@@ -433,8 +433,12 @@
     },
     {
       "name": "WBPSC",
-      "count": 3,
+      "count": 4,
       "sub": [
+        {
+          "name": "Recruitment",
+          "count": 2
+        },
         {
           "name": "Exam Schedule",
           "count": 1
@@ -445,10 +449,6 @@
         },
         {
           "name": "Government Jobs",
-          "count": 1
-        },
-        {
-          "name": "Recruitment",
           "count": 1
         },
         {
@@ -1180,8 +1180,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "ee3f83dad4c88037",
-      "count": 12,
+      "version": "448172a8f28c13d9",
+      "count": 13,
       "categories": {
         "D.El.Ed Admission": [
           "Online Scrutiny",
@@ -1680,6 +1680,11 @@
   ],
   "recent": [
     {
+      "id": "20261025-01",
+      "month": "2026-10",
+      "addedAt": 1792905851000
+    },
+    {
       "id": "20261018-01",
       "month": "2026-10",
       "addedAt": 1792330493000
@@ -1873,16 +1878,11 @@
       "id": "37",
       "month": "2026-09",
       "addedAt": 1788998400000
-    },
-    {
-      "id": "35",
-      "month": "2026-09",
-      "addedAt": 1788912000000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "26786111aa746140",
-    "count": 40
+    "version": "f1940e2132840fad",
+    "count": 41
   }
 }
