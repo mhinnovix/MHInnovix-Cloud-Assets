@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-25T05:24:11Z",
-  "ref": "e445453322960e488a35b93dc63ef16500e6f9f6",
+  "generatedAt": "2026-10-27T04:39:48Z",
+  "ref": "0c31d7f076135e57a813fd12d38caf9d2a1c7967",
   "minAppVersion": 0,
-  "totalNotices": 74,
+  "totalNotices": 75,
   "categories": [
     {
       "name": "WBBPE",
@@ -433,11 +433,23 @@
     },
     {
       "name": "WBPSC",
-      "count": 4,
+      "count": 5,
       "sub": [
         {
           "name": "Recruitment",
           "count": 2
+        },
+        {
+          "name": "Application Extension",
+          "count": 1
+        },
+        {
+          "name": "Clerkship Exam",
+          "count": 1
+        },
+        {
+          "name": "Edit Window",
+          "count": 1
         },
         {
           "name": "Exam Schedule",
@@ -1180,8 +1192,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "448172a8f28c13d9",
-      "count": 13,
+      "version": "5c52a65fe3adbce8",
+      "count": 14,
       "categories": {
         "D.El.Ed Admission": [
           "Online Scrutiny",
@@ -1240,6 +1252,9 @@
           "Health Scheme"
         ],
         "WBPSC": [
+          "Application Extension",
+          "Clerkship Exam",
+          "Edit Window",
           "Examination",
           "Government Jobs",
           "Recruitment",
@@ -1680,6 +1695,11 @@
   ],
   "recent": [
     {
+      "id": "20261025-02",
+      "month": "2026-10",
+      "addedAt": 1793075988000
+    },
+    {
       "id": "20261025-01",
       "month": "2026-10",
       "addedAt": 1792905851000
@@ -1873,16 +1893,11 @@
       "id": "36",
       "month": "2026-09",
       "addedAt": 1789084800000
-    },
-    {
-      "id": "37",
-      "month": "2026-09",
-      "addedAt": 1788998400000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "f1940e2132840fad",
-    "count": 41
+    "version": "bf3899eae4cdc6ed",
+    "count": 42
   }
 }
