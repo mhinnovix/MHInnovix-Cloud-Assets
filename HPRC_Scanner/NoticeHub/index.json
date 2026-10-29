@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-27T04:39:48Z",
-  "ref": "0c31d7f076135e57a813fd12d38caf9d2a1c7967",
+  "generatedAt": "2026-10-29T12:23:34Z",
+  "ref": "c249a20ea8599d07cc3122f0d789f8067e41c093",
   "minAppVersion": 0,
-  "totalNotices": 75,
+  "totalNotices": 76,
   "categories": [
     {
       "name": "WBBPE",
@@ -1186,14 +1186,32 @@
           "count": 1
         }
       ]
+    },
+    {
+      "name": "WBSSC",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "SLST 2025",
+          "count": 1
+        },
+        {
+          "name": "Vacancy List",
+          "count": 1
+        }
+      ]
     }
   ],
   "months": [
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "5c52a65fe3adbce8",
-      "count": 14,
+      "version": "fd8dae46193a9d57",
+      "count": 15,
       "categories": {
         "D.El.Ed Admission": [
           "Online Scrutiny",
@@ -1259,6 +1277,11 @@
           "Government Jobs",
           "Recruitment",
           "Syllabus"
+        ],
+        "WBSSC": [
+          "Recruitment",
+          "SLST 2025",
+          "Vacancy List"
         ]
       }
     },
@@ -1695,6 +1718,11 @@
   ],
   "recent": [
     {
+      "id": "20261029-01",
+      "month": "2026-10",
+      "addedAt": 1793276614000
+    },
+    {
       "id": "20261025-02",
       "month": "2026-10",
       "addedAt": 1793075988000
@@ -1886,11 +1914,6 @@
     },
     {
       "id": "38",
-      "month": "2026-09",
-      "addedAt": 1789084800000
-    },
-    {
-      "id": "36",
       "month": "2026-09",
       "addedAt": 1789084800000
     }
