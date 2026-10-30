@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T12:11:20Z",
-  "ref": "b5135d80a6e1dceb04bd1c835e88c6c7a7798cdb",
+  "generatedAt": "2026-10-30T12:12:57Z",
+  "ref": "3bb96deb408a744bcee4ea15db3fa494a6543fe0",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -282,52 +282,6 @@
       ]
     },
     {
-      "name": "Samagra Shiksha Mission",
-      "count": 5,
-      "sub": [
-        {
-          "name": "Digital Learning",
-          "count": 1
-        },
-        {
-          "name": "Drinking Water",
-          "count": 1
-        },
-        {
-          "name": "ECCE",
-          "count": 1
-        },
-        {
-          "name": "Jalpaiguri District",
-          "count": 1
-        },
-        {
-          "name": "Prashast 2.0",
-          "count": 1
-        },
-        {
-          "name": "Purba Medinipur",
-          "count": 1
-        },
-        {
-          "name": "Student Enrollment",
-          "count": 1
-        },
-        {
-          "name": "Teacher Guidelines",
-          "count": 1
-        },
-        {
-          "name": "Water Tank Cleaning",
-          "count": 1
-        },
-        {
-          "name": "Webniar",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "WBPSC",
       "count": 5,
       "sub": [
@@ -361,6 +315,74 @@
         },
         {
           "name": "Syllabus",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "PBSSM",
+      "count": 4,
+      "sub": [
+        {
+          "name": "APAAR ID",
+          "count": 2
+        },
+        {
+          "name": "FLN",
+          "count": 1
+        },
+        {
+          "name": "Inclusive Education",
+          "count": 1
+        },
+        {
+          "name": "Jalpaiguri",
+          "count": 1
+        },
+        {
+          "name": "School Administration",
+          "count": 1
+        },
+        {
+          "name": "Student Enrolment",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Samagra Shiksha Mission",
+      "count": 4,
+      "sub": [
+        {
+          "name": "Digital Learning",
+          "count": 1
+        },
+        {
+          "name": "Drinking Water",
+          "count": 1
+        },
+        {
+          "name": "ECCE",
+          "count": 1
+        },
+        {
+          "name": "Prashast 2.0",
+          "count": 1
+        },
+        {
+          "name": "Purba Medinipur",
+          "count": 1
+        },
+        {
+          "name": "Teacher Guidelines",
+          "count": 1
+        },
+        {
+          "name": "Water Tank Cleaning",
+          "count": 1
+        },
+        {
+          "name": "Webniar",
           "count": 1
         }
       ]
@@ -403,32 +425,6 @@
         },
         {
           "name": "WBRSSC ER",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "PBSSM",
-      "count": 3,
-      "sub": [
-        {
-          "name": "APAAR ID",
-          "count": 1
-        },
-        {
-          "name": "FLN",
-          "count": 1
-        },
-        {
-          "name": "Inclusive Education",
-          "count": 1
-        },
-        {
-          "name": "School Administration",
-          "count": 1
-        },
-        {
-          "name": "Student Enrolment",
           "count": 1
         }
       ]
@@ -689,20 +685,6 @@
       "sub": [
         {
           "name": "RTI 2005",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "APAAR ID",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Jalpaiguri District",
-          "count": 1
-        },
-        {
-          "name": "Student Enrollment",
           "count": 1
         }
       ]
@@ -1189,13 +1171,9 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "85a298d28d8856d4",
+      "version": "b646e998817b5397",
       "count": 24,
       "categories": {
-        "APAAR ID": [
-          "Jalpaiguri District",
-          "Student Enrollment"
-        ],
         "Category Update": [
           "1st SLST NTS",
           "Date Extension",
@@ -1247,6 +1225,7 @@
         "PBSSM": [
           "APAAR ID",
           "FLN",
+          "Jalpaiguri",
           "Student Enrolment"
         ],
         "PM POSHAN": [
@@ -1277,9 +1256,7 @@
         ],
         "Samagra Shiksha Mission": [
           "Drinking Water",
-          "Jalpaiguri District",
           "Purba Medinipur",
-          "Student Enrollment",
           "Water Tank Cleaning"
         ],
         "School Education Department": [
@@ -1798,7 +1775,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "eaf323520568eb08",
-    "count": 50
+    "version": "b99ff8de2b82e436",
+    "count": 51
   }
 }
