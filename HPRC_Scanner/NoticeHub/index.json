@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T11:25:29Z",
-  "ref": "12ff0ae85cbed55906557332455b7a1680f21929",
+  "generatedAt": "2026-10-30T11:52:53Z",
+  "ref": "52064acb7c3a7115331e0fffa1c5cb03453b7885",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -692,6 +692,28 @@
       ]
     },
     {
+      "name": "WBHS",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Health Scheme",
+          "count": 2
+        },
+        {
+          "name": "Deadline Extension",
+          "count": 1
+        },
+        {
+          "name": "Employee Welfare",
+          "count": 1
+        },
+        {
+          "name": "Government Order",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Acts & Rules",
       "count": 1,
       "sub": [
@@ -1180,24 +1202,6 @@
       ]
     },
     {
-      "name": "WBHS",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Employee Welfare",
-          "count": 1
-        },
-        {
-          "name": "Government Order",
-          "count": 1
-        },
-        {
-          "name": "Health Scheme",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "WBRSSC",
       "count": 1,
       "sub": [
@@ -1230,7 +1234,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "f7628b81edb31e7e",
+      "version": "570b6630f71d835e",
       "count": 17,
       "categories": {
         "D.El.Ed Admission": [
@@ -1292,6 +1296,7 @@
           "Recruitment"
         ],
         "WBHS": [
+          "Deadline Extension",
           "Employee Welfare",
           "Government Order",
           "Health Scheme"
