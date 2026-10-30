@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T11:57:31Z",
-  "ref": "ddfbc31e175f22c662e60a1a27d6ccd836992c27",
+  "generatedAt": "2026-10-30T12:00:13Z",
+  "ref": "acfe36ddaf74557be97c66e17b0fb55ec54c25d4",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -124,10 +124,6 @@
           "count": 1
         },
         {
-          "name": "Para Teachers",
-          "count": 1
-        },
-        {
           "name": "PM Poshan",
           "count": 1
         },
@@ -144,7 +140,7 @@
           "count": 1
         },
         {
-          "name": "Salary Increase",
+          "name": "Remuneration Hike",
           "count": 1
         },
         {
@@ -984,24 +980,6 @@
       ]
     },
     {
-      "name": "Remuneration",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Contractual Staff",
-          "count": 1
-        },
-        {
-          "name": "Para Teachers",
-          "count": 1
-        },
-        {
-          "name": "Salary Increase",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Secondary Education",
       "count": 1,
       "sub": [
@@ -1285,7 +1263,7 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "f456639e59156e42",
+      "version": "d3fc1d3f2173b402",
       "count": 24,
       "categories": {
         "APAAR ID": [
@@ -1383,11 +1361,6 @@
           "PwBD",
           "WBCSSC"
         ],
-        "Remuneration": [
-          "Contractual Staff",
-          "Para Teachers",
-          "Salary Increase"
-        ],
         "Samagra Shiksha Mission": [
           "APAAR ID",
           "Drinking Water",
@@ -1406,9 +1379,8 @@
           "Mid Day Meal",
           "PPP Mode",
           "PTT",
-          "Para Teachers",
           "Primary Teachers",
-          "Salary Increase",
+          "Remuneration Hike",
           "Staff Release",
           "WBBPE",
           "WBCSSC",
@@ -1917,7 +1889,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "2411d0a09654570a",
-    "count": 45
+    "version": "ecf66385ff267979",
+    "count": 46
   }
 }
