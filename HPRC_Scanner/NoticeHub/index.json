@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T12:02:17Z",
-  "ref": "38cc273fc07be80fe3718f9a40524e9fdbde2b87",
+  "generatedAt": "2026-10-30T12:02:57Z",
+  "ref": "b16cf2785e419e6a1a39fba2c5b717433540584e",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -588,15 +588,15 @@
       "count": 2,
       "sub": [
         {
+          "name": "FLN",
+          "count": 1
+        },
+        {
           "name": "Inclusive Education",
           "count": 1
         },
         {
           "name": "School Administration",
-          "count": 1
-        },
-        {
-          "name": "School Education",
           "count": 1
         }
       ]
@@ -857,16 +857,6 @@
         },
         {
           "name": "Health Scheme",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "FLN",
-      "count": 1,
-      "sub": [
-        {
-          "name": "School Education",
           "count": 1
         }
       ]
@@ -1247,7 +1237,7 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "f7c3450435aca6bc",
+      "version": "b62d889ba2e43885",
       "count": 24,
       "categories": {
         "APAAR ID": [
@@ -1294,9 +1284,6 @@
           "Kolkata Police 2024",
           "WBPRB"
         ],
-        "FLN": [
-          "School Education"
-        ],
         "Health & Safety": [
           "Drinking Water",
           "Purba Medinipur",
@@ -1310,7 +1297,7 @@
           "Zero-Enrolment Schools"
         ],
         "PBSSM": [
-          "School Education"
+          "FLN"
         ],
         "PM POSHAN": [
           "Akshaya Patra Foundation",
