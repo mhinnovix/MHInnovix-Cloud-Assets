@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T11:52:53Z",
-  "ref": "52064acb7c3a7115331e0fffa1c5cb03453b7885",
+  "generatedAt": "2026-10-30T11:57:31Z",
+  "ref": "ddfbc31e175f22c662e60a1a27d6ccd836992c27",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -340,64 +340,6 @@
       ]
     },
     {
-      "name": "Recruitment",
-      "count": 5,
-      "sub": [
-        {
-          "name": "1st SLST NTS",
-          "count": 2
-        },
-        {
-          "name": "WBCSSC",
-          "count": 2
-        },
-        {
-          "name": "2nd SLST",
-          "count": 1
-        },
-        {
-          "name": "Assistant Teacher",
-          "count": 1
-        },
-        {
-          "name": "Classes XI-XII",
-          "count": 1
-        },
-        {
-          "name": "Correction Notice",
-          "count": 1
-        },
-        {
-          "name": "Date Extension",
-          "count": 1
-        },
-        {
-          "name": "DLSC",
-          "count": 1
-        },
-        {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "Medical Officer",
-          "count": 1
-        },
-        {
-          "name": "NHM",
-          "count": 1
-        },
-        {
-          "name": "PwBD",
-          "count": 1
-        },
-        {
-          "name": "RBSK",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "School Service Commission",
       "count": 5,
       "sub": [
@@ -485,6 +427,48 @@
         },
         {
           "name": "Syllabus",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Recruitment",
+      "count": 4,
+      "sub": [
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "2nd SLST",
+          "count": 1
+        },
+        {
+          "name": "Assistant Teacher",
+          "count": 1
+        },
+        {
+          "name": "Classes XI-XII",
+          "count": 1
+        },
+        {
+          "name": "Correction Notice",
+          "count": 1
+        },
+        {
+          "name": "Date Extension",
+          "count": 1
+        },
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
           "count": 1
         }
       ]
@@ -918,28 +902,6 @@
       ]
     },
     {
-      "name": "Health & Family Welfare",
-      "count": 1,
-      "sub": [
-        {
-          "name": "DLSC",
-          "count": 1
-        },
-        {
-          "name": "Medical Officer",
-          "count": 1
-        },
-        {
-          "name": "NHM",
-          "count": 1
-        },
-        {
-          "name": "RBSK",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Health & Safety",
       "count": 1,
       "sub": [
@@ -1202,6 +1164,16 @@
       ]
     },
     {
+      "name": "WBHFW",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Appointment Guidelines",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "WBRSSC",
       "count": 1,
       "sub": [
@@ -1234,7 +1206,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "570b6630f71d835e",
+      "version": "64f9b761106b1ef6",
       "count": 17,
       "categories": {
         "D.El.Ed Admission": [
@@ -1257,22 +1229,12 @@
           "Government Order",
           "Health Scheme"
         ],
-        "Health & Family Welfare": [
-          "DLSC",
-          "Medical Officer",
-          "NHM",
-          "RBSK"
-        ],
         "PBSSM": [
           "Inclusive Education",
           "School Administration"
         ],
         "Recruitment": [
-          "Correction Notice",
-          "DLSC",
-          "Medical Officer",
-          "NHM",
-          "RBSK"
+          "Correction Notice"
         ],
         "School Education Department": [
           "Administration",
@@ -1294,6 +1256,9 @@
         "WBCSSC": [
           "Interview Schedule",
           "Recruitment"
+        ],
+        "WBHFW": [
+          "Appointment Guidelines"
         ],
         "WBHS": [
           "Deadline Extension",
@@ -1952,7 +1917,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "a4d5b9eff7597e4f",
-    "count": 44
+    "version": "2411d0a09654570a",
+    "count": 45
   }
 }
