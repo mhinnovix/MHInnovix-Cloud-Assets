@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T05:11:06Z",
-  "ref": "53e40ffc061ee1ecbd05b8a497c17d93ff0bbba9",
+  "generatedAt": "2026-10-30T11:25:29Z",
+  "ref": "12ff0ae85cbed55906557332455b7a1680f21929",
   "minAppVersion": 0,
-  "totalNotices": 77,
+  "totalNotices": 78,
   "categories": [
     {
       "name": "WBBPE",
@@ -175,7 +175,7 @@
     },
     {
       "name": "Finance",
-      "count": 9,
+      "count": 10,
       "sub": [
         {
           "name": "Pay Revision",
@@ -206,6 +206,10 @@
           "count": 1
         },
         {
+          "name": "Deadline Extension",
+          "count": 1
+        },
+        {
           "name": "DPSC Staff",
           "count": 1
         },
@@ -215,6 +219,10 @@
         },
         {
           "name": "Grant Order",
+          "count": 1
+        },
+        {
+          "name": "Health Scheme",
           "count": 1
         },
         {
@@ -1222,8 +1230,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "ace46d77ad2c5258",
-      "count": 16,
+      "version": "f7628b81edb31e7e",
+      "count": 17,
       "categories": {
         "D.El.Ed Admission": [
           "Online Scrutiny",
@@ -1235,6 +1243,8 @@
         ],
         "Finance": [
           "Clerical Cadre",
+          "Deadline Extension",
+          "Health Scheme",
           "Promotion Rules",
           "Service Clarification"
         ],
@@ -1735,6 +1745,11 @@
   ],
   "recent": [
     {
+      "id": "20261030-01",
+      "month": "2026-10",
+      "addedAt": 1793359529000
+    },
+    {
       "id": "20261029-02",
       "month": "2026-10",
       "addedAt": 1793337066000
@@ -1928,16 +1943,11 @@
       "id": "39",
       "month": "2026-09",
       "addedAt": 1789603200000
-    },
-    {
-      "id": "40",
-      "month": "2026-09",
-      "addedAt": 1789516800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "8a4cf2ff2d36f382",
-    "count": 43
+    "version": "a4d5b9eff7597e4f",
+    "count": 44
   }
 }
