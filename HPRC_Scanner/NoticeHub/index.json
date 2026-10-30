@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-29T12:23:34Z",
-  "ref": "c249a20ea8599d07cc3122f0d789f8067e41c093",
+  "generatedAt": "2026-10-30T05:11:06Z",
+  "ref": "53e40ffc061ee1ecbd05b8a497c17d93ff0bbba9",
   "minAppVersion": 0,
-  "totalNotices": 76,
+  "totalNotices": 77,
   "categories": [
     {
       "name": "WBBPE",
@@ -175,7 +175,7 @@
     },
     {
       "name": "Finance",
-      "count": 8,
+      "count": 9,
       "sub": [
         {
           "name": "Pay Revision",
@@ -202,6 +202,10 @@
           "count": 1
         },
         {
+          "name": "Clerical Cadre",
+          "count": 1
+        },
+        {
           "name": "DPSC Staff",
           "count": 1
         },
@@ -222,6 +226,10 @@
           "count": 1
         },
         {
+          "name": "Promotion Rules",
+          "count": 1
+        },
+        {
           "name": "ROPA",
           "count": 1
         },
@@ -231,6 +239,10 @@
         },
         {
           "name": "ROPA 2019",
+          "count": 1
+        },
+        {
+          "name": "Service Clarification",
           "count": 1
         }
       ]
@@ -1210,8 +1222,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "fd8dae46193a9d57",
-      "count": 15,
+      "version": "ace46d77ad2c5258",
+      "count": 16,
       "categories": {
         "D.El.Ed Admission": [
           "Online Scrutiny",
@@ -1220,6 +1232,11 @@
         "DPSC": [
           "Administrative Order",
           "Appointments"
+        ],
+        "Finance": [
+          "Clerical Cadre",
+          "Promotion Rules",
+          "Service Clarification"
         ],
         "Finance Department": [
           "Employee Welfare",
@@ -1718,6 +1735,11 @@
   ],
   "recent": [
     {
+      "id": "20261029-02",
+      "month": "2026-10",
+      "addedAt": 1793337066000
+    },
+    {
       "id": "20261029-01",
       "month": "2026-10",
       "addedAt": 1793276614000
@@ -1911,16 +1933,11 @@
       "id": "40",
       "month": "2026-09",
       "addedAt": 1789516800000
-    },
-    {
-      "id": "38",
-      "month": "2026-09",
-      "addedAt": 1789084800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "bf3899eae4cdc6ed",
-    "count": 42
+    "version": "8a4cf2ff2d36f382",
+    "count": 43
   }
 }
