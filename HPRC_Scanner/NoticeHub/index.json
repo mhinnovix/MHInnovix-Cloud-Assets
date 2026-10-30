@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T12:06:44Z",
-  "ref": "594352ce16969ec4c941aedf0ae17dc90a4f8e90",
+  "generatedAt": "2026-10-30T12:08:59Z",
+  "ref": "3417e0e1cd1f97db3cff49bb6c2e47de55f5a254",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -252,13 +252,39 @@
       ]
     },
     {
-      "name": "Samagra Shiksha Mission",
-      "count": 6,
+      "name": "Census",
+      "count": 5,
       "sub": [
         {
-          "name": "APAAR ID",
+          "name": "Census 2027 Guidelines",
           "count": 1
         },
+        {
+          "name": "Census Duty",
+          "count": 1
+        },
+        {
+          "name": "Cooch Behar",
+          "count": 1
+        },
+        {
+          "name": "High Court Order",
+          "count": 1
+        },
+        {
+          "name": "Jalpaiguri Blocks",
+          "count": 1
+        },
+        {
+          "name": "On-Duty Status",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Samagra Shiksha Mission",
+      "count": 5,
+      "sub": [
         {
           "name": "Digital Learning",
           "count": 1
@@ -292,45 +318,11 @@
           "count": 1
         },
         {
-          "name": "UDISE+",
-          "count": 1
-        },
-        {
           "name": "Water Tank Cleaning",
           "count": 1
         },
         {
           "name": "Webniar",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Census",
-      "count": 5,
-      "sub": [
-        {
-          "name": "Census 2027 Guidelines",
-          "count": 1
-        },
-        {
-          "name": "Census Duty",
-          "count": 1
-        },
-        {
-          "name": "Cooch Behar",
-          "count": 1
-        },
-        {
-          "name": "High Court Order",
-          "count": 1
-        },
-        {
-          "name": "Jalpaiguri Blocks",
-          "count": 1
-        },
-        {
-          "name": "On-Duty Status",
           "count": 1
         }
       ]
@@ -411,6 +403,32 @@
         },
         {
           "name": "WBRSSC ER",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "PBSSM",
+      "count": 3,
+      "sub": [
+        {
+          "name": "APAAR ID",
+          "count": 1
+        },
+        {
+          "name": "FLN",
+          "count": 1
+        },
+        {
+          "name": "Inclusive Education",
+          "count": 1
+        },
+        {
+          "name": "School Administration",
+          "count": 1
+        },
+        {
+          "name": "Student Enrolment",
           "count": 1
         }
       ]
@@ -555,24 +573,6 @@
         },
         {
           "name": "Zero-Enrolment Schools",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "PBSSM",
-      "count": 2,
-      "sub": [
-        {
-          "name": "FLN",
-          "count": 1
-        },
-        {
-          "name": "Inclusive Education",
-          "count": 1
-        },
-        {
-          "name": "School Administration",
           "count": 1
         }
       ]
@@ -962,20 +962,6 @@
       ]
     },
     {
-      "name": "Student Enrolment",
-      "count": 1,
-      "sub": [
-        {
-          "name": "APAAR ID",
-          "count": 1
-        },
-        {
-          "name": "UDISE+",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Supreme Court Order",
       "count": 1,
       "sub": [
@@ -1217,7 +1203,7 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "5d5ba81f0849177a",
+      "version": "9898f724e3ea9283",
       "count": 24,
       "categories": {
         "APAAR ID": [
@@ -1277,7 +1263,9 @@
           "Zero-Enrolment Schools"
         ],
         "PBSSM": [
-          "FLN"
+          "APAAR ID",
+          "FLN",
+          "Student Enrolment"
         ],
         "PM POSHAN": [
           "Akshaya Patra Foundation",
@@ -1306,12 +1294,10 @@
           "WBCSSC"
         ],
         "Samagra Shiksha Mission": [
-          "APAAR ID",
           "Drinking Water",
           "Jalpaiguri District",
           "Purba Medinipur",
           "Student Enrollment",
-          "UDISE+",
           "Water Tank Cleaning"
         ],
         "School Education Department": [
@@ -1344,10 +1330,6 @@
           "TET 2011",
           "WBCSSC",
           "WBRSSC ER"
-        ],
-        "Student Enrolment": [
-          "APAAR ID",
-          "UDISE+"
         ],
         "Supreme Court Order": [
           "In-Service Teachers",
@@ -1834,7 +1816,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "4d5ce11f3250d4e6",
-    "count": 48
+    "version": "6b624263e5b903f3",
+    "count": 49
   }
 }
