@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T12:12:57Z",
-  "ref": "3bb96deb408a744bcee4ea15db3fa494a6543fe0",
+  "generatedAt": "2026-10-30T12:15:28Z",
+  "ref": "687537dd6e9a1aa8d91aa135d63f3a6bcfab4d21",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -388,48 +388,6 @@
       ]
     },
     {
-      "name": "School Service Commission",
-      "count": 4,
-      "sub": [
-        {
-          "name": "1st SLST NTS",
-          "count": 2
-        },
-        {
-          "name": "WBCSSC",
-          "count": 2
-        },
-        {
-          "name": "Correction Notice",
-          "count": 1
-        },
-        {
-          "name": "Date Extension",
-          "count": 1
-        },
-        {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "Purba Bardhaman",
-          "count": 1
-        },
-        {
-          "name": "PwBD",
-          "count": 1
-        },
-        {
-          "name": "TET 2011",
-          "count": 1
-        },
-        {
-          "name": "WBRSSC ER",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Recruitment",
       "count": 3,
       "sub": [
@@ -455,6 +413,66 @@
         },
         {
           "name": "PwBD",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "School Service Commission",
+      "count": 3,
+      "sub": [
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "Correction Notice",
+          "count": 1
+        },
+        {
+          "name": "Date Extension",
+          "count": 1
+        },
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBCSSC",
+      "count": 3,
+      "sub": [
+        {
+          "name": "Category Update",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "Purba Bardhaman",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "SLST",
+          "count": 1
+        },
+        {
+          "name": "TET 2011",
           "count": 1
         }
       ]
@@ -609,28 +627,6 @@
         },
         {
           "name": "Suspension of Classes",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBCSSC",
-      "count": 2,
-      "sub": [
-        {
-          "name": "Category Update",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
-          "count": 1
-        },
-        {
-          "name": "Recruitment",
-          "count": 1
-        },
-        {
-          "name": "SLST",
           "count": 1
         }
       ]
@@ -998,24 +994,6 @@
       ]
     },
     {
-      "name": "TET Certificate",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Purba Bardhaman",
-          "count": 1
-        },
-        {
-          "name": "TET 2011",
-          "count": 1
-        },
-        {
-          "name": "WBRSSC ER",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Transfer",
       "count": 1,
       "sub": [
@@ -1171,7 +1149,7 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "b646e998817b5397",
+      "version": "bbd432a5142ce879",
       "count": 24,
       "categories": {
         "Category Update": [
@@ -1284,11 +1262,8 @@
           "1st SLST NTS",
           "Date Extension",
           "Group C&D",
-          "Purba Bardhaman",
           "PwBD",
-          "TET 2011",
-          "WBCSSC",
-          "WBRSSC ER"
+          "WBCSSC"
         ],
         "Supreme Court Order": [
           "In-Service Teachers",
@@ -1299,11 +1274,6 @@
           "In-Service Teachers",
           "WBBPE",
           "WBCSSC"
-        ],
-        "TET Certificate": [
-          "Purba Bardhaman",
-          "TET 2011",
-          "WBRSSC ER"
         ],
         "Teachers Leave": [
           "Primary Teachers",
@@ -1327,6 +1297,10 @@
         "WBBSE": [
           "Recruitment",
           "Vacancy Notice"
+        ],
+        "WBCSSC": [
+          "Purba Bardhaman",
+          "TET 2011"
         ],
         "WBSSC": [
           "Recruitment",
