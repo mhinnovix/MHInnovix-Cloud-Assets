@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T12:02:57Z",
-  "ref": "b16cf2785e419e6a1a39fba2c5b717433540584e",
+  "generatedAt": "2026-10-30T12:06:44Z",
+  "ref": "594352ce16969ec4c941aedf0ae17dc90a4f8e90",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -336,60 +336,6 @@
       ]
     },
     {
-      "name": "School Service Commission",
-      "count": 5,
-      "sub": [
-        {
-          "name": "1st SLST NTS",
-          "count": 2
-        },
-        {
-          "name": "WBCSSC",
-          "count": 2
-        },
-        {
-          "name": "2nd SLST",
-          "count": 1
-        },
-        {
-          "name": "Assistant Teacher",
-          "count": 1
-        },
-        {
-          "name": "Classes XI-XII",
-          "count": 1
-        },
-        {
-          "name": "Correction Notice",
-          "count": 1
-        },
-        {
-          "name": "Date Extension",
-          "count": 1
-        },
-        {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "Purba Bardhaman",
-          "count": 1
-        },
-        {
-          "name": "PwBD",
-          "count": 1
-        },
-        {
-          "name": "TET 2011",
-          "count": 1
-        },
-        {
-          "name": "WBRSSC ER",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "WBPSC",
       "count": 5,
       "sub": [
@@ -428,7 +374,7 @@
       ]
     },
     {
-      "name": "Recruitment",
+      "name": "School Service Commission",
       "count": 4,
       "sub": [
         {
@@ -440,16 +386,46 @@
           "count": 2
         },
         {
-          "name": "2nd SLST",
+          "name": "Correction Notice",
           "count": 1
         },
         {
-          "name": "Assistant Teacher",
+          "name": "Date Extension",
           "count": 1
         },
         {
-          "name": "Classes XI-XII",
+          "name": "Group C&D",
           "count": 1
+        },
+        {
+          "name": "Purba Bardhaman",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
+          "count": 1
+        },
+        {
+          "name": "TET 2011",
+          "count": 1
+        },
+        {
+          "name": "WBRSSC ER",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Recruitment",
+      "count": 3,
+      "sub": [
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
         },
         {
           "name": "Correction Notice",
@@ -681,6 +657,28 @@
         },
         {
           "name": "Government Order",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBSSC",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Recruitment",
+          "count": 2
+        },
+        {
+          "name": "Revised Interview List",
+          "count": 1
+        },
+        {
+          "name": "SLST 2025",
+          "count": 1
+        },
+        {
+          "name": "Vacancy List",
           "count": 1
         }
       ]
@@ -1134,24 +1132,6 @@
           "count": 1
         }
       ]
-    },
-    {
-      "name": "WBSSC",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Recruitment",
-          "count": 1
-        },
-        {
-          "name": "SLST 2025",
-          "count": 1
-        },
-        {
-          "name": "Vacancy List",
-          "count": 1
-        }
-      ]
     }
   ],
   "months": [
@@ -1237,7 +1217,7 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "b62d889ba2e43885",
+      "version": "5d5ba81f0849177a",
       "count": 24,
       "categories": {
         "APAAR ID": [
@@ -1320,9 +1300,6 @@
         ],
         "Recruitment": [
           "1st SLST NTS",
-          "2nd SLST",
-          "Assistant Teacher",
-          "Classes XI-XII",
           "Date Extension",
           "Group C&D",
           "PwBD",
@@ -1360,9 +1337,6 @@
         ],
         "School Service Commission": [
           "1st SLST NTS",
-          "2nd SLST",
-          "Assistant Teacher",
-          "Classes XI-XII",
           "Date Extension",
           "Group C&D",
           "Purba Bardhaman",
@@ -1412,6 +1386,10 @@
         "WBBSE": [
           "Recruitment",
           "Vacancy Notice"
+        ],
+        "WBSSC": [
+          "Recruitment",
+          "Revised Interview List"
         ]
       }
     },
@@ -1856,7 +1834,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "db1dc536b4b38e99",
-    "count": 47
+    "version": "4d5ce11f3250d4e6",
+    "count": 48
   }
 }
