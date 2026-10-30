@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T12:00:13Z",
-  "ref": "acfe36ddaf74557be97c66e17b0fb55ec54c25d4",
+  "generatedAt": "2026-10-30T12:02:17Z",
+  "ref": "38cc273fc07be80fe3718f9a40524e9fdbde2b87",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -592,19 +592,11 @@
           "count": 1
         },
         {
-          "name": "Learning Outcomes",
-          "count": 1
-        },
-        {
-          "name": "NIPUN Bharat",
-          "count": 1
-        },
-        {
-          "name": "Primary Schools",
-          "count": 1
-        },
-        {
           "name": "School Administration",
+          "count": 1
+        },
+        {
+          "name": "School Education",
           "count": 1
         }
       ]
@@ -874,15 +866,7 @@
       "count": 1,
       "sub": [
         {
-          "name": "Learning Outcomes",
-          "count": 1
-        },
-        {
-          "name": "NIPUN Bharat",
-          "count": 1
-        },
-        {
-          "name": "Primary Schools",
+          "name": "School Education",
           "count": 1
         }
       ]
@@ -1263,7 +1247,7 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "d3fc1d3f2173b402",
+      "version": "f7c3450435aca6bc",
       "count": 24,
       "categories": {
         "APAAR ID": [
@@ -1311,9 +1295,7 @@
           "WBPRB"
         ],
         "FLN": [
-          "Learning Outcomes",
-          "NIPUN Bharat",
-          "Primary Schools"
+          "School Education"
         ],
         "Health & Safety": [
           "Drinking Water",
@@ -1328,9 +1310,7 @@
           "Zero-Enrolment Schools"
         ],
         "PBSSM": [
-          "Learning Outcomes",
-          "NIPUN Bharat",
-          "Primary Schools"
+          "School Education"
         ],
         "PM POSHAN": [
           "Akshaya Patra Foundation",
@@ -1889,7 +1869,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "ecf66385ff267979",
-    "count": 46
+    "version": "db1dc536b4b38e99",
+    "count": 47
   }
 }
