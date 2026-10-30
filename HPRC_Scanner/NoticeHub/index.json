@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T12:08:59Z",
-  "ref": "3417e0e1cd1f97db3cff49bb6c2e47de55f5a254",
+  "generatedAt": "2026-10-30T12:11:20Z",
+  "ref": "b5135d80a6e1dceb04bd1c835e88c6c7a7798cdb",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -18,15 +18,15 @@
           "count": 5
         },
         {
-          "name": "6 Months Certificate Course",
-          "count": 1
-        },
-        {
           "name": "Administration",
           "count": 1
         },
         {
           "name": "Admission",
+          "count": 1
+        },
+        {
+          "name": "Bridge Course",
           "count": 1
         },
         {
@@ -708,20 +708,6 @@
       ]
     },
     {
-      "name": "Bridge Course",
-      "count": 1,
-      "sub": [
-        {
-          "name": "6 Months Certificate Course",
-          "count": 1
-        },
-        {
-          "name": "NIOS",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "Central Board",
       "count": 1,
       "sub": [
@@ -1203,16 +1189,12 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "9898f724e3ea9283",
+      "version": "85a298d28d8856d4",
       "count": 24,
       "categories": {
         "APAAR ID": [
           "Jalpaiguri District",
           "Student Enrollment"
-        ],
-        "Bridge Course": [
-          "6 Months Certificate Course",
-          "NIOS"
         ],
         "Category Update": [
           "1st SLST NTS",
@@ -1359,7 +1341,7 @@
           "Student Profile Creation"
         ],
         "WBBPE": [
-          "6 Months Certificate Course",
+          "Bridge Course",
           "HS Semester-III Exam",
           "Holiday Notice",
           "NIOS",
@@ -1816,7 +1798,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "6b624263e5b903f3",
-    "count": 49
+    "version": "eaf323520568eb08",
+    "count": 50
   }
 }
