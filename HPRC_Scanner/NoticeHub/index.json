@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T04:02:32Z",
-  "ref": "6cd67f9b1beb7e801359a0f9a30da33f28094406",
+  "generatedAt": "2026-10-31T04:05:41Z",
+  "ref": "1948f15d818631b6a35886bba0bde073fb8afda4",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -320,6 +320,44 @@
       ]
     },
     {
+      "name": "WBSSC",
+      "count": 5,
+      "sub": [
+        {
+          "name": "Recruitment",
+          "count": 3
+        },
+        {
+          "name": "Category Correction Notice",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "Purba Bardhaman",
+          "count": 1
+        },
+        {
+          "name": "Revised Interview List",
+          "count": 1
+        },
+        {
+          "name": "SLST 2025",
+          "count": 1
+        },
+        {
+          "name": "TET 2011",
+          "count": 1
+        },
+        {
+          "name": "Vacancy List",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "PBSSM",
       "count": 4,
       "sub": [
@@ -383,40 +421,6 @@
         },
         {
           "name": "Webniar",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBSSC",
-      "count": 4,
-      "sub": [
-        {
-          "name": "Recruitment",
-          "count": 2
-        },
-        {
-          "name": "Category Correction Notice",
-          "count": 1
-        },
-        {
-          "name": "Purba Bardhaman",
-          "count": 1
-        },
-        {
-          "name": "Revised Interview List",
-          "count": 1
-        },
-        {
-          "name": "SLST 2025",
-          "count": 1
-        },
-        {
-          "name": "TET 2011",
-          "count": 1
-        },
-        {
-          "name": "Vacancy List",
           "count": 1
         }
       ]
@@ -623,28 +627,6 @@
         },
         {
           "name": "PwBD",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBCSSC",
-      "count": 2,
-      "sub": [
-        {
-          "name": "Category Update",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
-          "count": 1
-        },
-        {
-          "name": "Recruitment",
-          "count": 1
-        },
-        {
-          "name": "SLST",
           "count": 1
         }
       ]
@@ -1042,6 +1024,20 @@
       ]
     },
     {
+      "name": "WBCSSC",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Category Update",
+          "count": 1
+        },
+        {
+          "name": "SLST",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "WBHFW",
       "count": 1,
       "sub": [
@@ -1066,7 +1062,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "5a4902558a76758f",
+      "version": "f89aa82ea42d79eb",
       "count": 17,
       "categories": {
         "D.El.Ed Admission": [
@@ -1107,10 +1103,6 @@
           "Recruitment",
           "Verification"
         ],
-        "WBCSSC": [
-          "Interview Schedule",
-          "Recruitment"
-        ],
         "WBHFW": [
           "Appointment Guidelines"
         ],
@@ -1131,6 +1123,7 @@
         ],
         "WBSSC": [
           "Category Correction Notice",
+          "Interview Schedule",
           "Recruitment",
           "SLST 2025",
           "Vacancy List"
