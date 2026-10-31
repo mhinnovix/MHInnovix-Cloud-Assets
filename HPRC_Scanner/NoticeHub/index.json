@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T12:15:28Z",
-  "ref": "687537dd6e9a1aa8d91aa135d63f3a6bcfab4d21",
+  "generatedAt": "2026-10-31T04:01:52Z",
+  "ref": "26e115f5295ee8238c5c4553776884c385341964",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -388,66 +388,6 @@
       ]
     },
     {
-      "name": "Recruitment",
-      "count": 3,
-      "sub": [
-        {
-          "name": "1st SLST NTS",
-          "count": 2
-        },
-        {
-          "name": "WBCSSC",
-          "count": 2
-        },
-        {
-          "name": "Correction Notice",
-          "count": 1
-        },
-        {
-          "name": "Date Extension",
-          "count": 1
-        },
-        {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "PwBD",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "School Service Commission",
-      "count": 3,
-      "sub": [
-        {
-          "name": "1st SLST NTS",
-          "count": 2
-        },
-        {
-          "name": "WBCSSC",
-          "count": 2
-        },
-        {
-          "name": "Correction Notice",
-          "count": 1
-        },
-        {
-          "name": "Date Extension",
-          "count": 1
-        },
-        {
-          "name": "Group C&D",
-          "count": 1
-        },
-        {
-          "name": "PwBD",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "WBCSSC",
       "count": 3,
       "sub": [
@@ -473,6 +413,32 @@
         },
         {
           "name": "TET 2011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBSSC",
+      "count": 3,
+      "sub": [
+        {
+          "name": "Recruitment",
+          "count": 2
+        },
+        {
+          "name": "Category Correction Notice",
+          "count": 1
+        },
+        {
+          "name": "Revised Interview List",
+          "count": 1
+        },
+        {
+          "name": "SLST 2025",
+          "count": 1
+        },
+        {
+          "name": "Vacancy List",
           "count": 1
         }
       ]
@@ -614,6 +580,32 @@
       ]
     },
     {
+      "name": "Recruitment",
+      "count": 2,
+      "sub": [
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "Date Extension",
+          "count": 1
+        },
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "School Holiday",
       "count": 2,
       "sub": [
@@ -627,6 +619,32 @@
         },
         {
           "name": "Suspension of Classes",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "School Service Commission",
+      "count": 2,
+      "sub": [
+        {
+          "name": "1st SLST NTS",
+          "count": 2
+        },
+        {
+          "name": "WBCSSC",
+          "count": 2
+        },
+        {
+          "name": "Date Extension",
+          "count": 1
+        },
+        {
+          "name": "Group C&D",
+          "count": 1
+        },
+        {
+          "name": "PwBD",
           "count": 1
         }
       ]
@@ -649,28 +667,6 @@
         },
         {
           "name": "Government Order",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBSSC",
-      "count": 2,
-      "sub": [
-        {
-          "name": "Recruitment",
-          "count": 2
-        },
-        {
-          "name": "Revised Interview List",
-          "count": 1
-        },
-        {
-          "name": "SLST 2025",
-          "count": 1
-        },
-        {
-          "name": "Vacancy List",
           "count": 1
         }
       ]
@@ -1070,7 +1066,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "64f9b761106b1ef6",
+      "version": "5a4902558a76758f",
       "count": 17,
       "categories": {
         "D.El.Ed Admission": [
@@ -1097,16 +1093,10 @@
           "Inclusive Education",
           "School Administration"
         ],
-        "Recruitment": [
-          "Correction Notice"
-        ],
         "School Education Department": [
           "Administration",
           "Administrative Order",
           "Appointments"
-        ],
-        "School Service Commission": [
-          "Correction Notice"
         ],
         "WBBPE": [
           "Administration",
@@ -1140,6 +1130,7 @@
           "Syllabus"
         ],
         "WBSSC": [
+          "Category Correction Notice",
           "Recruitment",
           "SLST 2025",
           "Vacancy List"
