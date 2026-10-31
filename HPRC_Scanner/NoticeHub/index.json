@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T04:01:52Z",
-  "ref": "26e115f5295ee8238c5c4553776884c385341964",
+  "generatedAt": "2026-10-31T04:02:32Z",
+  "ref": "6cd67f9b1beb7e801359a0f9a30da33f28094406",
   "minAppVersion": 0,
   "totalNotices": 78,
   "categories": [
@@ -388,38 +388,8 @@
       ]
     },
     {
-      "name": "WBCSSC",
-      "count": 3,
-      "sub": [
-        {
-          "name": "Category Update",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
-          "count": 1
-        },
-        {
-          "name": "Purba Bardhaman",
-          "count": 1
-        },
-        {
-          "name": "Recruitment",
-          "count": 1
-        },
-        {
-          "name": "SLST",
-          "count": 1
-        },
-        {
-          "name": "TET 2011",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "WBSSC",
-      "count": 3,
+      "count": 4,
       "sub": [
         {
           "name": "Recruitment",
@@ -430,11 +400,19 @@
           "count": 1
         },
         {
+          "name": "Purba Bardhaman",
+          "count": 1
+        },
+        {
           "name": "Revised Interview List",
           "count": 1
         },
         {
           "name": "SLST 2025",
+          "count": 1
+        },
+        {
+          "name": "TET 2011",
           "count": 1
         },
         {
@@ -645,6 +623,28 @@
         },
         {
           "name": "PwBD",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "WBCSSC",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Category Update",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "SLST",
           "count": 1
         }
       ]
@@ -1140,7 +1140,7 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "bbd432a5142ce879",
+      "version": "854a751f70b219cb",
       "count": 24,
       "categories": {
         "Category Update": [
@@ -1289,13 +1289,11 @@
           "Recruitment",
           "Vacancy Notice"
         ],
-        "WBCSSC": [
-          "Purba Bardhaman",
-          "TET 2011"
-        ],
         "WBSSC": [
+          "Purba Bardhaman",
           "Recruitment",
-          "Revised Interview List"
+          "Revised Interview List",
+          "TET 2011"
         ]
       }
     },
