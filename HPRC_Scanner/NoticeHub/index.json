@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T04:05:41Z",
-  "ref": "1948f15d818631b6a35886bba0bde073fb8afda4",
+  "generatedAt": "2026-11-02T13:14:27Z",
+  "ref": "a6ef257c6debb87fac20b847f9138a3fedaa2d2c",
   "minAppVersion": 0,
-  "totalNotices": 78,
+  "totalNotices": 79,
   "categories": [
     {
       "name": "WBBPE",
@@ -632,6 +632,28 @@
       ]
     },
     {
+      "name": "WBCSSC",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Category Update",
+          "count": 1
+        },
+        {
+          "name": "Form Fill Up",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "SLST",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "WBHS",
       "count": 2,
       "sub": [
@@ -1024,20 +1046,6 @@
       ]
     },
     {
-      "name": "WBCSSC",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Category Update",
-          "count": 1
-        },
-        {
-          "name": "SLST",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "WBHFW",
       "count": 1,
       "sub": [
@@ -1062,8 +1070,8 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "f89aa82ea42d79eb",
-      "count": 17,
+      "version": "fb650c9ec7ff21cf",
+      "count": 18,
       "categories": {
         "D.El.Ed Admission": [
           "Online Scrutiny",
@@ -1102,6 +1110,10 @@
           "Online Scrutiny",
           "Recruitment",
           "Verification"
+        ],
+        "WBCSSC": [
+          "Form Fill Up",
+          "Recruitment"
         ],
         "WBHFW": [
           "Appointment Guidelines"
@@ -1529,6 +1541,11 @@
   ],
   "recent": [
     {
+      "id": "20261030-02",
+      "month": "2026-10",
+      "addedAt": 1793625267000
+    },
+    {
       "id": "20261030-01",
       "month": "2026-10",
       "addedAt": 1793359529000
@@ -1722,16 +1739,11 @@
       "id": "41",
       "month": "2026-09",
       "addedAt": 1789948800000
-    },
-    {
-      "id": "39",
-      "month": "2026-09",
-      "addedAt": 1789603200000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "b99ff8de2b82e436",
-    "count": 51
+    "version": "958048a0da69b7c3",
+    "count": 52
   }
 }
