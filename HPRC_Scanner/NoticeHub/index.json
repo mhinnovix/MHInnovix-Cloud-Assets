@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-02T13:14:27Z",
-  "ref": "a6ef257c6debb87fac20b847f9138a3fedaa2d2c",
+  "generatedAt": "2026-11-03T11:45:33Z",
+  "ref": "9cc716e68a215e6623390974969c882fbb223d31",
   "minAppVersion": 0,
-  "totalNotices": 79,
+  "totalNotices": 80,
   "categories": [
     {
       "name": "WBBPE",
@@ -632,6 +632,28 @@
       ]
     },
     {
+      "name": "WBBSE",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Examination",
+          "count": 1
+        },
+        {
+          "name": "Question Paper",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "Vacancy Notice",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "WBCSSC",
       "count": 2,
       "sub": [
@@ -1022,20 +1044,6 @@
       ]
     },
     {
-      "name": "WBBSE",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Recruitment",
-          "count": 1
-        },
-        {
-          "name": "Vacancy Notice",
-          "count": 1
-        }
-      ]
-    },
-    {
       "name": "WBCS",
       "count": 1,
       "sub": [
@@ -1067,6 +1075,18 @@
     }
   ],
   "months": [
+    {
+      "month": "2026-11",
+      "path": "NoticeTexts/2026-11.json",
+      "version": "95e89fc2f7d3aaa8",
+      "count": 1,
+      "categories": {
+        "WBBSE": [
+          "Examination",
+          "Question Paper"
+        ]
+      }
+    },
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
@@ -1541,6 +1561,11 @@
   ],
   "recent": [
     {
+      "id": "20261103-01",
+      "month": "2026-11",
+      "addedAt": 1793706333000
+    },
+    {
       "id": "20261030-02",
       "month": "2026-10",
       "addedAt": 1793625267000
@@ -1734,16 +1759,11 @@
       "id": "42",
       "month": "2026-09",
       "addedAt": 1789948800000
-    },
-    {
-      "id": "41",
-      "month": "2026-09",
-      "addedAt": 1789948800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "958048a0da69b7c3",
-    "count": 52
+    "version": "a48cd8d2ccd069d4",
+    "count": 53
   }
 }
