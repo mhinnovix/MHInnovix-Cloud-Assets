@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-03T11:45:33Z",
-  "ref": "9cc716e68a215e6623390974969c882fbb223d31",
+  "generatedAt": "2026-11-04T14:18:18Z",
+  "ref": "4a16653fd62cc1c5e06b65b3bd45011d98193008",
   "minAppVersion": 0,
-  "totalNotices": 80,
+  "totalNotices": 81,
   "categories": [
     {
       "name": "WBBPE",
@@ -426,6 +426,32 @@
       ]
     },
     {
+      "name": "WBCSSC",
+      "count": 3,
+      "sub": [
+        {
+          "name": "Recruitment",
+          "count": 2
+        },
+        {
+          "name": "Category Update",
+          "count": 1
+        },
+        {
+          "name": "Form Fill Up",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "SLST",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Category Update",
       "count": 2,
       "sub": [
@@ -649,28 +675,6 @@
         },
         {
           "name": "Vacancy Notice",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBCSSC",
-      "count": 2,
-      "sub": [
-        {
-          "name": "Category Update",
-          "count": 1
-        },
-        {
-          "name": "Form Fill Up",
-          "count": 1
-        },
-        {
-          "name": "Recruitment",
-          "count": 1
-        },
-        {
-          "name": "SLST",
           "count": 1
         }
       ]
@@ -1078,12 +1082,16 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "95e89fc2f7d3aaa8",
-      "count": 1,
+      "version": "3e04e3b7f93f7a5e",
+      "count": 2,
       "categories": {
         "WBBSE": [
           "Examination",
           "Question Paper"
+        ],
+        "WBCSSC": [
+          "Interview Schedule",
+          "Recruitment"
         ]
       }
     },
@@ -1561,6 +1569,11 @@
   ],
   "recent": [
     {
+      "id": "20261104-01",
+      "month": "2026-11",
+      "addedAt": 1793801898000
+    },
+    {
       "id": "20261103-01",
       "month": "2026-11",
       "addedAt": 1793706333000
@@ -1754,16 +1767,11 @@
       "id": "43",
       "month": "2026-09",
       "addedAt": 1789948800000
-    },
-    {
-      "id": "42",
-      "month": "2026-09",
-      "addedAt": 1789948800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "a48cd8d2ccd069d4",
-    "count": 53
+    "version": "8e7ce1dd33c5ca62",
+    "count": 54
   }
 }
