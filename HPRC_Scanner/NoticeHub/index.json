@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-04T14:18:18Z",
-  "ref": "4a16653fd62cc1c5e06b65b3bd45011d98193008",
+  "generatedAt": "2026-11-05T10:46:10Z",
+  "ref": "049ada8580c5a8bb396353db86c7d24c5721996b",
   "minAppVersion": 0,
-  "totalNotices": 81,
+  "totalNotices": 82,
   "categories": [
     {
       "name": "WBBPE",
@@ -252,6 +252,52 @@
       ]
     },
     {
+      "name": "WBPSC",
+      "count": 6,
+      "sub": [
+        {
+          "name": "Examination",
+          "count": 2
+        },
+        {
+          "name": "Recruitment",
+          "count": 2
+        },
+        {
+          "name": "Application Extension",
+          "count": 1
+        },
+        {
+          "name": "Clerkship Exam",
+          "count": 1
+        },
+        {
+          "name": "Edit Window",
+          "count": 1
+        },
+        {
+          "name": "Exam Schedule",
+          "count": 1
+        },
+        {
+          "name": "Government Jobs",
+          "count": 1
+        },
+        {
+          "name": "Result",
+          "count": 1
+        },
+        {
+          "name": "Syllabus",
+          "count": 1
+        },
+        {
+          "name": "WBCS",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Census",
       "count": 5,
       "sub": [
@@ -277,44 +323,6 @@
         },
         {
           "name": "On-Duty Status",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBPSC",
-      "count": 5,
-      "sub": [
-        {
-          "name": "Recruitment",
-          "count": 2
-        },
-        {
-          "name": "Application Extension",
-          "count": 1
-        },
-        {
-          "name": "Clerkship Exam",
-          "count": 1
-        },
-        {
-          "name": "Edit Window",
-          "count": 1
-        },
-        {
-          "name": "Exam Schedule",
-          "count": 1
-        },
-        {
-          "name": "Examination",
-          "count": 1
-        },
-        {
-          "name": "Government Jobs",
-          "count": 1
-        },
-        {
-          "name": "Syllabus",
           "count": 1
         }
       ]
@@ -1082,8 +1090,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "3e04e3b7f93f7a5e",
-      "count": 2,
+      "version": "d7a8c60f7da8373b",
+      "count": 3,
       "categories": {
         "WBBSE": [
           "Examination",
@@ -1092,6 +1100,11 @@
         "WBCSSC": [
           "Interview Schedule",
           "Recruitment"
+        ],
+        "WBPSC": [
+          "Examination",
+          "Result",
+          "WBCS"
         ]
       }
     },
@@ -1569,6 +1582,11 @@
   ],
   "recent": [
     {
+      "id": "20261105-01",
+      "month": "2026-11",
+      "addedAt": 1793875570000
+    },
+    {
       "id": "20261104-01",
       "month": "2026-11",
       "addedAt": 1793801898000
@@ -1762,16 +1780,11 @@
       "id": "44",
       "month": "2026-09",
       "addedAt": 1789948800000
-    },
-    {
-      "id": "43",
-      "month": "2026-09",
-      "addedAt": 1789948800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "8e7ce1dd33c5ca62",
-    "count": 54
+    "version": "a439436dad2c8fff",
+    "count": 55
   }
 }
