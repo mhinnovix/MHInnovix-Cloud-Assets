@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T11:04:14Z",
-  "ref": "f00463e877b9f70e7261829e7990f4ef85eeb84b",
+  "generatedAt": "2026-11-05T12:01:24Z",
+  "ref": "7fbb5769cbc56a72661f2cfdff168c5a08a94e4a",
   "minAppVersion": 0,
-  "totalNotices": 83,
+  "totalNotices": 84,
   "categories": [
     {
       "name": "WBBPE",
@@ -328,6 +328,40 @@
       ]
     },
     {
+      "name": "WBCSSC",
+      "count": 5,
+      "sub": [
+        {
+          "name": "Recruitment",
+          "count": 4
+        },
+        {
+          "name": "Interview List",
+          "count": 2
+        },
+        {
+          "name": "Result",
+          "count": 2
+        },
+        {
+          "name": "Category Update",
+          "count": 1
+        },
+        {
+          "name": "Form Fill Up",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "SLST",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "WBSSC",
       "count": 5,
       "sub": [
@@ -429,40 +463,6 @@
         },
         {
           "name": "Webniar",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBCSSC",
-      "count": 4,
-      "sub": [
-        {
-          "name": "Recruitment",
-          "count": 3
-        },
-        {
-          "name": "Category Update",
-          "count": 1
-        },
-        {
-          "name": "Form Fill Up",
-          "count": 1
-        },
-        {
-          "name": "Interview List",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
-          "count": 1
-        },
-        {
-          "name": "Result",
-          "count": 1
-        },
-        {
-          "name": "SLST",
           "count": 1
         }
       ]
@@ -1098,8 +1098,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "bd8acc8ecb4d7731",
-      "count": 4,
+      "version": "a4aa13c3c1e7702c",
+      "count": 5,
       "categories": {
         "WBBSE": [
           "Examination",
@@ -1592,6 +1592,11 @@
   ],
   "recent": [
     {
+      "id": "20261105-03",
+      "month": "2026-11",
+      "addedAt": 1793880084000
+    },
+    {
       "id": "20261105-02",
       "month": "2026-11",
       "addedAt": 1793876654000
@@ -1785,16 +1790,11 @@
       "id": "45",
       "month": "2026-09",
       "addedAt": 1790208000000
-    },
-    {
-      "id": "51",
-      "month": "2026-09",
-      "addedAt": 1789948800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "69b9277fa77a46ef",
-    "count": 56
+    "version": "abaf02d5a9ec9123",
+    "count": 57
   }
 }
