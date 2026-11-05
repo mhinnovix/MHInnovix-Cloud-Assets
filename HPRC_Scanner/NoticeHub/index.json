@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T10:46:10Z",
-  "ref": "049ada8580c5a8bb396353db86c7d24c5721996b",
+  "generatedAt": "2026-11-05T11:04:14Z",
+  "ref": "f00463e877b9f70e7261829e7990f4ef85eeb84b",
   "minAppVersion": 0,
-  "totalNotices": 82,
+  "totalNotices": 83,
   "categories": [
     {
       "name": "WBBPE",
@@ -435,11 +435,11 @@
     },
     {
       "name": "WBCSSC",
-      "count": 3,
+      "count": 4,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Category Update",
@@ -450,7 +450,15 @@
           "count": 1
         },
         {
+          "name": "Interview List",
+          "count": 1
+        },
+        {
           "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "Result",
           "count": 1
         },
         {
@@ -1090,16 +1098,18 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "d7a8c60f7da8373b",
-      "count": 3,
+      "version": "bd8acc8ecb4d7731",
+      "count": 4,
       "categories": {
         "WBBSE": [
           "Examination",
           "Question Paper"
         ],
         "WBCSSC": [
+          "Interview List",
           "Interview Schedule",
-          "Recruitment"
+          "Recruitment",
+          "Result"
         ],
         "WBPSC": [
           "Examination",
@@ -1582,6 +1592,11 @@
   ],
   "recent": [
     {
+      "id": "20261105-02",
+      "month": "2026-11",
+      "addedAt": 1793876654000
+    },
+    {
       "id": "20261105-01",
       "month": "2026-11",
       "addedAt": 1793875570000
@@ -1775,16 +1790,11 @@
       "id": "51",
       "month": "2026-09",
       "addedAt": 1789948800000
-    },
-    {
-      "id": "44",
-      "month": "2026-09",
-      "addedAt": 1789948800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "a439436dad2c8fff",
-    "count": 55
+    "version": "69b9277fa77a46ef",
+    "count": 56
   }
 }
