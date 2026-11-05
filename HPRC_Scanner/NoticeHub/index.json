@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T12:02:09Z",
-  "ref": "0fceb147bd312fc0fc88ef6004576d1fdcbd8e5b",
+  "generatedAt": "2026-11-05T16:12:13Z",
+  "ref": "af6ac71f92b392fbaff1be13ec3b3db2e703f974",
   "minAppVersion": 0,
-  "totalNotices": 84,
+  "totalNotices": 85,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 15,
+      "count": 16,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 8
+          "count": 9
         },
         {
           "name": "Interview",
@@ -31,6 +31,10 @@
         },
         {
           "name": "Certificate",
+          "count": 1
+        },
+        {
+          "name": "Correction Window",
           "count": 1
         },
         {
@@ -63,6 +67,10 @@
         },
         {
           "name": "Suspension of Classes",
+          "count": 1
+        },
+        {
+          "name": "Teacher Recruitment",
           "count": 1
         },
         {
@@ -1098,9 +1106,14 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "8f0c6cabac20b8ec",
-      "count": 5,
+      "version": "8dcd4237edba2e0a",
+      "count": 6,
       "categories": {
+        "WBBPE": [
+          "Correction Window",
+          "Recruitment",
+          "Teacher Recruitment"
+        ],
         "WBBSE": [
           "Examination",
           "Question Paper"
@@ -1592,6 +1605,11 @@
   ],
   "recent": [
     {
+      "id": "20261105-04",
+      "month": "2026-11",
+      "addedAt": 1793895133000
+    },
+    {
       "id": "20261105-03",
       "month": "2026-11",
       "addedAt": 1793880084000
@@ -1785,16 +1803,11 @@
       "id": "46",
       "month": "2026-09",
       "addedAt": 1790208000000
-    },
-    {
-      "id": "45",
-      "month": "2026-09",
-      "addedAt": 1790208000000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "abaf02d5a9ec9123",
-    "count": 57
+    "version": "dd142e9ef4cbdf3b",
+    "count": 58
   }
 }
