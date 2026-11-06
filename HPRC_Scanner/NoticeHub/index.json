@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-05T16:12:13Z",
-  "ref": "af6ac71f92b392fbaff1be13ec3b3db2e703f974",
+  "generatedAt": "2026-11-06T08:18:12Z",
+  "ref": "7bcd73b42623fbc5d842d79113149f72c14d1820",
   "minAppVersion": 0,
-  "totalNotices": 85,
+  "totalNotices": 86,
   "categories": [
     {
       "name": "WBBPE",
@@ -261,15 +261,19 @@
     },
     {
       "name": "WBPSC",
-      "count": 6,
+      "count": 7,
       "sub": [
+        {
+          "name": "Recruitment",
+          "count": 3
+        },
         {
           "name": "Examination",
           "count": 2
         },
         {
-          "name": "Recruitment",
-          "count": 2
+          "name": "Application Edit",
+          "count": 1
         },
         {
           "name": "Application Extension",
@@ -1503,6 +1507,18 @@
       }
     },
     {
+      "month": "2024-11",
+      "path": "NoticeTexts/2024-11.json",
+      "version": "f92f4d562118d846",
+      "count": 1,
+      "categories": {
+        "WBPSC": [
+          "Application Edit",
+          "Recruitment"
+        ]
+      }
+    },
+    {
       "month": "2022-05",
       "path": "NoticeTexts/2022-05.json",
       "version": "87a6d2da57274d3f",
@@ -1604,6 +1620,11 @@
     }
   ],
   "recent": [
+    {
+      "id": "20241105-01",
+      "month": "2024-11",
+      "addedAt": 1793953092000
+    },
     {
       "id": "20261105-04",
       "month": "2026-11",
@@ -1798,16 +1819,11 @@
       "id": "47",
       "month": "2026-09",
       "addedAt": 1790208000000
-    },
-    {
-      "id": "46",
-      "month": "2026-09",
-      "addedAt": 1790208000000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "dd142e9ef4cbdf3b",
-    "count": 58
+    "version": "bbfa675df6eee7d1",
+    "count": 59
   }
 }
