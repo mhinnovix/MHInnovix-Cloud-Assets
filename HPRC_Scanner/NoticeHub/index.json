@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T12:36:06Z",
-  "ref": "767a2b352187e48c5b9ce6610c2756be235a8e01",
+  "generatedAt": "2026-11-06T15:54:47Z",
+  "ref": "212c01c85e1229e7f2d5600a27eeb303cace02cc",
   "minAppVersion": 0,
-  "totalNotices": 87,
+  "totalNotices": 88,
   "categories": [
     {
       "name": "WBBPE",
@@ -79,6 +79,100 @@
         },
         {
           "name": "Verification",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "count": 11,
+      "sub": [
+        {
+          "name": "Pay Revision",
+          "count": 5
+        },
+        {
+          "name": "Service Rules",
+          "count": 2
+        },
+        {
+          "name": "Ad-hoc Bonus",
+          "count": 1
+        },
+        {
+          "name": "Allowance",
+          "count": 1
+        },
+        {
+          "name": "Allowance Rules",
+          "count": 1
+        },
+        {
+          "name": "Bonus / Ex-gratia",
+          "count": 1
+        },
+        {
+          "name": "Budget Allocation",
+          "count": 1
+        },
+        {
+          "name": "Clerical Cadre",
+          "count": 1
+        },
+        {
+          "name": "Deadline Extension",
+          "count": 1
+        },
+        {
+          "name": "DPSC Staff",
+          "count": 1
+        },
+        {
+          "name": "Employee Welfare",
+          "count": 1
+        },
+        {
+          "name": "Finance Order",
+          "count": 1
+        },
+        {
+          "name": "Fund Release",
+          "count": 1
+        },
+        {
+          "name": "Grant Order",
+          "count": 1
+        },
+        {
+          "name": "Health Scheme",
+          "count": 1
+        },
+        {
+          "name": "Pay Scale",
+          "count": 1
+        },
+        {
+          "name": "Physical Education Teachers",
+          "count": 1
+        },
+        {
+          "name": "Promotion Rules",
+          "count": 1
+        },
+        {
+          "name": "ROPA",
+          "count": 1
+        },
+        {
+          "name": "ROPA 2009",
+          "count": 1
+        },
+        {
+          "name": "ROPA 2019",
+          "count": 1
+        },
+        {
+          "name": "Service Clarification",
           "count": 1
         }
       ]
@@ -173,88 +267,6 @@
         },
         {
           "name": "Zero-Enrolment Schools",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Finance",
-      "count": 10,
-      "sub": [
-        {
-          "name": "Pay Revision",
-          "count": 5
-        },
-        {
-          "name": "Service Rules",
-          "count": 2
-        },
-        {
-          "name": "Ad-hoc Bonus",
-          "count": 1
-        },
-        {
-          "name": "Allowance",
-          "count": 1
-        },
-        {
-          "name": "Allowance Rules",
-          "count": 1
-        },
-        {
-          "name": "Bonus / Ex-gratia",
-          "count": 1
-        },
-        {
-          "name": "Clerical Cadre",
-          "count": 1
-        },
-        {
-          "name": "Deadline Extension",
-          "count": 1
-        },
-        {
-          "name": "DPSC Staff",
-          "count": 1
-        },
-        {
-          "name": "Employee Welfare",
-          "count": 1
-        },
-        {
-          "name": "Grant Order",
-          "count": 1
-        },
-        {
-          "name": "Health Scheme",
-          "count": 1
-        },
-        {
-          "name": "Pay Scale",
-          "count": 1
-        },
-        {
-          "name": "Physical Education Teachers",
-          "count": 1
-        },
-        {
-          "name": "Promotion Rules",
-          "count": 1
-        },
-        {
-          "name": "ROPA",
-          "count": 1
-        },
-        {
-          "name": "ROPA 2009",
-          "count": 1
-        },
-        {
-          "name": "ROPA 2019",
-          "count": 1
-        },
-        {
-          "name": "Service Clarification",
           "count": 1
         }
       ]
@@ -1110,9 +1122,14 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "0a45faa1fbadbc60",
-      "count": 7,
+      "version": "f7bf2c6265b11784",
+      "count": 8,
       "categories": {
+        "Finance": [
+          "Budget Allocation",
+          "Finance Order",
+          "Fund Release"
+        ],
         "WBBPE": [
           "Correction Window",
           "Recruitment",
@@ -1621,6 +1638,11 @@
   ],
   "recent": [
     {
+      "id": "20261106-02",
+      "month": "2026-11",
+      "addedAt": 1793980486000
+    },
+    {
       "id": "20261106-01",
       "month": "2026-11",
       "addedAt": 1793968566000
@@ -1814,16 +1836,11 @@
       "id": "49",
       "month": "2026-09",
       "addedAt": 1790553600000
-    },
-    {
-      "id": "48",
-      "month": "2026-09",
-      "addedAt": 1790208000000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "7355a8d5637a4ecc",
-    "count": 60
+    "version": "443b390d0607b7c1",
+    "count": 61
   }
 }
