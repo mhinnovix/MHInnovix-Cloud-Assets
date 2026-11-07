@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-07T06:31:40Z",
-  "ref": "6fe86add2223fa33753469331d24645f604c9ea5",
+  "generatedAt": "2026-11-07T13:25:23Z",
+  "ref": "a0397974623bc94a0f8ba9f829d613e28c10673a",
   "minAppVersion": 0,
-  "totalNotices": 89,
+  "totalNotices": 90,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 16,
+      "count": 17,
       "sub": [
         {
           "name": "Recruitment",
@@ -42,6 +42,10 @@
           "count": 1
         },
         {
+          "name": "Education Department",
+          "count": 1
+        },
+        {
           "name": "Holiday Notice",
           "count": 1
         },
@@ -54,6 +58,10 @@
           "count": 1
         },
         {
+          "name": "Mid Day Meal",
+          "count": 1
+        },
+        {
           "name": "NIOS",
           "count": 1
         },
@@ -63,6 +71,10 @@
         },
         {
           "name": "Online Scrutiny",
+          "count": 1
+        },
+        {
+          "name": "PM POSHAN",
           "count": 1
         },
         {
@@ -1130,8 +1142,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "b614542bbdc0fa2e",
-      "count": 9,
+      "version": "4e82fc1daedc7510",
+      "count": 10,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1140,6 +1152,9 @@
         ],
         "WBBPE": [
           "Correction Window",
+          "Education Department",
+          "Mid Day Meal",
+          "PM POSHAN",
           "Recruitment",
           "Teacher Recruitment"
         ],
@@ -1648,6 +1663,11 @@
   ],
   "recent": [
     {
+      "id": "20261107-02",
+      "month": "2026-11",
+      "addedAt": 1794057923000
+    },
+    {
       "id": "20261107-01",
       "month": "2026-11",
       "addedAt": 1794033099000
@@ -1841,16 +1861,11 @@
       "id": "50",
       "month": "2026-09",
       "addedAt": 1790640000000
-    },
-    {
-      "id": "53",
-      "month": "2026-09",
-      "addedAt": 1790553600000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "59c8091611a60f3a",
-    "count": 62
+    "version": "13ba218a53f323eb",
+    "count": 63
   }
 }
