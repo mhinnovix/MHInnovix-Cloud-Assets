@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-06T15:54:47Z",
-  "ref": "212c01c85e1229e7f2d5600a27eeb303cace02cc",
+  "generatedAt": "2026-11-07T06:31:40Z",
+  "ref": "6fe86add2223fa33753469331d24645f604c9ea5",
   "minAppVersion": 0,
-  "totalNotices": 88,
+  "totalNotices": 89,
   "categories": [
     {
       "name": "WBBPE",
@@ -273,15 +273,19 @@
     },
     {
       "name": "WBPSC",
-      "count": 7,
+      "count": 8,
       "sub": [
+        {
+          "name": "Examination",
+          "count": 3
+        },
         {
           "name": "Recruitment",
           "count": 3
         },
         {
-          "name": "Examination",
-          "count": 2
+          "name": "Admit Card",
+          "count": 1
         },
         {
           "name": "Application Edit",
@@ -305,6 +309,10 @@
         },
         {
           "name": "Government Jobs",
+          "count": 1
+        },
+        {
+          "name": "Judicial Service",
           "count": 1
         },
         {
@@ -1122,8 +1130,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "f7bf2c6265b11784",
-      "count": 8,
+      "version": "b614542bbdc0fa2e",
+      "count": 9,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1146,7 +1154,9 @@
           "Result"
         ],
         "WBPSC": [
+          "Admit Card",
           "Examination",
+          "Judicial Service",
           "Result",
           "WBCS"
         ]
@@ -1638,6 +1648,11 @@
   ],
   "recent": [
     {
+      "id": "20261107-01",
+      "month": "2026-11",
+      "addedAt": 1794033099000
+    },
+    {
       "id": "20261106-02",
       "month": "2026-11",
       "addedAt": 1793980486000
@@ -1831,16 +1846,11 @@
       "id": "53",
       "month": "2026-09",
       "addedAt": 1790553600000
-    },
-    {
-      "id": "49",
-      "month": "2026-09",
-      "addedAt": 1790553600000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "443b390d0607b7c1",
-    "count": 61
+    "version": "59c8091611a60f3a",
+    "count": 62
   }
 }
