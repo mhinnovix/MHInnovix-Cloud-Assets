@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-07T13:25:23Z",
-  "ref": "a0397974623bc94a0f8ba9f829d613e28c10673a",
+  "generatedAt": "2026-11-08T20:16:03Z",
+  "ref": "05653bea48a2f27a2f5e5e9dad2af5a2239919c2",
   "minAppVersion": 0,
-  "totalNotices": 90,
+  "totalNotices": 91,
   "categories": [
     {
       "name": "WBBPE",
@@ -285,7 +285,7 @@
     },
     {
       "name": "WBPSC",
-      "count": 8,
+      "count": 9,
       "sub": [
         {
           "name": "Examination",
@@ -320,6 +320,10 @@
           "count": 1
         },
         {
+          "name": "Examination Schedule",
+          "count": 1
+        },
+        {
           "name": "Government Jobs",
           "count": 1
         },
@@ -337,6 +341,10 @@
         },
         {
           "name": "WBCS",
+          "count": 1
+        },
+        {
+          "name": "WBJS",
           "count": 1
         }
       ]
@@ -1142,8 +1150,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "4e82fc1daedc7510",
-      "count": 10,
+      "version": "dcc64f7698c490c2",
+      "count": 11,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1171,9 +1179,11 @@
         "WBPSC": [
           "Admit Card",
           "Examination",
+          "Examination Schedule",
           "Judicial Service",
           "Result",
-          "WBCS"
+          "WBCS",
+          "WBJS"
         ]
       }
     },
@@ -1663,6 +1673,11 @@
   ],
   "recent": [
     {
+      "id": "20261107-03",
+      "month": "2026-11",
+      "addedAt": 1794168963000
+    },
+    {
       "id": "20261107-02",
       "month": "2026-11",
       "addedAt": 1794057923000
@@ -1856,11 +1871,6 @@
       "id": "52",
       "month": "2026-09",
       "addedAt": 1790726400000
-    },
-    {
-      "id": "50",
-      "month": "2026-09",
-      "addedAt": 1790640000000
     }
   ],
   "memoIndex": {
