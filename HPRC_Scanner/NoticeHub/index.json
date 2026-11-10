@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-08T20:16:03Z",
-  "ref": "05653bea48a2f27a2f5e5e9dad2af5a2239919c2",
+  "generatedAt": "2026-11-10T14:13:55Z",
+  "ref": "9cc36cc2e0b9034df585ef068e7abc21f7ecc3bb",
   "minAppVersion": 0,
-  "totalNotices": 91,
+  "totalNotices": 92,
   "categories": [
     {
       "name": "WBBPE",
@@ -285,14 +285,14 @@
     },
     {
       "name": "WBPSC",
-      "count": 9,
+      "count": 10,
       "sub": [
         {
-          "name": "Examination",
-          "count": 3
+          "name": "Recruitment",
+          "count": 4
         },
         {
-          "name": "Recruitment",
+          "name": "Examination",
           "count": 3
         },
         {
@@ -309,6 +309,10 @@
         },
         {
           "name": "Clerkship Exam",
+          "count": 1
+        },
+        {
+          "name": "Document Verification",
           "count": 1
         },
         {
@@ -329,6 +333,10 @@
         },
         {
           "name": "Judicial Service",
+          "count": 1
+        },
+        {
+          "name": "Personality Test",
           "count": 1
         },
         {
@@ -1150,8 +1158,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "dcc64f7698c490c2",
-      "count": 11,
+      "version": "cffea3f2b6159812",
+      "count": 12,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1178,9 +1186,12 @@
         ],
         "WBPSC": [
           "Admit Card",
+          "Document Verification",
           "Examination",
           "Examination Schedule",
           "Judicial Service",
+          "Personality Test",
+          "Recruitment",
           "Result",
           "WBCS",
           "WBJS"
@@ -1673,6 +1684,11 @@
   ],
   "recent": [
     {
+      "id": "20261110-01",
+      "month": "2026-11",
+      "addedAt": 1794320035000
+    },
+    {
       "id": "20261107-03",
       "month": "2026-11",
       "addedAt": 1794168963000
@@ -1866,16 +1882,11 @@
       "id": "54",
       "month": "2026-10",
       "addedAt": 1790812800000
-    },
-    {
-      "id": "52",
-      "month": "2026-09",
-      "addedAt": 1790726400000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "13ba218a53f323eb",
-    "count": 63
+    "version": "5c25869d59b4aad5",
+    "count": 64
   }
 }
