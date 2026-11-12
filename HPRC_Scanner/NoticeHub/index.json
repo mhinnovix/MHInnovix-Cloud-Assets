@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T04:56:33Z",
-  "ref": "3e82dd208f98775e76e8e1a9e8d37b86b27d20af",
+  "generatedAt": "2026-11-12T18:40:08Z",
+  "ref": "400e57c08323f71e1c3ba63c99b123e10606e9d2",
   "minAppVersion": 0,
-  "totalNotices": 92,
+  "totalNotices": 93,
   "categories": [
     {
       "name": "WBBPE",
@@ -926,6 +926,20 @@
       ]
     },
     {
+      "name": "GovWB",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Administrative Accountability",
+          "count": 1
+        },
+        {
+          "name": "Public Service",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Guidelines / Help",
       "count": 1,
       "sub": [
@@ -1158,13 +1172,17 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "cffea3f2b6159812",
-      "count": 12,
+      "version": "07dca67b032ff9aa",
+      "count": 13,
       "categories": {
         "Finance": [
           "Budget Allocation",
           "Finance Order",
           "Fund Release"
+        ],
+        "GovWB": [
+          "Administrative Accountability",
+          "Public Service"
         ],
         "WBBPE": [
           "Correction Window",
@@ -1684,6 +1702,11 @@
   ],
   "recent": [
     {
+      "id": "20261111-01",
+      "month": "2026-11",
+      "addedAt": 1794508808000
+    },
+    {
       "id": "20261110-01",
       "month": "2026-11",
       "addedAt": 1794320035000
@@ -1877,16 +1900,11 @@
       "id": "55",
       "month": "2026-10",
       "addedAt": 1790812800000
-    },
-    {
-      "id": "54",
-      "month": "2026-10",
-      "addedAt": 1790812800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "5c25869d59b4aad5",
-    "count": 64
+    "version": "02cd0b52f8795fb8",
+    "count": 65
   }
 }
