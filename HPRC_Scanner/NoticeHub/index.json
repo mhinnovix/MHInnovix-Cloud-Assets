@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-10T14:13:55Z",
-  "ref": "9cc36cc2e0b9034df585ef068e7abc21f7ecc3bb",
+  "generatedAt": "2026-11-12T04:55:13Z",
+  "ref": "729d2eceb30d25bf9e23b2243f161f18d03918dd",
   "minAppVersion": 0,
-  "totalNotices": 92,
+  "totalNotices": 93,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 17,
+      "count": 18,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Interview",
@@ -23,6 +23,10 @@
         },
         {
           "name": "Admission",
+          "count": 1
+        },
+        {
+          "name": "Application Correction",
           "count": 1
         },
         {
@@ -75,6 +79,10 @@
         },
         {
           "name": "PM POSHAN",
+          "count": 1
+        },
+        {
+          "name": "Primary Teacher",
           "count": 1
         },
         {
@@ -1158,8 +1166,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "cffea3f2b6159812",
-      "count": 12,
+      "version": "0ba79514ff6522ec",
+      "count": 13,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1167,10 +1175,12 @@
           "Fund Release"
         ],
         "WBBPE": [
+          "Application Correction",
           "Correction Window",
           "Education Department",
           "Mid Day Meal",
           "PM POSHAN",
+          "Primary Teacher",
           "Recruitment",
           "Teacher Recruitment"
         ],
@@ -1684,6 +1694,11 @@
   ],
   "recent": [
     {
+      "id": "20261105-05",
+      "month": "2026-11",
+      "addedAt": 1794459313000
+    },
+    {
       "id": "20261110-01",
       "month": "2026-11",
       "addedAt": 1794320035000
@@ -1877,16 +1892,11 @@
       "id": "55",
       "month": "2026-10",
       "addedAt": 1790812800000
-    },
-    {
-      "id": "54",
-      "month": "2026-10",
-      "addedAt": 1790812800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "5c25869d59b4aad5",
-    "count": 64
+    "version": "c94a368c18c4a86a",
+    "count": 65
   }
 }
