@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-12T18:40:08Z",
-  "ref": "400e57c08323f71e1c3ba63c99b123e10606e9d2",
+  "generatedAt": "2026-11-14T13:09:19Z",
+  "ref": "395aff5d61281c265b91f19a3c4edbc31e8a4f18",
   "minAppVersion": 0,
-  "totalNotices": 93,
+  "totalNotices": 94,
   "categories": [
     {
       "name": "WBBPE",
@@ -392,6 +392,52 @@
       ]
     },
     {
+      "name": "WBSSC",
+      "count": 6,
+      "sub": [
+        {
+          "name": "Recruitment",
+          "count": 4
+        },
+        {
+          "name": "Cancellation Notice",
+          "count": 1
+        },
+        {
+          "name": "Category Correction Notice",
+          "count": 1
+        },
+        {
+          "name": "Examination",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "Purba Bardhaman",
+          "count": 1
+        },
+        {
+          "name": "Revised Interview List",
+          "count": 1
+        },
+        {
+          "name": "SLST 2025",
+          "count": 1
+        },
+        {
+          "name": "TET 2011",
+          "count": 1
+        },
+        {
+          "name": "Vacancy List",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Census",
       "count": 5,
       "sub": [
@@ -417,44 +463,6 @@
         },
         {
           "name": "On-Duty Status",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBSSC",
-      "count": 5,
-      "sub": [
-        {
-          "name": "Recruitment",
-          "count": 3
-        },
-        {
-          "name": "Category Correction Notice",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
-          "count": 1
-        },
-        {
-          "name": "Purba Bardhaman",
-          "count": 1
-        },
-        {
-          "name": "Revised Interview List",
-          "count": 1
-        },
-        {
-          "name": "SLST 2025",
-          "count": 1
-        },
-        {
-          "name": "TET 2011",
-          "count": 1
-        },
-        {
-          "name": "Vacancy List",
           "count": 1
         }
       ]
@@ -1172,8 +1180,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "07dca67b032ff9aa",
-      "count": 13,
+      "version": "468e0b6355b570bb",
+      "count": 14,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1213,6 +1221,11 @@
           "Result",
           "WBCS",
           "WBJS"
+        ],
+        "WBSSC": [
+          "Cancellation Notice",
+          "Examination",
+          "Recruitment"
         ]
       }
     },
@@ -1702,6 +1715,11 @@
   ],
   "recent": [
     {
+      "id": "20261113-01",
+      "month": "2026-11",
+      "addedAt": 1794661759000
+    },
+    {
       "id": "20261111-01",
       "month": "2026-11",
       "addedAt": 1794508808000
@@ -1895,16 +1913,11 @@
       "id": "56",
       "month": "2026-09",
       "addedAt": 1791158400000
-    },
-    {
-      "id": "55",
-      "month": "2026-10",
-      "addedAt": 1790812800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "02cd0b52f8795fb8",
-    "count": 65
+    "version": "79da7e05c176a740",
+    "count": 66
   }
 }
