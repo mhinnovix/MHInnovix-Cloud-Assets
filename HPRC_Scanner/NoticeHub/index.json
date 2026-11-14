@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T13:09:19Z",
-  "ref": "395aff5d61281c265b91f19a3c4edbc31e8a4f18",
+  "generatedAt": "2026-11-14T13:10:58Z",
+  "ref": "5e5647e6b65397faf99fc9acb89f5da3980a7bd4",
   "minAppVersion": 0,
-  "totalNotices": 94,
+  "totalNotices": 95,
   "categories": [
     {
       "name": "WBBPE",
@@ -358,6 +358,56 @@
       ]
     },
     {
+      "name": "WBSSC",
+      "count": 7,
+      "sub": [
+        {
+          "name": "Recruitment",
+          "count": 5
+        },
+        {
+          "name": "Examination",
+          "count": 2
+        },
+        {
+          "name": "Cancellation",
+          "count": 1
+        },
+        {
+          "name": "Cancellation Notice",
+          "count": 1
+        },
+        {
+          "name": "Category Correction Notice",
+          "count": 1
+        },
+        {
+          "name": "Interview Schedule",
+          "count": 1
+        },
+        {
+          "name": "Purba Bardhaman",
+          "count": 1
+        },
+        {
+          "name": "Revised Interview List",
+          "count": 1
+        },
+        {
+          "name": "SLST 2025",
+          "count": 1
+        },
+        {
+          "name": "TET 2011",
+          "count": 1
+        },
+        {
+          "name": "Vacancy List",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "WBCSSC",
       "count": 6,
       "sub": [
@@ -387,52 +437,6 @@
         },
         {
           "name": "SLST",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBSSC",
-      "count": 6,
-      "sub": [
-        {
-          "name": "Recruitment",
-          "count": 4
-        },
-        {
-          "name": "Cancellation Notice",
-          "count": 1
-        },
-        {
-          "name": "Category Correction Notice",
-          "count": 1
-        },
-        {
-          "name": "Examination",
-          "count": 1
-        },
-        {
-          "name": "Interview Schedule",
-          "count": 1
-        },
-        {
-          "name": "Purba Bardhaman",
-          "count": 1
-        },
-        {
-          "name": "Revised Interview List",
-          "count": 1
-        },
-        {
-          "name": "SLST 2025",
-          "count": 1
-        },
-        {
-          "name": "TET 2011",
-          "count": 1
-        },
-        {
-          "name": "Vacancy List",
           "count": 1
         }
       ]
@@ -1180,8 +1184,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "468e0b6355b570bb",
-      "count": 14,
+      "version": "c0c3d89eeb17aef8",
+      "count": 15,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1223,6 +1227,7 @@
           "WBJS"
         ],
         "WBSSC": [
+          "Cancellation",
           "Cancellation Notice",
           "Examination",
           "Recruitment"
@@ -1715,6 +1720,11 @@
   ],
   "recent": [
     {
+      "id": "20261113-02",
+      "month": "2026-11",
+      "addedAt": 1794661858000
+    },
+    {
       "id": "20261113-01",
       "month": "2026-11",
       "addedAt": 1794661759000
@@ -1908,16 +1918,11 @@
       "id": "57",
       "month": "2026-10",
       "addedAt": 1791244800000
-    },
-    {
-      "id": "56",
-      "month": "2026-09",
-      "addedAt": 1791158400000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "79da7e05c176a740",
-    "count": 66
+    "version": "7212a1c6c2c4e8eb",
+    "count": 67
   }
 }
