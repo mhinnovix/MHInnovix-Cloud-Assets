@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T13:10:58Z",
-  "ref": "5e5647e6b65397faf99fc9acb89f5da3980a7bd4",
+  "generatedAt": "2026-11-14T13:19:28Z",
+  "ref": "01adc6507e9634abdade27b05c26e55c7a6e6a7e",
   "minAppVersion": 0,
-  "totalNotices": 95,
+  "totalNotices": 96,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 17,
+      "count": 18,
       "sub": [
         {
           "name": "Recruitment",
@@ -58,6 +58,10 @@
           "count": 1
         },
         {
+          "name": "Manpower Service",
+          "count": 1
+        },
+        {
           "name": "Mid Day Meal",
           "count": 1
         },
@@ -78,11 +82,19 @@
           "count": 1
         },
         {
+          "name": "Security Agency",
+          "count": 1
+        },
+        {
           "name": "Suspension of Classes",
           "count": 1
         },
         {
           "name": "Teacher Recruitment",
+          "count": 1
+        },
+        {
+          "name": "Tender",
           "count": 1
         },
         {
@@ -1184,8 +1196,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "c0c3d89eeb17aef8",
-      "count": 15,
+      "version": "5691c162fb3df157",
+      "count": 16,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1199,10 +1211,13 @@
         "WBBPE": [
           "Correction Window",
           "Education Department",
+          "Manpower Service",
           "Mid Day Meal",
           "PM POSHAN",
           "Recruitment",
-          "Teacher Recruitment"
+          "Security Agency",
+          "Teacher Recruitment",
+          "Tender"
         ],
         "WBBSE": [
           "Examination",
@@ -1720,6 +1735,11 @@
   ],
   "recent": [
     {
+      "id": "20261105-06",
+      "month": "2026-11",
+      "addedAt": 1794662367000
+    },
+    {
       "id": "20261113-02",
       "month": "2026-11",
       "addedAt": 1794661858000
@@ -1913,16 +1933,11 @@
       "id": "58",
       "month": "2026-10",
       "addedAt": 1791331200000
-    },
-    {
-      "id": "57",
-      "month": "2026-10",
-      "addedAt": 1791244800000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "7212a1c6c2c4e8eb",
-    "count": 67
+    "version": "4f7836a7e18e1203",
+    "count": 68
   }
 }
