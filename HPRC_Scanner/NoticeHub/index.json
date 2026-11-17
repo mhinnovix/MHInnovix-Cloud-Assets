@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-14T13:19:28Z",
-  "ref": "01adc6507e9634abdade27b05c26e55c7a6e6a7e",
+  "generatedAt": "2026-11-17T09:33:50Z",
+  "ref": "9061d3aa738d25e679538389bc749fbc665bd573",
   "minAppVersion": 0,
-  "totalNotices": 96,
+  "totalNotices": 97,
   "categories": [
     {
       "name": "WBBPE",
@@ -371,11 +371,11 @@
     },
     {
       "name": "WBSSC",
-      "count": 7,
+      "count": 8,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Examination",
@@ -391,6 +391,10 @@
         },
         {
           "name": "Category Correction Notice",
+          "count": 1
+        },
+        {
+          "name": "Certificate Verification",
           "count": 1
         },
         {
@@ -1196,8 +1200,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "5691c162fb3df157",
-      "count": 16,
+      "version": "7338bcb67a75bf59",
+      "count": 17,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1244,6 +1248,7 @@
         "WBSSC": [
           "Cancellation",
           "Cancellation Notice",
+          "Certificate Verification",
           "Examination",
           "Recruitment"
         ]
@@ -1735,6 +1740,11 @@
   ],
   "recent": [
     {
+      "id": "20261113-03",
+      "month": "2026-11",
+      "addedAt": 1794908029000
+    },
+    {
       "id": "20261105-06",
       "month": "2026-11",
       "addedAt": 1794662367000
@@ -1928,16 +1938,11 @@
       "id": "59",
       "month": "2026-10",
       "addedAt": 1791504000000
-    },
-    {
-      "id": "58",
-      "month": "2026-10",
-      "addedAt": 1791331200000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "4f7836a7e18e1203",
-    "count": 68
+    "version": "aec76282c8b0896e",
+    "count": 69
   }
 }
