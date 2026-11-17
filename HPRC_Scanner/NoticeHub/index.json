@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T09:33:50Z",
-  "ref": "9061d3aa738d25e679538389bc749fbc665bd573",
+  "generatedAt": "2026-11-17T14:02:30Z",
+  "ref": "00a19b46c52c0047036e5d609106cdaee0d4bece",
   "minAppVersion": 0,
-  "totalNotices": 97,
+  "totalNotices": 98,
   "categories": [
     {
       "name": "WBBPE",
@@ -816,6 +816,20 @@
       ]
     },
     {
+      "name": "CBSE",
+      "count": 1,
+      "sub": [
+        {
+          "name": "CTET",
+          "count": 1
+        },
+        {
+          "name": "Examination",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Central Board",
       "count": 1,
       "sub": [
@@ -1332,9 +1346,13 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "854a751f70b219cb",
-      "count": 24,
+      "version": "fb1237aaeaf5d482",
+      "count": 25,
       "categories": {
+        "CBSE": [
+          "CTET",
+          "Examination"
+        ],
         "Category Update": [
           "1st SLST NTS",
           "Date Extension",
@@ -1740,6 +1758,11 @@
   ],
   "recent": [
     {
+      "id": "20260914-01",
+      "month": "2026-09",
+      "addedAt": 1794924149000
+    },
+    {
       "id": "20261113-03",
       "month": "2026-11",
       "addedAt": 1794908029000
@@ -1933,16 +1956,11 @@
       "id": "60",
       "month": "2026-10",
       "addedAt": 1791504000000
-    },
-    {
-      "id": "59",
-      "month": "2026-10",
-      "addedAt": 1791504000000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "aec76282c8b0896e",
-    "count": 69
+    "version": "d0b718ee6e9bcac6",
+    "count": 70
   }
 }
