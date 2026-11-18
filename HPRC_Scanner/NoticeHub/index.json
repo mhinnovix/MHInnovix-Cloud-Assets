@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T12:59:02Z",
-  "ref": "b79bfc745c147394ba78be5a50b5638b866e0aa5",
+  "generatedAt": "2026-11-18T14:53:01Z",
+  "ref": "5c3ddaeff2c550fb54f6095b156590f4bcd9bc98",
   "minAppVersion": 0,
-  "totalNotices": 100,
+  "totalNotices": 101,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 20,
+      "count": 21,
       "sub": [
         {
           "name": "Recruitment",
@@ -39,6 +39,10 @@
         },
         {
           "name": "Certificate",
+          "count": 1
+        },
+        {
+          "name": "Class V Inclusion",
           "count": 1
         },
         {
@@ -1222,8 +1226,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "9539bca8e268a78d",
-      "count": 19,
+      "version": "ed9089a47040fdb4",
+      "count": 20,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1236,6 +1240,7 @@
         ],
         "WBBPE": [
           "Category Correction",
+          "Class V Inclusion",
           "Correction Window",
           "Education Department",
           "Examination Schedule",
@@ -1768,6 +1773,11 @@
   ],
   "recent": [
     {
+      "id": "20261118-03",
+      "month": "2026-11",
+      "addedAt": 1795013581000
+    },
+    {
       "id": "20261118-02",
       "month": "2026-11",
       "addedAt": 1795006742000
@@ -1961,16 +1971,11 @@
       "id": "20261012-06",
       "month": "2026-10",
       "addedAt": 1791880604000
-    },
-    {
-      "id": "20261012-05",
-      "month": "2026-10",
-      "addedAt": 1791810753000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "2647e452dd62d019",
-    "count": 72
+    "version": "20a726b0089d8066",
+    "count": 73
   }
 }
