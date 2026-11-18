@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T11:11:37Z",
-  "ref": "ff8ea30efaa85ad750e621f18fcc2e6bebb4ad29",
+  "generatedAt": "2026-11-18T12:59:02Z",
+  "ref": "b79bfc745c147394ba78be5a50b5638b866e0aa5",
   "minAppVersion": 0,
-  "totalNotices": 99,
+  "totalNotices": 100,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 19,
+      "count": 20,
       "sub": [
         {
           "name": "Recruitment",
@@ -16,6 +16,10 @@
         {
           "name": "Interview",
           "count": 5
+        },
+        {
+          "name": "Teacher Recruitment",
+          "count": 2
         },
         {
           "name": "Administration",
@@ -27,6 +31,10 @@
         },
         {
           "name": "Bridge Course",
+          "count": 1
+        },
+        {
+          "name": "Category Correction",
           "count": 1
         },
         {
@@ -91,10 +99,6 @@
         },
         {
           "name": "Suspension of Classes",
-          "count": 1
-        },
-        {
-          "name": "Teacher Recruitment",
           "count": 1
         },
         {
@@ -1218,8 +1222,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "c49ddf4a08fb98cc",
-      "count": 18,
+      "version": "9539bca8e268a78d",
+      "count": 19,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1231,6 +1235,7 @@
           "Public Service"
         ],
         "WBBPE": [
+          "Category Correction",
           "Correction Window",
           "Education Department",
           "Examination Schedule",
@@ -1763,6 +1768,11 @@
   ],
   "recent": [
     {
+      "id": "20261118-02",
+      "month": "2026-11",
+      "addedAt": 1795006742000
+    },
+    {
       "id": "20261118-01",
       "month": "2026-11",
       "addedAt": 1795000297000
@@ -1956,16 +1966,11 @@
       "id": "20261012-05",
       "month": "2026-10",
       "addedAt": 1791810753000
-    },
-    {
-      "id": "20261007-01",
-      "month": "2026-10",
-      "addedAt": 1791790823000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "0c2ad80b17437d20",
-    "count": 71
+    "version": "2647e452dd62d019",
+    "count": 72
   }
 }
