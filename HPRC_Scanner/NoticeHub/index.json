@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T14:02:30Z",
-  "ref": "00a19b46c52c0047036e5d609106cdaee0d4bece",
+  "generatedAt": "2026-11-18T11:11:37Z",
+  "ref": "ff8ea30efaa85ad750e621f18fcc2e6bebb4ad29",
   "minAppVersion": 0,
-  "totalNotices": 98,
+  "totalNotices": 99,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 18,
+      "count": 19,
       "sub": [
         {
           "name": "Recruitment",
@@ -43,6 +43,10 @@
         },
         {
           "name": "Education Department",
+          "count": 1
+        },
+        {
+          "name": "Examination Schedule",
           "count": 1
         },
         {
@@ -1214,8 +1218,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "7338bcb67a75bf59",
-      "count": 17,
+      "version": "c49ddf4a08fb98cc",
+      "count": 18,
       "categories": {
         "Finance": [
           "Budget Allocation",
@@ -1229,6 +1233,7 @@
         "WBBPE": [
           "Correction Window",
           "Education Department",
+          "Examination Schedule",
           "Manpower Service",
           "Mid Day Meal",
           "PM POSHAN",
@@ -1758,6 +1763,11 @@
   ],
   "recent": [
     {
+      "id": "20261118-01",
+      "month": "2026-11",
+      "addedAt": 1795000297000
+    },
+    {
       "id": "20260914-01",
       "month": "2026-09",
       "addedAt": 1794924149000
@@ -1951,16 +1961,11 @@
       "id": "20261007-01",
       "month": "2026-10",
       "addedAt": 1791790823000
-    },
-    {
-      "id": "60",
-      "month": "2026-10",
-      "addedAt": 1791504000000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "d0b718ee6e9bcac6",
-    "count": 70
+    "version": "0c2ad80b17437d20",
+    "count": 71
   }
 }
