@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-18T14:53:01Z",
-  "ref": "5c3ddaeff2c550fb54f6095b156590f4bcd9bc98",
+  "generatedAt": "2026-11-19T09:07:42Z",
+  "ref": "5fff7450be077dbcca208ae0e884041f4f4defbd",
   "minAppVersion": 0,
-  "totalNotices": 101,
+  "totalNotices": 102,
   "categories": [
     {
       "name": "WBBPE",
@@ -994,6 +994,20 @@
       ]
     },
     {
+      "name": "GoWB",
+      "count": 1,
+      "sub": [
+        {
+          "name": "Attendance System",
+          "count": 1
+        },
+        {
+          "name": "FRBAS",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Guidelines / Help",
       "count": 1,
       "sub": [
@@ -1226,13 +1240,17 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "ed9089a47040fdb4",
-      "count": 20,
+      "version": "859349c038abdd86",
+      "count": 21,
       "categories": {
         "Finance": [
           "Budget Allocation",
           "Finance Order",
           "Fund Release"
+        ],
+        "GoWB": [
+          "Attendance System",
+          "FRBAS"
         ],
         "GovWB": [
           "Administrative Accountability",
@@ -1773,6 +1791,11 @@
   ],
   "recent": [
     {
+      "id": "20261118-04",
+      "month": "2026-11",
+      "addedAt": 1795079262000
+    },
+    {
       "id": "20261118-03",
       "month": "2026-11",
       "addedAt": 1795013581000
@@ -1966,16 +1989,11 @@
       "id": "20261013-01",
       "month": "2026-10",
       "addedAt": 1791899772000
-    },
-    {
-      "id": "20261012-06",
-      "month": "2026-10",
-      "addedAt": 1791880604000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "20a726b0089d8066",
-    "count": 73
+    "version": "730e2719c2d1c4ee",
+    "count": 74
   }
 }
