@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T08:38:02Z",
-  "ref": "af2230fca67159649bdb489ac0a901a0f733dbdb",
+  "generatedAt": "2026-11-20T08:38:33Z",
+  "ref": "b490fd0e33f352c1887e1e69bb2fbfb348429523",
   "minAppVersion": 0,
   "totalNotices": 103,
   "categories": [
@@ -1248,7 +1248,7 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "d88f0a9adf8189a8",
+      "version": "9ea0bbab4ffdcdb6",
       "count": 22,
       "categories": {
         "Finance": [
