@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-19T09:07:42Z",
-  "ref": "5fff7450be077dbcca208ae0e884041f4f4defbd",
+  "generatedAt": "2026-11-20T08:38:02Z",
+  "ref": "af2230fca67159649bdb489ac0a901a0f733dbdb",
   "minAppVersion": 0,
-  "totalNotices": 102,
+  "totalNotices": 103,
   "categories": [
     {
       "name": "WBBPE",
@@ -121,11 +121,15 @@
     },
     {
       "name": "Finance",
-      "count": 11,
+      "count": 12,
       "sub": [
         {
           "name": "Pay Revision",
           "count": 5
+        },
+        {
+          "name": "Deadline Extension",
+          "count": 2
         },
         {
           "name": "Service Rules",
@@ -156,7 +160,7 @@
           "count": 1
         },
         {
-          "name": "Deadline Extension",
+          "name": "DA Arrears",
           "count": 1
         },
         {
@@ -185,6 +189,10 @@
         },
         {
           "name": "Pay Scale",
+          "count": 1
+        },
+        {
+          "name": "Pension Order",
           "count": 1
         },
         {
@@ -1240,13 +1248,16 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "859349c038abdd86",
-      "count": 21,
+      "version": "d88f0a9adf8189a8",
+      "count": 22,
       "categories": {
         "Finance": [
           "Budget Allocation",
+          "DA Arrears",
+          "Deadline Extension",
           "Finance Order",
-          "Fund Release"
+          "Fund Release",
+          "Pension Order"
         ],
         "GoWB": [
           "Attendance System",
@@ -1791,6 +1802,11 @@
   ],
   "recent": [
     {
+      "id": "20261118-05",
+      "month": "2026-11",
+      "addedAt": 1795163882000
+    },
+    {
       "id": "20261118-04",
       "month": "2026-11",
       "addedAt": 1795079262000
@@ -1984,16 +2000,11 @@
       "id": "20251119-01",
       "month": "2025-11",
       "addedAt": 1791996523000
-    },
-    {
-      "id": "20261013-01",
-      "month": "2026-10",
-      "addedAt": 1791899772000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "730e2719c2d1c4ee",
-    "count": 74
+    "version": "d77e548feb4b82c3",
+    "count": 75
   }
 }
