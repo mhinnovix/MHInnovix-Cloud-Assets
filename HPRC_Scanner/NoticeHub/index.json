@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T06:18:25Z",
-  "ref": "cd81362d0d54924eb91aa8ea99ea40e5d838011a",
+  "generatedAt": "2026-11-21T06:24:14Z",
+  "ref": "2a794f3e37e0a18b5dfd73553e8e63779fc90f8d",
   "minAppVersion": 0,
   "totalNotices": 104,
   "categories": [
@@ -658,7 +658,7 @@
           "count": 1
         },
         {
-          "name": "North 25 Paraganas",
+          "name": "North 24 Paraganas",
           "count": 1
         },
         {
@@ -1260,13 +1260,13 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "53675db4785d78f2",
+      "version": "804d8adeb6460271",
       "count": 23,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
           "Child Welfare",
-          "North 25 Paraganas"
+          "North 24 Paraganas"
         ],
         "Finance": [
           "Budget Allocation",
