@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-20T08:38:33Z",
-  "ref": "b490fd0e33f352c1887e1e69bb2fbfb348429523",
+  "generatedAt": "2026-11-21T06:18:25Z",
+  "ref": "cd81362d0d54924eb91aa8ea99ea40e5d838011a",
   "minAppVersion": 0,
-  "totalNotices": 103,
+  "totalNotices": 104,
   "categories": [
     {
       "name": "WBBPE",
@@ -646,6 +646,28 @@
       ]
     },
     {
+      "name": "District Inspector of Schools",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Awareness Campaign",
+          "count": 1
+        },
+        {
+          "name": "Child Welfare",
+          "count": 1
+        },
+        {
+          "name": "North 25 Paraganas",
+          "count": 1
+        },
+        {
+          "name": "Vacancy Report",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Downloadable",
       "count": 2,
       "sub": [
@@ -895,16 +917,6 @@
         },
         {
           "name": "Verification",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "District Inspector of Schools",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Vacancy Report",
           "count": 1
         }
       ]
@@ -1248,9 +1260,14 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "9ea0bbab4ffdcdb6",
-      "count": 22,
+      "version": "53675db4785d78f2",
+      "count": 23,
       "categories": {
+        "District Inspector of Schools": [
+          "Awareness Campaign",
+          "Child Welfare",
+          "North 25 Paraganas"
+        ],
         "Finance": [
           "Budget Allocation",
           "DA Arrears",
@@ -1802,6 +1819,11 @@
   ],
   "recent": [
     {
+      "id": "20261120-01",
+      "month": "2026-11",
+      "addedAt": 1795241904000
+    },
+    {
       "id": "20261118-05",
       "month": "2026-11",
       "addedAt": 1795163882000
@@ -1995,16 +2017,11 @@
       "id": "20261014-01",
       "month": "2026-10",
       "addedAt": 1792075195000
-    },
-    {
-      "id": "20251119-01",
-      "month": "2025-11",
-      "addedAt": 1791996523000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "d77e548feb4b82c3",
-    "count": 75
+    "version": "5ce23d68fdfdaf6f",
+    "count": 76
   }
 }
