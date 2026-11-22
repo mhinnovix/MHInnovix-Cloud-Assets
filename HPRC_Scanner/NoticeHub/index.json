@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-21T06:24:14Z",
-  "ref": "2a794f3e37e0a18b5dfd73553e8e63779fc90f8d",
+  "generatedAt": "2026-11-22T12:39:01Z",
+  "ref": "2fa20a819d3e59ef78efd39bfc97f090ef43833b",
   "minAppVersion": 0,
-  "totalNotices": 104,
+  "totalNotices": 105,
   "categories": [
     {
       "name": "WBBPE",
@@ -509,11 +509,19 @@
     },
     {
       "name": "PBSSM",
-      "count": 4,
+      "count": 5,
       "sub": [
         {
           "name": "APAAR ID",
           "count": 2
+        },
+        {
+          "name": "Constitution Day",
+          "count": 1
+        },
+        {
+          "name": "Event Guidelines",
+          "count": 1
         },
         {
           "name": "FLN",
@@ -529,6 +537,10 @@
         },
         {
           "name": "School Administration",
+          "count": 1
+        },
+        {
+          "name": "School Education",
           "count": 1
         },
         {
@@ -1260,8 +1272,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "804d8adeb6460271",
-      "count": 23,
+      "version": "e40a0e096dc2b28c",
+      "count": 24,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
@@ -1283,6 +1295,11 @@
         "GovWB": [
           "Administrative Accountability",
           "Public Service"
+        ],
+        "PBSSM": [
+          "Constitution Day",
+          "Event Guidelines",
+          "School Education"
         ],
         "WBBPE": [
           "Category Correction",
@@ -1819,6 +1836,11 @@
   ],
   "recent": [
     {
+      "id": "20261121-01",
+      "month": "2026-11",
+      "addedAt": 1795351141000
+    },
+    {
       "id": "20261120-01",
       "month": "2026-11",
       "addedAt": 1795241904000
@@ -2012,16 +2034,11 @@
       "id": "20250925-01",
       "month": "2025-09",
       "addedAt": 1792092961000
-    },
-    {
-      "id": "20261014-01",
-      "month": "2026-10",
-      "addedAt": 1792075195000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "5ce23d68fdfdaf6f",
-    "count": 76
+    "version": "49ba8b08851ae5be",
+    "count": 77
   }
 }
