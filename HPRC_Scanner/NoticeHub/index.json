@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T12:51:58Z",
-  "ref": "ce6aa58c91cc51bd61c7d7b06743ad66e71db7ed",
+  "generatedAt": "2026-11-23T13:07:02Z",
+  "ref": "925be4db1a42818478db90e0643608bb96a08f5c",
   "minAppVersion": 0,
-  "totalNotices": 106,
+  "totalNotices": 107,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 22,
+      "count": 23,
       "sub": [
         {
           "name": "Recruitment",
@@ -19,6 +19,10 @@
         },
         {
           "name": "Teacher Recruitment",
+          "count": 3
+        },
+        {
+          "name": "Correction Window",
           "count": 2
         },
         {
@@ -47,10 +51,6 @@
         },
         {
           "name": "Class V Inclusion",
-          "count": 1
-        },
-        {
-          "name": "Correction Window",
           "count": 1
         },
         {
@@ -111,6 +111,10 @@
         },
         {
           "name": "Security Agency",
+          "count": 1
+        },
+        {
+          "name": "Special Education Teacher",
           "count": 1
         },
         {
@@ -1296,8 +1300,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "9bae1285f25bbda9",
-      "count": 25,
+      "version": "861846f0956827cc",
+      "count": 26,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
@@ -1339,6 +1343,7 @@
           "Recruitment",
           "School Admission",
           "Security Agency",
+          "Special Education Teacher",
           "Teacher Recruitment",
           "Tender"
         ],
@@ -1866,6 +1871,11 @@
   ],
   "recent": [
     {
+      "id": "20261123-02",
+      "month": "2026-11",
+      "addedAt": 1795439222000
+    },
+    {
       "id": "20261123-01",
       "month": "2026-11",
       "addedAt": 1795438318000
@@ -2059,16 +2069,11 @@
       "id": "20260121-01",
       "month": "2026-01",
       "addedAt": 1792094245000
-    },
-    {
-      "id": "20251224-01",
-      "month": "2025-12",
-      "addedAt": 1792094130000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "1c8faf243bdb9980",
-    "count": 78
+    "version": "841de0577c90eebb",
+    "count": 79
   }
 }
