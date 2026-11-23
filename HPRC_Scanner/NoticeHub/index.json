@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-22T12:39:01Z",
-  "ref": "2fa20a819d3e59ef78efd39bfc97f090ef43833b",
+  "generatedAt": "2026-11-23T12:51:58Z",
+  "ref": "ce6aa58c91cc51bd61c7d7b06743ad66e71db7ed",
   "minAppVersion": 0,
-  "totalNotices": 105,
+  "totalNotices": 106,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 21,
+      "count": 22,
       "sub": [
         {
           "name": "Recruitment",
@@ -27,6 +27,10 @@
         },
         {
           "name": "Admission",
+          "count": 1
+        },
+        {
+          "name": "Admission Guidelines",
           "count": 1
         },
         {
@@ -55,6 +59,10 @@
         },
         {
           "name": "Education Department",
+          "count": 1
+        },
+        {
+          "name": "Elementary Education",
           "count": 1
         },
         {
@@ -95,6 +103,10 @@
         },
         {
           "name": "PM POSHAN",
+          "count": 1
+        },
+        {
+          "name": "School Admission",
           "count": 1
         },
         {
@@ -588,6 +600,40 @@
       ]
     },
     {
+      "name": "WBBSE",
+      "count": 3,
+      "sub": [
+        {
+          "name": "Admission Guidelines",
+          "count": 1
+        },
+        {
+          "name": "Elementary Education",
+          "count": 1
+        },
+        {
+          "name": "Examination",
+          "count": 1
+        },
+        {
+          "name": "Question Paper",
+          "count": 1
+        },
+        {
+          "name": "Recruitment",
+          "count": 1
+        },
+        {
+          "name": "School Admission",
+          "count": 1
+        },
+        {
+          "name": "Vacancy Notice",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Category Update",
       "count": 2,
       "sub": [
@@ -811,28 +857,6 @@
         },
         {
           "name": "PwBD",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBBSE",
-      "count": 2,
-      "sub": [
-        {
-          "name": "Examination",
-          "count": 1
-        },
-        {
-          "name": "Question Paper",
-          "count": 1
-        },
-        {
-          "name": "Recruitment",
-          "count": 1
-        },
-        {
-          "name": "Vacancy Notice",
           "count": 1
         }
       ]
@@ -1272,8 +1296,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "e40a0e096dc2b28c",
-      "count": 24,
+      "version": "9bae1285f25bbda9",
+      "count": 25,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
@@ -1302,22 +1326,28 @@
           "School Education"
         ],
         "WBBPE": [
+          "Admission Guidelines",
           "Category Correction",
           "Class V Inclusion",
           "Correction Window",
           "Education Department",
+          "Elementary Education",
           "Examination Schedule",
           "Manpower Service",
           "Mid Day Meal",
           "PM POSHAN",
           "Recruitment",
+          "School Admission",
           "Security Agency",
           "Teacher Recruitment",
           "Tender"
         ],
         "WBBSE": [
+          "Admission Guidelines",
+          "Elementary Education",
           "Examination",
-          "Question Paper"
+          "Question Paper",
+          "School Admission"
         ],
         "WBCSSC": [
           "Interview List",
@@ -1836,6 +1866,11 @@
   ],
   "recent": [
     {
+      "id": "20261123-01",
+      "month": "2026-11",
+      "addedAt": 1795438318000
+    },
+    {
       "id": "20261121-01",
       "month": "2026-11",
       "addedAt": 1795351141000
@@ -2029,16 +2064,11 @@
       "id": "20251224-01",
       "month": "2025-12",
       "addedAt": 1792094130000
-    },
-    {
-      "id": "20250925-01",
-      "month": "2025-09",
-      "addedAt": 1792092961000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "49ba8b08851ae5be",
-    "count": 77
+    "version": "1c8faf243bdb9980",
+    "count": 78
   }
 }
