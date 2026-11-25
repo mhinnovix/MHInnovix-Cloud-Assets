@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-23T13:07:02Z",
-  "ref": "925be4db1a42818478db90e0643608bb96a08f5c",
+  "generatedAt": "2026-11-25T05:28:32Z",
+  "ref": "8dc69ae069ca1f9c84a888c7a0937f368c0734f1",
   "minAppVersion": 0,
-  "totalNotices": 107,
+  "totalNotices": 108,
   "categories": [
     {
       "name": "WBBPE",
@@ -333,19 +333,19 @@
     },
     {
       "name": "WBPSC",
-      "count": 10,
+      "count": 11,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Examination",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Admit Card",
-          "count": 1
+          "count": 2
         },
         {
           "name": "Application Edit",
@@ -1300,8 +1300,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "861846f0956827cc",
-      "count": 26,
+      "version": "fe968f0dcbe8c793",
+      "count": 27,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
@@ -1871,6 +1871,11 @@
   ],
   "recent": [
     {
+      "id": "20261124-01",
+      "month": "2026-11",
+      "addedAt": 1795584512000
+    },
+    {
       "id": "20261123-02",
       "month": "2026-11",
       "addedAt": 1795439222000
@@ -2064,16 +2069,11 @@
       "id": "20260227-01",
       "month": "2026-02",
       "addedAt": 1792094293000
-    },
-    {
-      "id": "20260121-01",
-      "month": "2026-01",
-      "addedAt": 1792094245000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "841de0577c90eebb",
-    "count": 79
+    "version": "14a3b9f94e3ed3b8",
+    "count": 80
   }
 }
