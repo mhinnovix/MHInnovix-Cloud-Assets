@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-25T05:32:51Z",
-  "ref": "9878fd23c1669c9c6905fe3c6683633448602b1c",
+  "generatedAt": "2026-11-25T10:04:01Z",
+  "ref": "f50438ee3322b6f615696aafd4c11d8e69ef30dc",
   "minAppVersion": 0,
-  "totalNotices": 108,
+  "totalNotices": 109,
   "categories": [
     {
       "name": "WBBPE",
@@ -407,11 +407,11 @@
     },
     {
       "name": "WBSSC",
-      "count": 8,
+      "count": 9,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 6
+          "count": 7
         },
         {
           "name": "Examination",
@@ -434,6 +434,10 @@
           "count": 1
         },
         {
+          "name": "Counselling",
+          "count": 1
+        },
+        {
           "name": "Interview Schedule",
           "count": 1
         },
@@ -443,6 +447,10 @@
         },
         {
           "name": "Revised Interview List",
+          "count": 1
+        },
+        {
+          "name": "SLST 2016",
           "count": 1
         },
         {
@@ -1300,8 +1308,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "fe968f0dcbe8c793",
-      "count": 27,
+      "version": "5a82ad8c350654e4",
+      "count": 28,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
@@ -1376,8 +1384,10 @@
           "Cancellation",
           "Cancellation Notice",
           "Certificate Verification",
+          "Counselling",
           "Examination",
-          "Recruitment"
+          "Recruitment",
+          "SLST 2016"
         ]
       }
     },
@@ -1871,6 +1881,11 @@
   ],
   "recent": [
     {
+      "id": "20261125-01",
+      "month": "2026-11",
+      "addedAt": 1795601040000
+    },
+    {
       "id": "20261124-01",
       "month": "2026-11",
       "addedAt": 1795584512000
@@ -2064,16 +2079,11 @@
       "id": "20260213-01",
       "month": "2026-02",
       "addedAt": 1792094344000
-    },
-    {
-      "id": "20260227-01",
-      "month": "2026-02",
-      "addedAt": 1792094293000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "14a3b9f94e3ed3b8",
-    "count": 80
+    "version": "4df054d7bfadf4b9",
+    "count": 81
   }
 }
