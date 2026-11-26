@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-25T18:40:01Z",
-  "ref": "c0e728c9f76adac57117d986f8ad0b26b024d2cd",
+  "generatedAt": "2026-11-26T07:17:42Z",
+  "ref": "07e5933b1c1a8e701fc0448bd527b660f2c661d6",
   "minAppVersion": 0,
   "totalNotices": 109,
   "categories": [
@@ -1308,7 +1308,7 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "5a82ad8c350654e4",
+      "version": "739a8af8bdd4cdde",
       "count": 28,
       "categories": {
         "District Inspector of Schools": [
@@ -1394,7 +1394,7 @@
     {
       "month": "2026-10",
       "path": "NoticeTexts/2026-10.json",
-      "version": "fb650c9ec7ff21cf",
+      "version": "442853306940738a",
       "count": 18,
       "categories": {
         "D.El.Ed Admission": [
@@ -1469,7 +1469,7 @@
     {
       "month": "2026-09",
       "path": "NoticeTexts/2026-09.json",
-      "version": "fb1237aaeaf5d482",
+      "version": "5ab1b2fd9c384b8b",
       "count": 25,
       "categories": {
         "CBSE": [
@@ -1633,7 +1633,7 @@
     {
       "month": "2026-08",
       "path": "NoticeTexts/2026-08.json",
-      "version": "816e5fc19fbca79f",
+      "version": "2936935d0c0f62a8",
       "count": 20,
       "categories": {
         "Census": [
@@ -1769,7 +1769,7 @@
     {
       "month": "2024-11",
       "path": "NoticeTexts/2024-11.json",
-      "version": "f92f4d562118d846",
+      "version": "ad6746fbe919f568",
       "count": 1,
       "categories": {
         "WBPSC": [
@@ -1805,7 +1805,7 @@
     {
       "month": "2021-05",
       "path": "NoticeTexts/2021-05.json",
-      "version": "f24250d8d5d291b4",
+      "version": "229e51ac58b02e21",
       "count": 1,
       "categories": {
         "Finance": [
@@ -2083,7 +2083,7 @@
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "4df054d7bfadf4b9",
+    "version": "784526957973123f",
     "count": 81
   }
 }
