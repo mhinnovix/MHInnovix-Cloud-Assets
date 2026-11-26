@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T07:17:42Z",
-  "ref": "07e5933b1c1a8e701fc0448bd527b660f2c661d6",
+  "generatedAt": "2026-11-26T09:06:21Z",
+  "ref": "8d59f720b3854260441d095d6df56e19d907e893",
   "minAppVersion": 0,
-  "totalNotices": 109,
+  "totalNotices": 110,
   "categories": [
     {
       "name": "WBBPE",
@@ -468,6 +468,56 @@
       ]
     },
     {
+      "name": "PBSSM",
+      "count": 6,
+      "sub": [
+        {
+          "name": "APAAR ID",
+          "count": 2
+        },
+        {
+          "name": "Constitution Day",
+          "count": 1
+        },
+        {
+          "name": "Event Guidelines",
+          "count": 1
+        },
+        {
+          "name": "FLN",
+          "count": 1
+        },
+        {
+          "name": "Inclusive Education",
+          "count": 1
+        },
+        {
+          "name": "Jalpaiguri",
+          "count": 1
+        },
+        {
+          "name": "Online Workshop",
+          "count": 1
+        },
+        {
+          "name": "School Administration",
+          "count": 1
+        },
+        {
+          "name": "School Education",
+          "count": 1
+        },
+        {
+          "name": "Student Enrolment",
+          "count": 1
+        },
+        {
+          "name": "Teacher Training",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "WBCSSC",
       "count": 6,
       "sub": [
@@ -527,48 +577,6 @@
         },
         {
           "name": "On-Duty Status",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "PBSSM",
-      "count": 5,
-      "sub": [
-        {
-          "name": "APAAR ID",
-          "count": 2
-        },
-        {
-          "name": "Constitution Day",
-          "count": 1
-        },
-        {
-          "name": "Event Guidelines",
-          "count": 1
-        },
-        {
-          "name": "FLN",
-          "count": 1
-        },
-        {
-          "name": "Inclusive Education",
-          "count": 1
-        },
-        {
-          "name": "Jalpaiguri",
-          "count": 1
-        },
-        {
-          "name": "School Administration",
-          "count": 1
-        },
-        {
-          "name": "School Education",
-          "count": 1
-        },
-        {
-          "name": "Student Enrolment",
           "count": 1
         }
       ]
@@ -1308,8 +1316,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "739a8af8bdd4cdde",
-      "count": 28,
+      "version": "bee91035c3f599bc",
+      "count": 29,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
@@ -1335,7 +1343,9 @@
         "PBSSM": [
           "Constitution Day",
           "Event Guidelines",
-          "School Education"
+          "Online Workshop",
+          "School Education",
+          "Teacher Training"
         ],
         "WBBPE": [
           "Admission Guidelines",
@@ -1881,6 +1891,11 @@
   ],
   "recent": [
     {
+      "id": "20261123-03",
+      "month": "2026-11",
+      "addedAt": 1795683981000
+    },
+    {
       "id": "20261125-01",
       "month": "2026-11",
       "addedAt": 1795601040000
@@ -2074,16 +2089,11 @@
       "id": "20260130-01",
       "month": "2026-01",
       "addedAt": 1792094418000
-    },
-    {
-      "id": "20260213-01",
-      "month": "2026-02",
-      "addedAt": 1792094344000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "784526957973123f",
-    "count": 81
+    "version": "fa33eaf0d86c9ab1",
+    "count": 82
   }
 }
