@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T12:04:05Z",
-  "ref": "3dceace2c2c2a8e75ada57de12d52a6f4f94e165",
+  "generatedAt": "2026-11-27T13:48:41Z",
+  "ref": "9f9a42ae45099a160949f1753ce6cb1acd84ceeb",
   "minAppVersion": 0,
-  "totalNotices": 115,
+  "totalNotices": 116,
   "categories": [
     {
       "name": "WBBPE",
@@ -407,14 +407,18 @@
     },
     {
       "name": "WBSSC",
-      "count": 9,
+      "count": 10,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Examination",
+          "count": 2
+        },
+        {
+          "name": "Interview Schedule",
           "count": 2
         },
         {
@@ -438,7 +442,7 @@
           "count": 1
         },
         {
-          "name": "Interview Schedule",
+          "name": "Document Verification",
           "count": 1
         },
         {
@@ -1338,8 +1342,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "d6d7f9e7af485186",
-      "count": 34,
+      "version": "b7da685ccffef34b",
+      "count": 35,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
@@ -1422,7 +1426,9 @@
           "Cancellation Notice",
           "Certificate Verification",
           "Counselling",
+          "Document Verification",
           "Examination",
+          "Interview Schedule",
           "Recruitment",
           "SLST 2016"
         ],
@@ -1923,6 +1929,11 @@
   ],
   "recent": [
     {
+      "id": "20261127-04",
+      "month": "2026-11",
+      "addedAt": 1795787321000
+    },
+    {
       "id": "20261127-03",
       "month": "2026-11",
       "addedAt": 1795781044000
@@ -2116,16 +2127,11 @@
       "id": "20261029-02",
       "month": "2026-10",
       "addedAt": 1793337066000
-    },
-    {
-      "id": "20261029-01",
-      "month": "2026-10",
-      "addedAt": 1793276614000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "2bbac9d6ea0b4f81",
-    "count": 87
+    "version": "38b50bb6351cd5d7",
+    "count": 88
   }
 }
