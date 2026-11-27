@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T04:35:49Z",
-  "ref": "f91ffb209abfdf6e99990d88e140fa611a8ef56b",
+  "generatedAt": "2026-11-27T09:10:54Z",
+  "ref": "06c094997dde6f61784d4c1eb200ef9cd40c0225",
   "minAppVersion": 0,
-  "totalNotices": 111,
+  "totalNotices": 112,
   "categories": [
     {
       "name": "WBBPE",
@@ -764,6 +764,28 @@
       ]
     },
     {
+      "name": "Finance Department",
+      "count": 2,
+      "sub": [
+        {
+          "name": "Employee Welfare",
+          "count": 1
+        },
+        {
+          "name": "Examination Fee Exemption",
+          "count": 1
+        },
+        {
+          "name": "Government Order",
+          "count": 1
+        },
+        {
+          "name": "Health Scheme",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "Infrastructure",
       "count": 2,
       "sub": [
@@ -1033,24 +1055,6 @@
         },
         {
           "name": "Public Notice",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "Finance Department",
-      "count": 1,
-      "sub": [
-        {
-          "name": "Employee Welfare",
-          "count": 1
-        },
-        {
-          "name": "Government Order",
-          "count": 1
-        },
-        {
-          "name": "Health Scheme",
           "count": 1
         }
       ]
@@ -1334,8 +1338,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "a10c875fd2a97991",
-      "count": 30,
+      "version": "df825a2c4a55d683",
+      "count": 31,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
@@ -1349,6 +1353,9 @@
           "Finance Order",
           "Fund Release",
           "Pension Order"
+        ],
+        "Finance Department": [
+          "Examination Fee Exemption"
         ],
         "GoWB": [
           "Attendance System",
@@ -1914,6 +1921,11 @@
   ],
   "recent": [
     {
+      "id": "20261126-01",
+      "month": "2026-11",
+      "addedAt": 1795770654000
+    },
+    {
       "id": "20261125-02",
       "month": "2026-11",
       "addedAt": 1795754149000
@@ -2107,16 +2119,11 @@
       "id": "20261018-01",
       "month": "2026-10",
       "addedAt": 1792330493000
-    },
-    {
-      "id": "20260119-01",
-      "month": "2026-01",
-      "addedAt": 1792094466000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "d3b1faa7f1a7ad43",
-    "count": 83
+    "version": "57114efe02be726f",
+    "count": 84
   }
 }
