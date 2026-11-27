@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T09:12:38Z",
-  "ref": "da514560a5a76286fe69e933e3ac26464c694926",
+  "generatedAt": "2026-11-27T10:21:51Z",
+  "ref": "db2a3b454e7a5ed3f9f5cb1f995f567600c6b2df",
   "minAppVersion": 0,
-  "totalNotices": 112,
+  "totalNotices": 113,
   "categories": [
     {
       "name": "WBBPE",
@@ -238,6 +238,80 @@
       ]
     },
     {
+      "name": "WBPSC",
+      "count": 12,
+      "sub": [
+        {
+          "name": "Recruitment",
+          "count": 6
+        },
+        {
+          "name": "Examination",
+          "count": 4
+        },
+        {
+          "name": "Admit Card",
+          "count": 2
+        },
+        {
+          "name": "Application Edit",
+          "count": 2
+        },
+        {
+          "name": "Application Extension",
+          "count": 1
+        },
+        {
+          "name": "Clerkship Exam",
+          "count": 1
+        },
+        {
+          "name": "Document Verification",
+          "count": 1
+        },
+        {
+          "name": "Edit Window",
+          "count": 1
+        },
+        {
+          "name": "Exam Schedule",
+          "count": 1
+        },
+        {
+          "name": "Examination Schedule",
+          "count": 1
+        },
+        {
+          "name": "Government Jobs",
+          "count": 1
+        },
+        {
+          "name": "Judicial Service",
+          "count": 1
+        },
+        {
+          "name": "Personality Test",
+          "count": 1
+        },
+        {
+          "name": "Result",
+          "count": 1
+        },
+        {
+          "name": "Syllabus",
+          "count": 1
+        },
+        {
+          "name": "WBCS",
+          "count": 1
+        },
+        {
+          "name": "WBJS",
+          "count": 1
+        }
+      ]
+    },
+    {
       "name": "School Education Department",
       "count": 11,
       "sub": [
@@ -327,80 +401,6 @@
         },
         {
           "name": "Zero-Enrolment Schools",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "name": "WBPSC",
-      "count": 11,
-      "sub": [
-        {
-          "name": "Recruitment",
-          "count": 5
-        },
-        {
-          "name": "Examination",
-          "count": 4
-        },
-        {
-          "name": "Admit Card",
-          "count": 2
-        },
-        {
-          "name": "Application Edit",
-          "count": 1
-        },
-        {
-          "name": "Application Extension",
-          "count": 1
-        },
-        {
-          "name": "Clerkship Exam",
-          "count": 1
-        },
-        {
-          "name": "Document Verification",
-          "count": 1
-        },
-        {
-          "name": "Edit Window",
-          "count": 1
-        },
-        {
-          "name": "Exam Schedule",
-          "count": 1
-        },
-        {
-          "name": "Examination Schedule",
-          "count": 1
-        },
-        {
-          "name": "Government Jobs",
-          "count": 1
-        },
-        {
-          "name": "Judicial Service",
-          "count": 1
-        },
-        {
-          "name": "Personality Test",
-          "count": 1
-        },
-        {
-          "name": "Result",
-          "count": 1
-        },
-        {
-          "name": "Syllabus",
-          "count": 1
-        },
-        {
-          "name": "WBCS",
-          "count": 1
-        },
-        {
-          "name": "WBJS",
           "count": 1
         }
       ]
@@ -1338,8 +1338,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "df825a2c4a55d683",
-      "count": 31,
+      "version": "ddc97ad1701d2f66",
+      "count": 32,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
@@ -1405,6 +1405,7 @@
         ],
         "WBPSC": [
           "Admit Card",
+          "Application Edit",
           "Document Verification",
           "Examination",
           "Examination Schedule",
@@ -1921,6 +1922,11 @@
   ],
   "recent": [
     {
+      "id": "20261127-01",
+      "month": "2026-11",
+      "addedAt": 1795774911000
+    },
+    {
       "id": "20261126-01",
       "month": "2026-11",
       "addedAt": 1795770654000
@@ -2114,16 +2120,11 @@
       "id": "20261025-01",
       "month": "2026-10",
       "addedAt": 1792905851000
-    },
-    {
-      "id": "20261018-01",
-      "month": "2026-10",
-      "addedAt": 1792330493000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "57114efe02be726f",
-    "count": 84
+    "version": "e41eecc39c4de33d",
+    "count": 85
   }
 }
