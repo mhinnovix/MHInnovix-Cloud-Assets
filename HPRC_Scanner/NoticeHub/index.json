@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T13:48:41Z",
-  "ref": "9f9a42ae45099a160949f1753ce6cb1acd84ceeb",
+  "generatedAt": "2026-11-27T13:49:45Z",
+  "ref": "48484b4a94573bf597ffdc8d3d1afb8803087405",
   "minAppVersion": 0,
-  "totalNotices": 116,
+  "totalNotices": 117,
   "categories": [
     {
       "name": "WBBPE",
-      "count": 23,
+      "count": 24,
       "sub": [
         {
           "name": "Recruitment",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Interview",
@@ -35,6 +35,10 @@
         },
         {
           "name": "Admission Guidelines",
+          "count": 1
+        },
+        {
+          "name": "Application Correction",
           "count": 1
         },
         {
@@ -1342,8 +1346,8 @@
     {
       "month": "2026-11",
       "path": "NoticeTexts/2026-11.json",
-      "version": "b7da685ccffef34b",
-      "count": 35,
+      "version": "fc3194a4e2ef7bc7",
+      "count": 36,
       "categories": {
         "District Inspector of Schools": [
           "Awareness Campaign",
@@ -1378,6 +1382,7 @@
         ],
         "WBBPE": [
           "Admission Guidelines",
+          "Application Correction",
           "Category Correction",
           "Class V Inclusion",
           "Correction Window",
@@ -1929,6 +1934,11 @@
   ],
   "recent": [
     {
+      "id": "20261127-05",
+      "month": "2026-11",
+      "addedAt": 1795787385000
+    },
+    {
       "id": "20261127-04",
       "month": "2026-11",
       "addedAt": 1795787321000
@@ -2122,16 +2132,11 @@
       "id": "20261030-01",
       "month": "2026-10",
       "addedAt": 1793359529000
-    },
-    {
-      "id": "20261029-02",
-      "month": "2026-10",
-      "addedAt": 1793337066000
     }
   ],
   "memoIndex": {
     "path": "memo-index.json",
-    "version": "38b50bb6351cd5d7",
-    "count": 88
+    "version": "b18a2784f331380b",
+    "count": 89
   }
 }
